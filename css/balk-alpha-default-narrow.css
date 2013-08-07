@@ -1,1 +1,30 @@
 /* This file will hold styles that are loaded using the same media query as the narrow grid. */
+
+.page-node .field-name-field-lead-image img { max-width: 100%; height: auto;}
+
+
+.region-menu ul.menu .submenu { width: 720px; left: -155px;}
+
+#block-block-7 { display: none}
+
+.region-header-first ul.menu li, .panel-region-middle-top-right ul.menu li, .panel-node-news .panel-region-right ul.menu li {
+	padding: 0.2em 0.4em;
+}
+
+.region-menu ul.menu {
+	left: 155px; }
+
+.region-menu ul.menu ul {
+	width: 150px; }
+
+.region-menu ul.menu .submenu li a {
+	font-size: 14px; }
+	
+.panel-homepage .panel-region-lead .layout-wrapper.top-left {
+	width: 360px;
+	margin: 50px 0 0 10px;
+}
+
+.panel-homepage .panel-region-lead .rb-textbox-type-header { font-size: 24px;}
+
+.content .panel-homepage .panel-region-lead .rb-regular-image {left: 360px;}

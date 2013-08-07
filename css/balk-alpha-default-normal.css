@@ -1,1 +1,29 @@
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
+
+.page-node .field-name-field-lead-image img { max-width: 100%; height: auto;}
+
+
+.region-menu ul.menu .submenu { width: 960px; left: -292px;}
+
+#block-block-7 { display: block}
+
+.region-header-first ul.menu li, .panel-region-middle-top-right ul.menu li, .panel-node-news .panel-region-right ul.menu li {
+	padding: 0.2em; margin-right: 5px;
+}
+
+.region-menu ul.menu {
+	left: 292px; }
+
+.region-menu ul.menu ul {
+	width: 150px; }
+
+.region-menu ul.menu .submenu li a {
+	font-size: 14px; }
+	
+.panel-homepage .panel-region-lead .layout-wrapper.top-left {
+width: 450px;
+margin: 50px 0 0 10px;
+}
+
+.panel-homepage .panel-region-lead .rb-textbox-type-header { font-size: 36px;}
+.content .panel-homepage .panel-region-lead .rb-regular-image {left: 450px;}
