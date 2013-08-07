@@ -1242,3 +1242,9 @@ a:hover {
 
 .submenu a { font-family: Arial, sans-serif !important; }
 .submenu .overskrift a { font-weight: bold !important; text-decoration: underline !important;}
+
+@media all and (max-width: 739px) {
+  .front .panel-region-lead {
+    display: none;
+  }
+}
