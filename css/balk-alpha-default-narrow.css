@@ -21,10 +21,17 @@
 	font-size: 14px; }
 	
 .panel-homepage .panel-region-lead .layout-wrapper.top-left {
-	width: 360px;
+	width: 330px;
 	margin: 50px 0 0 10px;
 }
 
 .panel-homepage .panel-region-lead .rb-textbox-type-header { font-size: 24px;}
 
 .content .panel-homepage .panel-region-lead .rb-regular-image {left: 360px;}
+
+#search-block-form .form-text {
+width: 106px; }
+
+.panel-pane .pane-title, .block .block-title, .panel-region-middle-right .pane-content h2, .panel-region-right .pane-content h2 { font-size: 13px;}
+
+.content .panel-homepage .panel-region-lead .rb-slides { background-position: -250px 0}

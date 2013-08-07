@@ -198,8 +198,7 @@ blockquote {
 }
 
 .region-menu ul.menu li li {
-  padding: 0 10px;
-  height: 55px;
+  padding: 10px;
   float: none;
   background: none;
   position: relative;
@@ -1240,3 +1239,6 @@ a:hover {
         content: normal;
     }
 }
+
+.submenu a { font-family: Arial, sans-serif !important; }
+.submenu .overskrift a { font-weight: bold !important; text-decoration: underline !important;}
