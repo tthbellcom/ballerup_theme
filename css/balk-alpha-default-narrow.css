@@ -37,3 +37,67 @@ width: 106px; }
 .content .panel-homepage .panel-region-lead .rb-slides { background-position: -250px 0}
 
 .view-ballerup-taxonomy-term .grid3 { margin: 5px; width: 48%}
+
+/* Left menu */
+
+.region-sidebar .block h2 {
+  word-wrap: break-word;
+}
+.region-sidebar .block h2 a {
+  color: #666666;
+}
+
+.region-sidebar ul.menu {
+  margin: 0;
+}
+.region-sidebar ul.menu li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid #d9d9d9;
+}
+.region-sidebar ul.menu li.first {
+  border-top: 1px solid #d9d9d9;
+}
+.region-sidebar ul.menu ul.menu li {
+  margin: 0 0 0 10px;
+  border: 0;
+}
+
+.region-sidebar ul.menu li a {
+  padding: 7px 0 7px 20px;
+  display: block;
+  text-decoration: none;
+  color: #0091d1;
+  background-position: 0 7px;
+  background-repeat: no-repeat;
+  background-image: url(../images/left-menu/blue-left-menu-level1.png);
+}
+.region-sidebar ul.menu li a.active,
+.region-sidebar ul.menu li a.active-trail {
+  background-image: url(../images/left-menu/blue-left-menu-level1-active.png);
+  font-weight: bold;
+}
+.region-sidebar ul.menu li a:hover {
+  background-color: #f5f5f5;
+}
+
+.region-sidebar ul.menu ul.menu li a {
+  padding-left: 25px;
+  background-position: 10px 10px;
+  background-image: url(../images/left-menu/blue-left-menu-level2.png);
+}
+.region-sidebar ul.menu ul.menu li a.active-trail {
+  background-image: url(../images/left-menu/blue-left-menu-level2-active.png);
+}
+
+.region-sidebar ul.menu ul.menu ul.menu li a {
+  background-image: none;
+}
+.region-sidebar ul.menu ul.menu ul.menu li a.active,
+.region-sidebar ul.menu ul.menu ul.menu li a.active-trail {
+  background-image: none;
+}
+
+#region-sidebar, #region-menu, #region-footer-second, #region-footer-third, #region-footer-fourth, #region-footer-fifth, #region-header-second, #region-header-first, ul#contextual-links, .ballerup-contact-block, ul.tabs { display: block;}
+/* END Left menu */
