@@ -1187,6 +1187,7 @@ a:hover {
 
 #region-sidebar, #region-menu, #region-footer-second, #region-footer-third, #region-footer-fourth, #region-footer-fifth, #region-header-second, #region-header-first, ul#contextual-links, .ballerup-contact-block, ul.tabs, #admin-menu, .node-type-news .panel-region-right { display: none;}
 
+.node-media .field-name-field-text iframe { max-width: 100%}
 .field-name-field-lead-image img { max-width: 100%; height: auto}
 @media all and (max-width: 739px) {
   .front .panel-region-lead {
