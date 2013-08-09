@@ -1243,8 +1243,11 @@ a:hover {
 .submenu a { font-family: Arial, sans-serif !important; }
 .submenu .overskrift a { font-weight: bold !important; text-decoration: underline !important;}
 
+.pane-ballerup-taxonomy-term img { max-width: 100%; height: auto}
+.view-ballerup-taxonomy-term .grid3 { float: left; width: 48%;}
+
 @media all and (max-width: 739px) {
   .front .panel-region-lead {
     display: none;
   }
-}
+} 
