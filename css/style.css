@@ -27,15 +27,15 @@
 }
 /*  ---- main menu ---*/
 .region-menu ul.menu li.expanded {
-  width: 24%;
+  width: 23%;
 }
 .region-menu ul.menu {
   right: 0px;
 }
 .front .region-menu ul.menu .submenu {
-  left: 18px;
+/*  left: 18px;
   width: 95.8%;
-}
+*/}
 .region-menu ul.menu li.expanded.green {
   background-color: #3ADF00;
 }
