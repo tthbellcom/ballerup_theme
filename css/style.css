@@ -1,4 +1,14 @@
 /***  redesign css ---------------**********/
+
+
+iframe {
+  width: 100%;
+}
+.node-politician .field-name-field-lead-image img,
+.node-person .field-name-field-lead-image img {
+  width: 50%;
+}
+
 .field-name-field-lead-image img {
   width: 100%;
 }
