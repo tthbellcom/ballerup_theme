@@ -7,7 +7,9 @@
   }
   #region-header-first { display: none; }
   
-  #region-header-second { clear: left; }
+  #region-header-second { clear: left; 
+    width: 220px;
+  }
 
   #region-menu ul.menu {
     left: 0;
