@@ -1,3 +1,56 @@
+/***  redesign css ---------------**********/
+.front .zone-content {
+  border-top: none;
+}
+
+.contact_left {
+  float: left;
+  width: 50%;
+}
+
+.contact_right {
+  float: right;
+  width: 50%;
+}
+.front .inside .pane-block-10 h2.pane-title {
+  border-bottom: none;
+  font-size: 20px;
+}
+.front .pane-block-10 {
+  margin-top : 70px !important;
+}
+.content .panel-homepage .panel-region-lead {
+  border-bottom: none !important;
+}
+.front .panel-region-top {
+  border-bottom: none !important;
+}
+/*  ---- main menu ---*/
+.region-menu ul.menu li.expanded {
+  width: 24%;
+}
+.region-menu ul.menu {
+  right: 0px;
+}
+.front .region-menu ul.menu .submenu {
+  left: 18px;
+  width: 95.8%;
+}
+.region-menu ul.menu li.expanded.green {
+  background-color: #3ADF00;
+}
+.region-menu ul.menu li a.l1.borger {
+  color: #fff;
+}
+.region-menu ul.menu li a.l1.borger.open {
+  color: #fff;
+  background-color: #3ADF00;
+  border-bottom: 100% solid #3adf00;
+  border-right: 10px solid transparent;
+  box-shadow: none !important;
+}
+
+/*  ------------End of redesign css-------------*/
 html {
   background: #f5f5f5 url(../images/bg-page.png) repeat-x 0 0;
 }
@@ -169,6 +222,7 @@ blockquote {
 
 .region-menu ul.menu li a.l1 {
   text-decoration: none;
+  text-transform: uppercase;
 }
 .region-menu ul.menu li a.l1:hover,
 .region-menu ul.menu li a.l1.open {
