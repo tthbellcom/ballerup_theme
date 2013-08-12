@@ -7,20 +7,24 @@
   }
   #region-header-first { display: none; }
   
-  #region-header-second { clear: left; 
+  #region-header-second {
+    clear: left; 
     width: 220px;
+    float: left;
+    margin: 0 10px;
   }
 
   #region-menu ul.menu {
     left: 0;
     position: relative;
     top: 0;
+    background: white;
     z-index: 500;
   }
   
   #region-menu ul.menu li {
     width: 100%;
-    background: white;
+    float: none;
   }
 
   #section-header { height: 176px; }
@@ -51,7 +55,7 @@
   }
 
   #region-menu ul.menu a {
-    background: none;
+    width: 100%;
   }
 
   .region-menu ul.menu li a.l1.open {
