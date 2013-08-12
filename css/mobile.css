@@ -1,0 +1,58 @@
+@media all and (max-width: 739px) {
+  .front .panel-region-lead {
+    display: none;
+  }
+  #region-branding {
+    width: 100%;
+  }
+  #region-header-first { display: none; }
+  
+  #region-header-second { clear: left; }
+
+  #region-menu ul.menu {
+    left: 0;
+    position: relative;
+    top: 0;
+    z-index: 500;
+  }
+  
+  #region-menu ul.menu li {
+    width: 100%;
+    background: white;
+  }
+
+  #section-header { height: 176px; }
+
+  #mobile-menu {
+    height: 46px;
+    width: 100px;
+    display: inline-block;
+    line-height: 46px;
+    font-family: 'MorganAvecRegular';
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+   background: url("../images/sprite-bg-main-menu-arrows.png") no-repeat scroll 55px -412px transparent;
+  }
+  
+  #region-menu ul.menu .submenu {
+    width: 100%;
+    left: 0;
+    top: 0;
+    border: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+  #region-menu ul.menu ul {
+    width: 100%;
+  }
+
+  #region-menu ul.menu a {
+    background: none;
+  }
+
+  .region-menu ul.menu li a.l1.open {
+    box-shadow: none;
+  }
+}
