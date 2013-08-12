@@ -9,10 +9,16 @@
 
   function mobile_setup(){
     $('<div id="mobile-menu">Menu</div>').insertBefore('#region-menu');      
-    $('ul.menu').hide();
- 
-    $('#mobile-menu').bind("click", function(event){
-      $('ul.menu').toggle();
+
+    $region_header_first = $('#region-header-first').html();
+    $($region_header_first).insertBefore('#region-footer-first');
+
+
+    
+    $('#zone-header ul.menu').hide();
+
+        $('#mobile-menu').bind("click", function(event){
+      $('#zone-header ul.menu').toggle();
     });
 
     $('.expanded a').bind("click", function(event){
@@ -29,7 +35,8 @@
   
   function mobile_disable(){
     $('#mobile-menu').remove();
-    $('ul.menu').show();
+    $('#zone-footer ul.menu').remove();
+    $('#zone-header ul.menu').show();
   }
 
   Drupal.behaviors.BalkMobile = {

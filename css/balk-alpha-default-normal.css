@@ -37,3 +37,6 @@ width: 160px;}
 .panel-pane .pane-title, .block .block-title, .panel-region-middle-right .pane-content h2, .panel-region-right .pane-content h2 { font-size: 16px;}
 
 .content .panel-homepage .panel-region-lead .rb-slides { background-position: 0 0}
+
+.view-ballerup-taxonomy-term { background-color: #ccc}
+.view-ballerup-taxonomy-term .grid3 { margin: 0px; width: 33% !important }
