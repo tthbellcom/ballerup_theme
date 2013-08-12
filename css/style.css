@@ -1,4 +1,7 @@
 /***  redesign css ---------------**********/
+.field-name-field-lead-image img {
+  width: 100%;
+}
 .front .zone-content {
   border-top: none;
 }
