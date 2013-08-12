@@ -35,3 +35,12 @@ width: 106px; }
 .panel-pane .pane-title, .block .block-title, .panel-region-middle-right .pane-content h2, .panel-region-right .pane-content h2 { font-size: 13px;}
 
 .content .panel-homepage .panel-region-lead .rb-slides { background-position: -250px 0}
+
+
+/**
+ * menu
+ */
+#region-header-first {
+  display: none;
+}
+
