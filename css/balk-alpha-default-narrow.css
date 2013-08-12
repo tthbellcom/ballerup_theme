@@ -19,7 +19,9 @@
 
 .region-menu ul.menu .submenu li a {
 	font-size: 14px; }
-	
+.region-menu ul.menu li a {
+  padding: 0 10px 0 22px;
+}	
 .panel-homepage .panel-region-lead .layout-wrapper.top-left {
 	width: 330px;
 	margin: 50px 0 0 10px;

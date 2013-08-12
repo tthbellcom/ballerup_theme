@@ -2,8 +2,10 @@
 
 .page-node .field-name-field-lead-image img { max-width: 100%; height: auto;}
 
-
-.region-menu ul.menu .submenu { width: 960px; left: -292px;}
+.region-menu ul.menu li.expanded {
+  width: 24%;
+}
+.region-menu ul.menu .submenu { width: 640px; left: 0px;}
 
 #block-block-7 { display: block}
 
@@ -12,7 +14,7 @@
 }
 
 .region-menu ul.menu {
-	left: 292px; }
+	left: 310px; }
 
 .region-menu ul.menu ul {
 	width: 150px; }
