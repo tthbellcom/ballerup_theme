@@ -3,7 +3,7 @@
 .page-node .field-name-field-lead-image img { max-width: 100%; height: auto;}
 
 
-.region-menu ul.menu .submenu { width: 720px; left: -155px;}
+.region-menu ul.menu .submenu { width: 475px; left: 0px;}
 
 #block-block-7 { display: none}
 
@@ -12,7 +12,7 @@
 }
 
 .region-menu ul.menu {
-	left: 155px; }
+	left: 235px; }
 
 .region-menu ul.menu ul {
 	width: 150px; }
