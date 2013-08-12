@@ -25,6 +25,7 @@
   #region-menu ul.menu li {
     width: 100%;
     float: none;
+    overflow: hidden;
   }
 
   #section-header { height: 176px; }
@@ -49,6 +50,7 @@
     position: relative;
     padding: 0;
     margin: 0;
+    overflow: auto;
   }
   #region-menu ul.menu ul {
     width: 100%;
@@ -56,6 +58,7 @@
 
   #region-menu ul.menu a {
     width: 100%;
+    background: none;
   }
 
   .region-menu ul.menu li a.l1.open {
