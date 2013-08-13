@@ -21,6 +21,7 @@
       $('#zone-header ul.menu').toggle();
     });
 
+    $('.region-menu ul.menu > li').unbind('mouseenter');
     $('.expanded a').bind("click", function(event){
       $submenu = $(this).parent().find('.submenu');
 
@@ -37,6 +38,7 @@
     $('#mobile-menu').remove();
     $('#zone-footer ul.menu').remove();
     $('#zone-header ul.menu').show();
+    Drupal.behaviors.BalkMainMenu.attach();
   }
 
   Drupal.behaviors.BalkMobile = {
