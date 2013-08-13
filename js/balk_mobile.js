@@ -32,6 +32,7 @@
         $submenu.show();
       }
     });
+
   }
   
   function mobile_disable(){
