@@ -1,4 +1,23 @@
 @media all and (max-width: 739px) {
+  .node-politician .field-name-field-lead-image img,
+  .node-person .field-name-field-lead-image img {
+    width:50%;
+  }
+
+  .node-person .field-name-field-lead-image {
+    float: left;
+    width: 50%;
+  }
+
+  .node-person .field-name-field-tlf {
+    float: right;
+    width: 50%;
+  }
+  .node-person .field-name-field-email {
+    float: right;
+    width: 50%;
+  }
+
   .front .panel-region-lead {
     display: none;
   }
@@ -63,5 +82,16 @@
 
   .region-menu ul.menu li a.l1.open {
     box-shadow: none;
+  }
+  .page-taxonomy .region-sidebar{
+    display: block !important;
+    width: 100%;
+  }
+  .page-taxonomy .region-sidebar ul li {
+    list-style: none;
+  }
+  .page-taxonomy .region-sidebar ul li a {
+    background: none !important;
+    font-size: 20px;
   }
 }

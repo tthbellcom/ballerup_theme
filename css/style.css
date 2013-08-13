@@ -1,4 +1,14 @@
 /***  redesign css ---------------**********/
+
+
+iframe {
+  width: 100%;
+}
+.node-politician .field-name-field-lead-image img,
+.node-person .field-name-field-lead-image img {
+  width: 50%;
+}
+
 .field-name-field-lead-image img {
   width: 100%;
 }
@@ -51,6 +61,12 @@
   border-bottom: 100% solid #3adf00;
   border-right: 10px solid transparent;
   box-shadow: none !important;
+}
+/* ---- Franz har lavet de her--------*/
+.grid3 .views-field-field-resume-long { height: 54px; overflow: hidden;}
+.grid3 .views-field-title { font-family: 'MorganAvecBold'; font-size: 16px; text-transform: uppercase; }
+.grid3 .views-field-field-lead-image {
+margin: 0 6px 10px 0;
 }
 
 /*  ------------End of redesign css-------------*/
@@ -1251,5 +1267,6 @@ a:hover {
     display: none;
   }
 
-  #region-sidebar, #region-footer-second, #region-footer-third, #region-footer-fourth, #region-footer-fifth,  ul#contextual-links, .ballerup-contact-block, ul.tabs, #admin-menu, .node-type-news .panel-region-right { display: none;}
+ .sektionssider  #region-content,
+ #region-sidebar, #region-footer-second, #region-footer-third, #region-footer-fourth, #region-footer-fifth,  ul#contextual-links, .ballerup-contact-block, ul.tabs, #admin-menu, .node-type-news .panel-region-right { display: none;}
 }
