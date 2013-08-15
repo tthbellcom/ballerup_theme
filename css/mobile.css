@@ -94,4 +94,33 @@
     background: none !important;
     font-size: 20px;
   }
+  /* Footer menu should be two lines.  */
+  #zone-footer {
+    position: relative;
+  }
+  #block-menu-block-5 {
+    float: left;
+    width: 50%;
+  }
+  #block-block-7 {
+    position: absolute;
+    top: 82px;
+    width: 50%;
+  }
+  #block-menu-block-11 {
+    float: right;
+    width: 50%;
+  }
+  .google-translate-block {
+    padding: 0.3em 0 0 0 !important;
+  }
+  /*  ---- End of Footer menu -----*/
+  .show-for-small {
+    display: block;
+  }
+  #block-block-11 {
+    position: absolute;
+    right: 15px;
+    top: 50px;
+  }
 }

@@ -41,3 +41,6 @@ width: 160px;}
 .view-ballerup-taxonomy-term { background-color: #fff; *#ccc}
 .view-ballerup-taxonomy-term .grid3 { margin: 0px; width: 33% !important }
 .view-ballerup-taxonomy-term .grid3 { margin: 10px 1px 20px; width: 33% !important; }
+.show-for-small {
+  display: none;
+}
