@@ -123,4 +123,21 @@
     right: 15px;
     top: 50px;
   }
+  .front .scroll-up {
+    display: block;
+    float: right;
+    padding-right: 20px;
+  }
+  .scroll-up {
+    display: none;
+  }
+  #contact-footer .contact-openTime {
+    float: right;
+    width: 50%;
+  }
+  #contact-footer .contact-address {
+    float: left;
+    width: 50%;
+  }
+  
 }
