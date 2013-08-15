@@ -17,7 +17,7 @@
     float: right;
     width: 50%;
   }
-
+  .front .panel-region-bottom,
   .front .panel-region-lead {
     display: none;
   }
