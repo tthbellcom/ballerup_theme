@@ -11,7 +11,7 @@
     $('<div id="mobile-menu">Menu</div>').insertBefore('#region-menu');      
 
     $region_header_first = $('#region-header-first').html();
-    $($region_header_first).insertBefore('#region-footer-first');
+    $($region_header_first).insertBefore('#region-footer-second');
 
 
     
