@@ -1,4 +1,12 @@
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
+.pane-activities {
+  border: 1px solid #d9d9d9;
+  border-radius: 7px;
+  padding-top: 10px;
+  box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+}
 
 .page-node .field-name-field-lead-image img { max-width: 100%; height: auto;}
 

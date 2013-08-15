@@ -1,4 +1,28 @@
 /***  redesign css ---------------**********/
+/* Ballerup header color */
+
+.pink {
+  color: #F939A6;
+}
+/* Ende of ballerup header color */
+
+/* pane-activities frontpage */
+.pane-activities {
+  border: 1px solid #d9d9d9;
+  border-radius: 7px;
+  padding-top: 10px;
+  box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+}
+.pane-activities .views-activities-front-det-sker-i-ballerup  {
+  padding: 0 10px 0 10px;
+}
+.pane-activities .pane-title .pink {
+  padding-left: 10px;
+} 
+
+/* End of pane-activities frontpage */
 #zone-header {
   border-top: 5px solid #0091d1;
   margin-top: 10px;
@@ -1217,11 +1241,11 @@ tr.odd td {
 /* Links */
 
 a, a:active, a:visited {
-  color: #007aaf;
+  color: #0091d1;* #007aaf;
   text-decoration: none;
 }
 a:hover {
-  color: #007aaf;
+  color: #0091d1; *#007aaf;
   text-decoration: underline;
 }
 
@@ -1232,7 +1256,7 @@ a:hover {
 
 .region-header-first a,
 .zone-footer a {
-  color: #666;
+  color: #222;
 }
 
 /* END Links */
