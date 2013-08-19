@@ -159,13 +159,19 @@
   .front #zone-header ul.menu {
     display: block !important;
   }
-  .front #section-header { height: 335px; }
+  .front #section-header { height: 365px; }
 
   .front #region-branding { height: 130px; }
   .front .pane-news h2.pane-title { 
     padding-left: 22px;
     border-bottom: none;
   }
-
+  .front .zone-content {
+    box-shadow: none;
+  }
+  .front .panel-panel.grid-5,
+  .front .panel-panel.grid-5 .inside {
+    width: 100%;
+  }
   /* End of mobile front page */
 }

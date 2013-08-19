@@ -1,6 +1,8 @@
 /***  redesign css ---------------**********/
 /* Ballerup header color */
-
+.ballerup_blue {
+  color: #0091d1;
+}
 .pink {
   color: #F939A6;
 }
@@ -18,11 +20,16 @@
 .pane-activities .views-activities-front-det-sker-i-ballerup  {
   padding: 0 10px 0 10px;
 }
+
 .pane-activities .pane-title .pink {
   padding-left: 10px;
 } 
 
 /* End of pane-activities frontpage */
+.front .pane-content .view-news .view-content {
+  position: relative;
+}
+.
 #zone-header {
   border-top: 5px solid #0091d1;
   margin-top: 10px;
@@ -546,6 +553,7 @@ blockquote {
 
 .front .panel-pane .pane-title {
   border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 0px;
 }
 
 .page-node .panel-region-right .panel-separator,
@@ -609,6 +617,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   border-bottom: 1px solid #d9d9d9;
   padding-bottom: 15px;
 }
+.front .panel-region-lead .grid-5,
 .front .panel-region-top .grid-5 {
   width: 300px;
 }
@@ -620,9 +629,9 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   margin-top: 15px;
 }
 .front .panel-region-top .pane-title {
-  margin: 0;
-  border: 0;
-  padding: 0;
+ * margin: 0;
+ * border: 0;
+ * padding: 0;
 }
 
 .pane-jump-menu-menu-selvbetjening {
@@ -671,7 +680,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   text-transform: uppercase;
 }
 .views-news-front-ballerup-nyt .views-row {
-  width: 260px;
+  width: 100%; *260px;
   margin-bottom: 5px;
   border-bottom: 1px solid #d9d9d9;
   padding-bottom: 5px;
@@ -683,11 +692,11 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   padding-top: 5px;
 }
 .views-news-front-ballerup-nyt .views-row-first {
-  width: 280px;
+  width: 100%;*280px;
   margin: 0;
   border: 0;
   padding: 0;
-  float: left;
+ * float: left;
 }
 .views-news-front-ballerup-nyt .views-row-first .views-field-title {
   font-size: 20px;
@@ -700,6 +709,10 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 }
 .views-news-front-ballerup-nyt .more-link {
   margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  text-align: left;
+
 }
 /* END Ballerup nyt */
 

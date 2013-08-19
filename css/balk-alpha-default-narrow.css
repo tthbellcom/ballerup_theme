@@ -109,3 +109,38 @@ width: 106px; }
   display: none;
 
 }
+
+/* Front page */
+.front .panel-region-lead .grid-5,
+.front .panel-region-top .grid-5 {
+  width: 30.5%;
+}
+.front .panel-region-top .grid-5 .inside {
+  width: 100%;
+}
+
+.front .pane-news {
+  border: 1px solid #d9d9d9;
+  border-radius: 7px;
+  padding-top: 10px;
+  box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+}
+.front .pane-news .view-news .views-row-1 .field-content img {
+  height: auto;
+  width: 218px;
+  position: relative;
+  left: -10px;
+}
+
+.front .pane-news .pane-title .ballerup_blue {
+  padding-left: 10px;
+}
+.page-node .field-name-field-lead-image img { max-width: 100%; height: auto;}
+
+.front .pane-content .views-news-front-ballerup-nyt {
+  padding: 0px 10px;
+}
+
+/* End of front page */
