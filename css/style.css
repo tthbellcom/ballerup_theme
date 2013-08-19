@@ -272,7 +272,7 @@ blockquote {
 }
 .region-menu ul.menu li a.l1:hover,
 .region-menu ul.menu li a.l1.open {
-  background-color: #fff;
+ * background-color: #fff;
   -moz-box-shadow: 0 0 7px #999;
   box-shadow: 0 0 7px #999;
 }
@@ -326,11 +326,11 @@ blockquote {
 }
 .region-menu ul.menu a.green {
   background: url('../images/sprite-bg-main-menu-arrows.png') no-repeat;
-  background-position: 85% -46px;
+  background-position: 90% -46px;
 }
 .region-menu ul.menu a.green:hover,
 .region-menu ul.menu a.green.open {
-  background-position: 85% 0;
+  background-position: 90% 0;
 }
 
 .region-menu ul.menu li.red a {
@@ -341,11 +341,11 @@ blockquote {
 }
 .region-menu ul.menu a.red {
   background: url('../images/sprite-bg-main-menu-arrows.png') no-repeat;
-  background-position: 85% -135px;
+  background-position: 90% -135px;
 }
 .region-menu ul.menu a.red:hover,
 .region-menu ul.menu a.red.open {
-  background-position: 85% -92px;
+  background-position: 90% -92px;
 }
 
 .region-menu ul.menu li.blue a {
@@ -356,11 +356,11 @@ blockquote {
 }
 .region-menu ul.menu a.blue {
   background: url('../images/sprite-bg-main-menu-arrows.png') no-repeat;
-  background-position: 85% -227px;
+  background-position: 90% -227px;
 }
 .region-menu ul.menu a.blue:hover,
 .region-menu ul.menu a.blue.open {
-  background-position: 85% -184px;
+  background-position: 90% -184px;
 }
 
 .region-menu ul.menu li.brown a {
@@ -371,11 +371,11 @@ blockquote {
 }
 .region-menu ul.menu a.brown {
   background: url('../images/sprite-bg-main-menu-arrows.png') no-repeat;
-  background-position: 85% -319px;
+  background-position: 90% -319px;
 }
 .region-menu ul.menu a.brown:hover,
 .region-menu ul.menu a.brown.open {
-  background-position: 85% -276px;
+  background-position: 90% -276px;
 }
 
 .region-menu ul.menu li.gray a {
@@ -386,11 +386,11 @@ blockquote {
 }
 .region-menu ul.menu a.gray {
   background: url('../images/sprite-bg-main-menu-arrows.png') no-repeat;
-  background-position: 85% -411px;
+  background-position: 90% -411px;
 }
 .region-menu ul.menu a.gray:hover,
 .region-menu ul.menu a.gray.open {
-  background-position: 85% -365px;
+  background-position: 90% -365px;
 }
 
 /* END Menu */

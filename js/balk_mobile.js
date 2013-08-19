@@ -40,12 +40,15 @@
     $('#zone-footer ul.menu').remove();
     $('#zone-header ul.menu').show();
     Drupal.behaviors.BalkMainMenu.attach();
+    $(".front .pane-news .pane-content").show();
+    // $(".front .pane-news h2.pane-title").css({'background': 'none',});
   }
 
   Drupal.behaviors.BalkMobile = {
     attach: function(context, settings) {
       if(mobile_width($(window).width())){
         mobile_setup();
+        mobile_news();
       }
      }
   };
@@ -54,11 +57,27 @@
     if(mobile_width($(window).width())){
       if($('#mobile-menu').length === 0){
         mobile_setup();
+        mobile_news();
       }
     }
     else {
       mobile_disable();
     }
   }); 
-
+  
+   function mobile_news() {
+      $(".front .pane-news .pane-content").hide();
+      $(".front .pane-news h2.pane-title").click(function() {
+        var style= $(".front .pane-news .pane-content").css('display');
+        if (style == 'none') {
+          $(".front .pane-news .pane-content").show();
+         // $(".front .pane-news h2.pane-title").css({
+           //  'background': "url('/profiles/os2web/themes/balk/images/sprite-bg-main-menu-arrows.png') no-repeat",
+            //  'background-position': '90% -227px',
+          //});
+        }
+        else 
+          $(".front .pane-news .pane-content").hide();
+      });
+    }
 }(jQuery));
