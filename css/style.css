@@ -13,6 +13,7 @@
   border: 1px solid #d9d9d9;
   border-radius: 7px;
   padding-top: 10px;
+  margin-top: 20px !important;
   box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
   -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
   -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
@@ -25,11 +26,126 @@
   padding-left: 10px;
 } 
 
+.front .view-activities .more-link {
+  margin: 10px 0 10px 0;
+  text-align: left;
+}
 /* End of pane-activities frontpage */
+
+/* Front pane-news */
 .front .pane-content .view-news .view-content {
   position: relative;
 }
 
+/* End of front pane-news */
+
+/* Front pane-region-top-center Genveje */
+.front .panel-region-top-center .inside {
+  background-color: #333;
+  border: 1px solid #d9d9d9;
+  border-radius: 7px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+  height: 490px;
+}
+.front .panel-region-top-center .ballerup_blue {
+  padding-left: 10px;
+}
+.front .panel-region-top-center .pane-menu-forsidegenveje .pane-title {
+  border-bottom: none;
+  color: #fff;
+  padding-left: 10px;
+  text-transform: none;
+  margin-top: 20px;
+}
+.front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li {
+  list-style: none;
+}
+.front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.first.expanded {
+  list-style: none;
+  width: 45%;
+  float: left;
+}
+.front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.last.expanded {
+  list-style: none;
+  width: 45%;
+  float: right;
+}
+.front .panel-region-top-center .pane-menu-forsidegenveje ul.menu {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding-right:10px;
+}
+.front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.expanded ul.menu {
+  margin-left: 0;
+}
+.front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.expanded {
+  border-top: 2px dotted #fff;
+  margin-left: 0;
+  margin-bottom: 5px;
+}
+.front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.expanded a {
+  display: none;
+}
+.front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf {
+  margin-left: 0;
+}
+.front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf a,
+.front .panel-region-top-center .pane-menu-forsidegenveje ul li.leaf a:hover,
+.front .panel-region-top-center .pane-menu-forsidegenveje ul li.leaf a:active {
+  color: #fff;
+  display: block;
+}
+.front .panel-region-top-center .pane-menu-forsidegenveje ul li a:visited,
+.front .panel-region-top-center .pane-menu-forsidegenveje ul li a:hover,
+.front .panel-region-top-center .pane-menu-forsidegenveje ul li a:active {
+  font-weight:  900;
+  text-decoration: none;
+}
+
+.front .panel-region-top-center .show-in-genveje {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 0 0 10px;
+  width: 20%;
+}
+.show-in-genveje {
+  display: none;
+}
+.front .pane-content .form-item-search-block-form {
+  position: absolute;
+  right: 10px;
+}
+.front .pane-content .form-actions {
+  position: absolute;
+  top: 90px;
+  right: 10px;
+}
+.front .pane-content #search-block-form .from-text {
+  width: 180px;
+}
+/* End of front pane-region-top-center Genveje */
+
+/* Front pane-region-top-right Net TV */
+.front .panel-pane.pane-block-12 {
+  height: 160px;
+  border: 1px solid #d9d9d9;
+  border-radius: 7px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+}
+.front .pane-block-12 .pane-title {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.front .pane-block-12 .pane-content {
+  padding: 10px;
+}
+/* End of front pane-region-top-right NET TV */
 #zone-header {
   border-top: 5px solid #0091d1;
   margin-top: 10px;
@@ -543,17 +659,13 @@ blockquote {
 .block .block-title,
 .panel-region-middle-right .pane-content h2,
 .panel-region-right .pane-content h2 {
+  border-bottom: 1px solid #d9d9d9;
   margin: 0 0 10px 0;
   padding-bottom: 7px;
   font-family: 'MorganAvecBold';
   font-size: 16px;
   font-weight: normal;
   text-transform: uppercase;
-}
-
-.front .panel-pane .pane-title {
-  border-bottom: 1px solid #d9d9d9;
-  margin-bottom: 0px;
 }
 
 .page-node .panel-region-right .panel-separator,
@@ -625,13 +737,13 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   width: 295px;
 }
 
-.front .panel-region-top .panel-pane {
-  margin-top: 15px;
+.front .panel-region-top-center .pane-block-8 {
+  margin-top: 10px;
 }
 .front .panel-region-top .pane-title {
- * margin: 0;
- * border: 0;
- * padding: 0;
+  margin: 0;
+  border-bottom: 2px solid #d9d9d9;
+
 }
 
 .pane-jump-menu-menu-selvbetjening {
@@ -689,7 +801,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 }
 .views-news-front-ballerup-nyt .views-field-title,
 .views-news-page-nyheder .views-field-title {
-  padding-top: 5px;
+ /* padding-top: 5px;*/
 }
 .views-news-front-ballerup-nyt .views-row-first {
   width: 100%;*280px;
@@ -700,7 +812,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 }
 .views-news-front-ballerup-nyt .views-row-first .views-field-title {
   font-size: 20px;
-  line-height: 1.5em;
+  *line-height: 1.5em;
 }
 .views-news-front-ballerup-nyt .views-row-last {
   margin: 0;
@@ -728,7 +840,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   background-color: #f5f5f5;
 }
 .views-activities-front-det-sker-i-ballerup .views-row-last {
-  border-bottom: 0;
+  *border-bottom: 0;
 }
 .views-activities-front-det-sker-i-ballerup .views-field-field-annoncement-date {
   width: 39px;
