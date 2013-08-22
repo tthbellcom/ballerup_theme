@@ -1,4 +1,11 @@
 /***  redesign css ---------------**********/
+/* Normal pages */
+.panel-pane.pane-block-6 {
+  height: 50px;
+}
+.block-views.block-section-name-mobile-block {
+  display: none;
+}
 /* Ballerup header color */
 .ballerup_blue {
   color: #0091d1;
@@ -118,9 +125,12 @@
   position: absolute;
   right: 10px;
 }
+.front .pane-content #search-block-form .container-inline {
+  position: relative;
+}
 .front .pane-content .form-actions {
   position: absolute;
-  top: 90px;
+  top: 12px;
   right: 10px;
 }
 .front .pane-content #search-block-form .from-text {
@@ -202,9 +212,31 @@ iframe {
 .region-menu ul.menu li.expanded.green {
   background-color: #3ADF00;
 }
+.region-menu ul.menu li.expanded.red{
+  background-color: red;
+}
+.region-menu ul.menu li.expanded.selvbetjening{
+  background-color: rgb(248, 95, 9);
+}
+
+.region-menu ul.menu li.expanded.blue {
+  background-color: #0091d1;
+}
+.region-menu ul.menu li.expanded.orange {
+  background-color: red;
+}
 .region-menu ul.menu li a.l1.borger {
   color: #fff;
 }
+.region-menu ul.menu li a.l1.selvbetjening,
+.region-menu ul.menu li a.l1.selvbetjening.open
+.region-menu ul.menu li a.l1.erhverv, 
+.region-menu ul.menu li a.l1.erhverv.open,
+.region-menu ul.menu li a.l1.kommunen,
+.region-menu ul.menu li a.l1.kommunen.open{
+  color: #fff;
+}
+
 .region-menu ul.menu li a.l1.borger.open {
   color: #fff;
   background-color: #3ADF00;
@@ -457,7 +489,7 @@ blockquote {
 }
 
 .region-menu ul.menu li.red a {
-  color: #c4161c;
+  color: #fff;*#c4161c;
 }
 .region-menu ul.menu li.red .submenu {
   border-color: #c4161c;
@@ -654,7 +686,7 @@ blockquote {
 .front .panel-pane {
   margin-top: 30px;
 }
-
+.view-section-name-mobile h2,
 .panel-pane .pane-title,
 .block .block-title,
 .panel-region-middle-right .pane-content h2,

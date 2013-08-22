@@ -53,13 +53,14 @@
 
   #mobile-menu {
     height: 46px;
-    width: 100px;
+    width: 70px;
     display: inline-block;
     line-height: 46px;
     font-family: 'MorganAvecRegular';
     font-size: 16px;
     font-weight: bold;
     display: inline-block;
+    float: right;
    background: url("../images/sprite-bg-main-menu-arrows.png") no-repeat scroll 55px -412px transparent;
   }
   
@@ -107,9 +108,7 @@
   }
   #block-block-7 {
     bottom: 5px;
-    left: 50%;
     position: absolute;
-    width: 50%;
   }
   #block-menu-block-11 {
     float: right;
@@ -143,6 +142,13 @@
     float: left;
     width: 50%;
   }
+  .block-views.block-section-name-mobile-block {
+    display: block;
+  }
+  .menu-block-11 ul li a.active {
+    display: none;
+  }
+
   /* Mobile front page */
   .front .pane-content .view-id-news .views-row-4,
   .front .pane-content .view-id-news .views-row-5,
