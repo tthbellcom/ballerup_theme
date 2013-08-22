@@ -95,3 +95,17 @@ width: 160px;}
 .show-for-small {
   display: none;
 }
+/*  Footer */
+#region-footer-first {
+  padding-left: 14px;
+  width: 160px;
+}
+#region-footer-third,
+#region-footer-fourth,
+#region-footer-fifth,
+#region-footer-second {
+  padding-left: 8px;
+}
+.views-campaigns-front-aktuelt-i-ballerup .jcarousel-item {
+  margin: 0 14px;
+}

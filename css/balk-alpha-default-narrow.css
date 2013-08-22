@@ -144,5 +144,8 @@ width: 106px; }
 .front .pane-content .views-news-front-ballerup-nyt {
   padding: 0px 10px;
 }
-
 /* End of front page */
+
+.views-campaigns-front-aktuelt-i-ballerup .jcarousel-item {
+  margin: 0 7.5px;
+}

@@ -1,4 +1,18 @@
 /***  redesign css ---------------**********/
+#net_tv_img img {
+  height: auto;
+  width: 100%;
+}
+.contact_left ul li {
+  list-style: none;
+}
+.contact_left ul {
+  margin-left: 0;
+}
+#zone-footer .block .block-title {
+  font-size: 12px;
+}
+
 /* Normal pages */
 .panel-pane.pane-block-6 {
   height: 50px;
@@ -555,12 +569,18 @@ blockquote {
 
 
 /* Content */
+.view-campaigns .view-content {
+  border-bottom: 2px solid #0091d1;
 
+}
+ul.jcarousel-view--campaigns--block-1 {
+  height: 160px;
+}
 .zone-content {
  * border-top: 5px solid #0091d1;
   margin-top: -50px;
-  padding: 10px 0 100px 0;
-  background: #fff url(../images/bg-content-bottom.png) no-repeat 50% 100%;
+  padding: 10px 0 0px 0;
+  background: #fff; *url(../images/bg-content-bottom.png) no-repeat 50% 100%;
   -moz-box-shadow: 0 0 7px #999;
   box-shadow: 0 0 7px #999;
 }
@@ -950,17 +970,17 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 
 /* Aktuelt i Ballerup */
 .views-campaigns-front-aktuelt-i-ballerup .view-content {
-  background: url('../images/bg-jcarousel-wrapper.png') repeat-x 0 100%;
-  border-bottom: 1px solid #d9d9d9;
-  padding: 0 45px;
+ * background: url('../images/bg-jcarousel-wrapper.png') repeat-x 0 100%;
+ * border-bottom: 1px solid #d9d9d9;
+  padding: 0 0px 20px 0;
 }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-clip {
   overflow: hidden;
 }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-item {
   width: 160px;
-  height: 185px;
-  margin: 0 5px;
+  height: 161px; *185px;
+  margin: 0 14px;
   position: relative;
   background: url('../images/bg-sprite-jcarousel-item.png') repeat-x 0 0;
 }
@@ -981,11 +1001,11 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   background-repeat: no-repeat;
 }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-prev {
-  left: -45px;
+  left: -25px;
   background-position: 0 0;
 }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-next {
-  right: -45px;
+  right: -25px;
   background-position: 0 -32px;
 }
 
