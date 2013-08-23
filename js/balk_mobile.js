@@ -43,9 +43,18 @@
 
       if($submenu.is(':visible')){
         $submenu.hide();
-      }
+        var path = $(this).css("background-image");
+        path = path.replace('open', 'close');
+        $(this).css({
+           'background-image': path,
+        });      }
       else {
         $submenu.show();
+        var path = $(this).css("background-image");
+        path = path.replace('close', 'open');
+        $(this).css({
+           'background-image': path,
+        });
       }
     });
   }
