@@ -13,11 +13,22 @@
   #net_tv_img img {
     width: 80%;
   }
+  .inside h1 {
+    word-wrap: break-word;
+   }
 }
 
 
 
 @media all and (max-width: 739px) {
+  .zone-content {
+    padding-top: 0px;
+    margin-top: 0px;
+    box-shadow: 0 0 1px #999;
+  }
+  .front .panel-pane {
+    margin-top: 15px;
+  }
   .node-politician .field-name-field-lead-image img,
   .node-person .field-name-field-lead-image img {
     width:50%;
@@ -72,7 +83,7 @@
     overflow: hidden;
   }
 
-  #section-header { height: 176px; }
+  #section-header { height: 125px; }
 
   #mobile-menu {
     height: 46px;
@@ -110,14 +121,21 @@
   .region-menu ul.menu li a.l1.open {
     box-shadow: none;
   }
-  .page-taxonomy .region-sidebar{
+/* .page-taxonomy .region-sidebar{*/
+  .region-sidebar {
     display: block !important;
     width: 100%;
   }
-  .page-taxonomy .region-sidebar ul li {
+  .block-menu-block-6 {
+    padding-top: 10px;
+  }
+  .page-node .block-menu-block-6 {
+    display: none;
+  }
+  .region-sidebar ul li {
     list-style: none;
   }
-  .page-taxonomy .region-sidebar ul li a {
+  .region-sidebar ul li a {
     background: none !important;
     font-size: 20px;
   }
@@ -167,6 +185,10 @@
   }
   .block-views.block-section-name-mobile-block {
     display: block;
+    padding-top: 10px;
+  }
+  .block.block-menu-block-6 .block-title {
+    border-bottom: 1px solid #d9d9d9;
   }
   .menu-block-11 ul li a.active {
     display: none;
@@ -191,7 +213,7 @@
   .front #zone-header ul.menu {
     display: block !important;
   }
-  .front #section-header { height: 365px; }
+
 
   .front #region-branding { *height: 130px; }
   .front .pane-news h2.pane-title { 
@@ -223,4 +245,76 @@
     margin-top: 0px;
   }
   /* End of mobile front page */
+  /* Mobile menu */
+  .mobile_main_menu ul {
+    list-style-type: none;
+    margin-left: 0px;
+  }
+  .mobile_main_menu ul li {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 0;
+    list-style: none;
+    width: 100%
+  }
+  .mobile_main_menu ul li.expanded a.l1{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: MorganAvecBold;
+    line-height: 40px;
+  }
+  .mobile_main_menu ul li.expanded a.l1 {
+    padding-left: 22px;
+  } 
+  .mobile_main_menu .submenu {
+    display: none;
+    background-color: #fff;
+  }
+  .front .mobile_main_menu {
+    margin-top: 0px;
+  }
+  .mobile_main_menu li.expanded.green {
+    background-color: #3ADF00;
+  }
+  .mobile_main_menu li.expanded.red{
+    background-color: red;
+  }
+  .mobile_main_menu li.expanded.selvbetjening{
+    background-color: rgb(248, 95, 9);
+  }
+  .mobile_main_menu li.expanded.blue {
+    background-color: #0091d1;
+  }
+  .mobile_main_menu ul.menu li a.l1.selvbetjening,
+  .mobile_main_menu ul.menu li a.l1.selvbetjening.open,
+  .mobile_main_menu ul.menu li a.l1.erhverv,
+  .mobile_main_menu ul.menu li a.l1.erhverv.open,
+  .mobile_main_menu ul.menu li a.l1.kommunen,
+  .mobile_main_menu ul.menu li a.l1.kommunen.open,
+  .mobile_main_menu ul.menu li a.l1.borger,
+  .mobile_main_menu ul.menu li a.l1.borger.open {
+    color: #fff !important;
+  } 
+  .mobile_main_menu ul.menu li.green a {
+    color: #677d1c;
+  }
+  .mobile_main_menu ul.menu li.red a {
+    color: #c4161c;
+  }
+  .mobile_main_menu ul.menu li.blue a {
+    color: #007aaf;
+  }
+  .main-menu-jump-menus .block {
+    display: none;
+  }
+  .mobile_main_menu .submenu {
+    padding-left: 2.3em;
+  }
+  .mobile_main_menu .last.expanded {
+    border-bottom: 1px solid rgb(210, 214, 216);
+  }
+  body {
+    overflow-x: hidden;
+  }
+  /* End of Mobile menu */
 }
