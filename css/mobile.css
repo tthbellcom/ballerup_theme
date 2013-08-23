@@ -23,6 +23,8 @@
 @media all and (max-width: 739px) {
   .zone-content {
     padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-top: 0px;
     box-shadow: 0 0 1px #999;
   }
@@ -87,7 +89,8 @@
 
   #mobile-menu {
     height: 46px;
-    width: 70px;
+    width: 80px;
+    color: #666;
     display: inline-block;
     line-height: 46px;
     font-family: 'MorganAvecRegular';
@@ -95,7 +98,8 @@
     font-weight: bold;
     display: inline-block;
     float: right;
-   background: url("../images/sprite-bg-main-menu-arrows.png") no-repeat scroll 55px -412px transparent;
+    background: url("../images/reorder.png") no-repeat 85% 50%;
+    background-size: 25px;
   }
   
   #region-menu ul.menu .submenu {
@@ -126,6 +130,10 @@
     display: block !important;
     width: 100%;
   }
+  .block-menu-block-10 {
+    display: none;
+  }
+  .block-menu-block-10,
   .block-menu-block-6 {
     padding-top: 10px;
   }
@@ -141,6 +149,8 @@
   }
   /* Footer menu should be two lines.  */
   #zone-footer {
+    padding-left: 10px;
+    padding-right: 10px;
     position: relative;
   }
   #block-menu-block-5 {
@@ -248,7 +258,7 @@
   /* Mobile menu */
   .mobile_main_menu ul {
     list-style-type: none;
-    margin-left: 0px;
+    margin-left: -10px;
   }
   .mobile_main_menu ul li {
     font-size: 18px;
@@ -269,21 +279,31 @@
   .mobile_main_menu .submenu {
     display: none;
     background-color: #fff;
+    padding-left: 2.3em;
+    width:100%;
   }
   .front .mobile_main_menu {
     margin-top: 0px;
   }
   .mobile_main_menu li.expanded.green {
-    background-color: #3ADF00;
+   * background-color: #3ADF00;
+    background-image: url('../images/green_close.png');
+    background-size: 100% 70px;
   }
   .mobile_main_menu li.expanded.red{
-    background-color: red;
+   * background-color: red;
+    background-image: url('../images/orange_close.png');
+    background-size: 100% 70px;
   }
   .mobile_main_menu li.expanded.selvbetjening{
-    background-color: rgb(248, 95, 9);
+   * background-color: rgb(248, 95, 9);
+    background-image: url('../images/red_close.png');
+    background-size: 100% 70px;
   }
   .mobile_main_menu li.expanded.blue {
-    background-color: #0091d1;
+   * background-color: #0091d1 !important;
+    background-image: url('../images/blue_close.png');
+    background-size: 100% 70px;
   }
   .mobile_main_menu ul.menu li a.l1.selvbetjening,
   .mobile_main_menu ul.menu li a.l1.selvbetjening.open,
@@ -296,23 +316,27 @@
     color: #fff !important;
   } 
   .mobile_main_menu ul.menu li.green a {
-    color: #677d1c;
+    color: #677d1c !important;
   }
   .mobile_main_menu ul.menu li.red a {
-    color: #c4161c;
+    color: #c4161c !important;
   }
+  .mobile_main_menu ul.menu li.selvbetjening a {
+    color: rgb(248, 95, 9) !important;
+  }
+
   .mobile_main_menu ul.menu li.blue a {
-    color: #007aaf;
+    color: #007aaf !important;
   }
   .main-menu-jump-menus .block {
     display: none;
   }
-  .mobile_main_menu .submenu {
-    padding-left: 2.3em;
-  }
   .mobile_main_menu .last.expanded {
     border-bottom: 1px solid rgb(210, 214, 216);
   }
+  .mobile_main_menu .selvbetjening .submenu {
+    display: none !important;
+  } 
   body {
     overflow-x: hidden;
   }
