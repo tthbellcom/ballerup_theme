@@ -162,7 +162,7 @@ width: 106px; }
   height: 470px;
 }
 /* Genveje */
-.front .panel-pane.pane-custom.pane-1 {
+.front #net_tv_pane {
   height: 190px;
 }
 

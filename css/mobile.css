@@ -1,5 +1,5 @@
 @media all and (min-width: 530px) and (max-width: 739px) {
-  .front .panel-pane.pane-custom.pane-1 {
+  .front #net_tv_pane {
     height: 250px;
   }
   #net_tv_img img {
@@ -7,7 +7,7 @@
   }
 }
 @media all and (max-width: 530px) {
-  .front .panel-pane.pane-custom.pane-1 {
+  .front #net_tv_pane {
     height: 180px;
   }
   #net_tv_img img {
@@ -173,6 +173,9 @@
   }
 
   /* Mobile front page */
+  .front #region-header-second {
+    width: 100%;
+  }
   .front .pane-content .view-id-news .views-row-4,
   .front .pane-content .view-id-news .views-row-5,
   .front .pane-content .view-id-news .views-row-6,
@@ -180,7 +183,7 @@
     display: none;
   }
   .front .region-header-second .block-block-8 {
-    display: none;
+   * display: none;
   }
   .front #mobile-menu {
     display: none;
@@ -190,7 +193,7 @@
   }
   .front #section-header { height: 365px; }
 
-  .front #region-branding { height: 130px; }
+  .front #region-branding { *height: 130px; }
   .front .pane-news h2.pane-title { 
     padding-left: 22px;
     border-bottom: none;

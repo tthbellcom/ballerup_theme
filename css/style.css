@@ -156,7 +156,7 @@
 /* End of front pane-region-top-center Genveje */
 
 /* Front pane-region-top-right Net TV */
-.front .panel-pane.pane-custom.pane-1 {
+.front #net_tv_pane {
   height: 160px;
   border: 1px solid #d9d9d9;
   border-radius: 7px;
@@ -165,11 +165,11 @@
   -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
   -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
 }
-.front .pane-custom.pane-1 .pane-title {
+.front #net_tv_pane .pane-title {
   padding-left: 10px;
   padding-top: 10px;
 }
-.front .pane-custom.pane-1 .pane-content {
+.front #net_tv_pane .pane-content {
   padding: 10px;
 }
 /* End of front pane-region-top-right NET TV */

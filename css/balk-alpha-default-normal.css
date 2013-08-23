@@ -11,7 +11,7 @@
  * margin: 0 10px;
   width: 39%;
 }
-.front .panel-pane.pane-custom.pane-1 {
+.front #net_tv_pane {
   height: 160px;
 }
 .front .pane-views.pane-activities .pane-content {
