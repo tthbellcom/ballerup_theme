@@ -1,4 +1,16 @@
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* Frontpage genveje */
+.front .pane-content .form-item-search-block-form #edit-search-block-form--2 {
+  width: 70%;
+}
+.front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf {
+  border-bottom: 2px dotted #fff;
+  float: left;
+  font-size: 23px;
+  line-height: 25px;
+ * margin: 0 10px;
+  width: 39%;
+}
 .pane-activities {
   border: 1px solid #d9d9d9;
   border-radius: 7px;

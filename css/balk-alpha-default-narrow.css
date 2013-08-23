@@ -144,6 +144,19 @@ width: 106px; }
 .front .pane-content .views-news-front-ballerup-nyt {
   padding: 0px 10px;
 }
+.front .pane-content .form-item-search-block-form #edit-search-block-form--2 {
+  width: 60%;
+}
+.front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf {
+  border-bottom: 2px dotted #fff;
+  float: left;
+  font-size: 16px;
+  line-height: 25px;
+ * margin: 0 10px;
+  width: 39%;
+}
+
+
 /* End of front page */
 
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-item {

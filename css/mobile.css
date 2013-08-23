@@ -3,6 +3,10 @@
   .node-person .field-name-field-lead-image img {
     width:50%;
   }
+  .pane-content .views-field-field-lead-image a img {
+    height: auto;
+    width: 100%;
+  }
   .item-list .pager li {
     padding: 0;
   }
@@ -178,6 +182,23 @@
   .front .panel-panel.grid-5,
   .front .panel-panel.grid-5 .inside {
     width: 100%;
+  }
+  .front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf {
+    border-top: 2px dotted #fff;
+    float: left;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 10px;
+    width: 90%;
+  }
+  .front #mini-panel-frontpage_genveje_search {
+    height: 380px;
+  }
+  .front .pane-content .form-item-search-block-form #edit-search-block-form--2 {
+    height: 30px;
+  }
+  .front .pane-menu-forsidegenveje {
+    margin-top: 0px;
   }
   /* End of mobile front page */
 }
