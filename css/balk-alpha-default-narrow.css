@@ -27,7 +27,7 @@
 	margin: 50px 0 0 10px;
 }
 .front .panel-region-top-left .views-field-field-lead-image {
-  margin-bottom: 25px;
+ * margin-bottom: 25px;
 }
 .panel-homepage .panel-region-lead .rb-textbox-type-header { font-size: 24px;}
 
@@ -155,8 +155,21 @@ width: 106px; }
  * margin: 0 10px;
   width: 39%;
 }
+.front .panel-pane.pane-news.clearfix {
+  height: 460px;
+}
+.front #mini-panel-frontpage_genveje_search {
+  height: 470px;
+}
+/* Genveje */
+.front .panel-pane.pane-custom.pane-1 {
+  height: 190px;
+}
 
-
+/* Activities */
+.front .pane-views.pane-activities .pane-content {
+  line-height: 10px;
+}
 /* End of front page */
 
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-item {

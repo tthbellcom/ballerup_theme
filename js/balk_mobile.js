@@ -59,6 +59,9 @@
     }
     else {
       mobile_disable();
+      $(".front .pane-news h2.pane-title").click(function() {
+        $(".front .pane-news .pane-content").show();
+      });
     }
     // weird bug
     $('#block-menu-block-11 ul.menu ul.menu').css({'display' : ''});

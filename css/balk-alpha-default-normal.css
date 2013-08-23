@@ -11,6 +11,21 @@
  * margin: 0 10px;
   width: 39%;
 }
+.front .panel-pane.pane-custom.pane-1 {
+  height: 160px;
+}
+.front .pane-views.pane-activities .pane-content {
+  line-height: 14px;
+}
+.front .pane-views.pane-news .pane-content {
+  line-height: 15px;
+}
+.front .panel-pane.pane-news.clearfix {
+  height: 470px;
+}
+.front #mini-panel-frontpage_genveje_search {
+  height: 480px;
+}
 .pane-activities {
   border: 1px solid #d9d9d9;
   border-radius: 7px;
@@ -49,18 +64,18 @@
   padding: 0px 10px;
 }
 .front .panel-region-top .grid-5 {
-  height: 480px;
+  *height: 480px;
   width: 300px;
 }
 .front .panel-region-top-center.grid-5 .inside {
-  height: 480px;
+ * height: 480px;
 }
 .front .panel-region-top-left.grid-5 {
-  height: 520px;
+  *height: 520px;
 
 }
 .front .panel-region-top-right.grid-5 {
-  height: 520px;
+ * height: 520px;
 
 }
 .page-node .field-name-field-lead-image img { max-width: 100%; height: auto;}
