@@ -34,7 +34,7 @@
 
   function mobile_disable(){
     $('#mobile-menu').remove();
-    $('#zone-footer ul.menu').remove();
+    $('#zone-footer .region-header-first-inner').remove();
     $('#zone-header ul.menu').show();
     Drupal.behaviors.BalkMainMenu.attach();
     $(".front .pane-news .pane-content").show();
