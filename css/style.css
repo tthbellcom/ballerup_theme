@@ -1,4 +1,17 @@
 /***  redesign css ---------------**********/
+.panel-region-lead .pane-custom.pane-1 { 
+  background: #fff url("http://ballerup.dk.devel.dk/profiles/os2web/themes/balk/images/skyline.png") 100% 100%;
+  background-repeat: no-repeat no-repeat;
+  background-size: 70% 15%;
+  height: 280px;
+}
+#zone-footer {
+  background: #fff url("http://ballerup.dk.devel.dk/profiles/os2web/themes/balk/images/skyline.png") 80% 94%;
+  background-repeat: no-repeat no-repeat;
+  background-size: 40% 20%;
+  border-bottom: 1px solid #999;
+}
+
 #net_tv_img img {
   height: auto;
   width: 100%;
