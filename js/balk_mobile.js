@@ -46,11 +46,12 @@
          //  'display': 'none',
         //});
 
-        var path = $(this).css("background-image");
-        path = path.replace('open', 'close');
-        $(this).css({
-           'background-image': path,
-        });      
+       // var path = $(this).css("background-image");
+
+       // path = path.replace('open', 'close');
+       // $(this).css({
+         //  'background-image': path,
+       // });      
       }
       else {
         $submenu.show();
@@ -58,11 +59,11 @@
           // 'display': 'block',
        // });
 
-        var path = $(this).css("background-image");
-        path = path.replace('close', 'open');
-        $(this).css({
-           'background-image': path,
-        });
+       // var path = $(this).css("background-image");
+       // path = path.replace('close', 'open');
+       // $(this).css({
+         //  'background-image': path,
+        //});
       }
     });
   }

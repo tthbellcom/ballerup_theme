@@ -285,7 +285,7 @@
   } 
   .mobile_main_menu .submenu {
     display: none;
-    *background-color: #fff;
+    background-color: #fff;
     padding-left: 2.3em;
     width:100%;
   }
@@ -293,28 +293,28 @@
     margin-top: 0px;
   }
   .mobile_main_menu li.expanded.green {
-   * background-color: #3ADF00;
-    background: url('../images/green_close.png');
-    background-repeat: no-repeat no-repeat;
-    background-size: 100% 50px;
+    background-color: #94af2a;
+    *background: url('../images/green_close.png');
+    *background-repeat: no-repeat no-repeat;
+    *background-size: 100% 50px;
   }
   .mobile_main_menu li.expanded.red{
-   * background-color: red;
-    background: url('../images/orange_close.png');
-    background-repeat: no-repeat no-repeat;
-    background-size: 100% 50px;
+    background-color: #f47920;
+    *background: url('../images/orange_close.png');
+    *background-repeat: no-repeat no-repeat;
+    *background-size: 100% 50px;
   }
   .mobile_main_menu li.expanded.selvbetjening{
-   * background-color: rgb(248, 95, 9);
-    background: url('../images/red_close.png');
-    background-repeat: no-repeat no-repeat;
-    background-size: 100% 50px;
+    background-color: #ed1c24;
+    *background: url('../images/red_close.png');
+    *background-repeat: no-repeat no-repeat;
+    *background-size: 100% 50px;
   }
   .mobile_main_menu li.expanded.blue {
-   * background-color: #0091d1 !important;
-    background: url('../images/blue_close.png');
-    background-repeat: no-repeat no-repeat;
-    background-size: 100% 50px;
+    background-color: #107aaf !important;
+    *background: url('../images/blue_close.png');
+    *background-repeat: no-repeat no-repeat;
+    *background-size: 100% 50px;
   }
   .mobile_main_menu ul.menu li a.l1.selvbetjening,
   .mobile_main_menu ul.menu li a.l1.selvbetjening.open,
