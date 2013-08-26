@@ -55,7 +55,7 @@
   -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
 }
 .pane-activities .views-activities-front-det-sker-i-ballerup  {
-  padding: 0 10px 0 10px;
+  padding: 0 15px;
 }
 
 .pane-activities .pane-title .pink {
@@ -65,6 +65,26 @@
 .front .view-activities .more-link {
   margin: 10px 0 10px 0;
   text-align: left;
+}
+
+.pane-activities a{
+  color: #222;
+  font-size: 10px;
+}
+.pane-activities img {
+  float: left;
+  margin-right: 15px;
+  margin-top 8px;
+  border-radius: 3px;
+}
+
+.pane-activities .views-field-field-activity-date-1 {
+    margin-left: 68px;
+    border-bottom: 1px dotted #d9d9d9;
+}
+
+.pane-activities .more-link{
+  padding-left: 68px;
 }
 /* End of pane-activities frontpage */
 
@@ -908,7 +928,6 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 }
 .views-activities-front-det-sker-i-ballerup .views-row {
   padding: 7px 0;
-  border-bottom: 1px solid #d9d9d9;
 }
 .views-activities-front-det-sker-i-ballerup .views-row:hover {
   background-color: #f5f5f5;
@@ -941,7 +960,6 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 .views-activities-front-det-sker-i-ballerup .views-field-field-activity-end {
   font-size: 11px;
   font-weight: bold;
-  text-transform: uppercase;
 }
 .views-activities-front-det-sker-i-ballerup .views-field-title,
 .views-activities-front-det-sker-i-ballerup .views-field-field-activity-place {
