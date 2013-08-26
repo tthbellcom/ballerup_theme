@@ -95,6 +95,7 @@ left: 450px;
   color: #007aaf;
   text-decoration: none;
   background-color: #FFF;
+  text-indent: -99999999px;
 }
 .panel-homepage .panel-region-lead .controls a.activeSlide {
   background-position: 0 -20px;
