@@ -12,7 +12,7 @@
 }
 
 .region-menu ul.menu {
-	left: 235px; }
+	left: 240px; }
 
 .region-menu ul.menu ul {
 	width: 150px; }
@@ -175,7 +175,24 @@ width: 106px; }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-item {
   margin: 0 7.5px;
 }
-.region-menu-inner { padding-top: 13px;}
+.region-menu-inner { padding-top: 12px;}
 .qtip { max-width: 720px;}
 .qtip-wrapper { height: 295px; overflow: hidden; background-color: #FFF;}
 .qtip-content { padding: 0 !important}
+
+#mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {width: 88px; font-size: 14px; }
+.menu-name-menu-mega-dropdown a { color: #FFF; }
+.menu-minipanels .menu-name-menu-mega-dropdown a { color: #333; font-size: 11px; }
+.menu-minipanels .menu-name-menu-mega-dropdown a.overskrift { text-decoration: underline; font-family: 'MorganAvecBold'; font-size: 14px; width: 100%;}
+.menu-minipanels .menu-name-menu-mega-dropdown li { list-style: none;}
+.menu-minipanels .separator hr { border: 0px solid #fff;}
+.menu-minipanels ul { margin: 0; padding: 0;}
+.menu-minipanels .grid-5 { width: 225px}
+#mdborger {	background: url('../images/green_close.png') top right no-repeat;}
+#mderhverv {background: url('../images/orange_close.png') top right no-repeat;}
+#mdselvbetjening { background: url('../images/red_close.png') top right no-repeat;}
+#mdkommunen {background: url('../images/blue_close.png') top right no-repeat;}
+
+.generel-kontakt { color: #2a313d; background-image: url("../images/skylinekontakt.png"); background-position: bottom right; height: 290px; background-repeat: no-repeat;font-family: 'MorganAvecRegular' !important; font-size: 9px;}
+.generel-kontakt strong {font-family: 'MorganAvecBold'; display: block;}
+.generel-kontakt h2 { color: #2a313d; border-bottom: none !important; margin-bottom: 15px; font-family: 'MorganAvecRegular' !important; font-size: 25px !important;}

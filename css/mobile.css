@@ -21,6 +21,9 @@
 
 
 @media all and (max-width: 739px) {
+  .panel-region-top-left {
+    background-color: #fff;
+  }
   .zone-content {
     padding-top: 0px;
     padding-left: 10px;
@@ -86,8 +89,10 @@
     overflow: hidden;
   }
 
-  #section-header { height: 125px; }
-
+  #section-header { height: 120px; }
+  #section-header .zone-header-wrapper {
+    background-color: #fff;
+  }
   #mobile-menu {
     height: 46px;
     width: 80px;

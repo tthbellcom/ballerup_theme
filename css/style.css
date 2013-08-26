@@ -3,14 +3,8 @@
   background-color: #fff;
 }
 
-.panel-region-lead .pane-custom.pane-1 { 
-  background: #fff url("http://ballerup.dk.devel.dk/profiles/os2web/themes/balk/images/skyline.png") 100% 100%;
-  background-repeat: no-repeat no-repeat;
-  background-size: 70% 15%;
-  height: 280px;
-}
 #zone-footer {
-  background: #fff url("http://ballerup.dk.devel.dk/profiles/os2web/themes/balk/images/skyline.png") 80% 94%;
+  background: #fff url("../images/skyline.png") 80% 94%;
   background-repeat: no-repeat no-repeat;
   background-size: 40% 20%;
   border-bottom: 1px solid #999;
@@ -84,7 +78,7 @@
 /* Front pane-region-top-center Genveje */
 /*.front .panel-region-top-center .inside {*/
 .front #mini-panel-frontpage_genveje_search {
-  background-color: #2a313d;
+  background-color: #2a333d;
   border: 1px solid #d9d9d9;
   border-radius: 7px;
   margin-top: 15px;
@@ -197,9 +191,10 @@
 /* End of front pane-region-top-right NET TV */
 #zone-header {
   border-top: 5px solid #0091d1;
-  margin-top: 10px;
 }
-
+.region-menu ul.menu {
+left: 326px;
+}
 iframe {
   width: 100%;
 }

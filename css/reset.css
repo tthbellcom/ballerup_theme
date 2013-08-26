@@ -74,7 +74,7 @@ input, select { vertical-align:middle; }
    * we normalize monospace styles ourselves
    * table font-size is reset in the HTML5 reset above so there is no need to repeat
 */
-body { font:12px/1.231 verdana; *sans-serif; *font-size:small; } /* hack retained to preserve specificity */
+body { font:11px/1.231 verdana; *sans-serif; *font-size:small; } /* hack retained to preserve specificity */
 
 select, input, textarea, button { font:99% verdana; *sans-serif; }
 

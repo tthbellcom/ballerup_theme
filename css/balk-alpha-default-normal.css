@@ -92,7 +92,8 @@
 }
 
 .region-menu ul.menu {
-	left: 310px; }
+	left: 326px; }
+	
 
 .region-menu ul.menu ul {
 	width: 150px; }
@@ -137,3 +138,5 @@ width: 160px;}
   margin: 0 14px;
 }
 .qtip { max-width: 960px;}
+#mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {width: 118px;}
+.menu-minipanels .grid-5 { width: 298px}
