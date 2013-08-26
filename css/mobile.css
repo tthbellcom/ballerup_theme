@@ -150,6 +150,7 @@
   }
   /* Footer menu should be two lines.  */
   #zone-footer {
+    background: #fff;
     padding-left: 10px;
     padding-right: 10px;
     position: relative;

@@ -1,4 +1,8 @@
 /***  redesign css ---------------**********/
+.front .panel-pane.pane-news.clearfix {
+  background-color: #fff;
+}
+
 .panel-region-lead .pane-custom.pane-1 { 
   background: #fff url("http://ballerup.dk.devel.dk/profiles/os2web/themes/balk/images/skyline.png") 100% 100%;
   background-repeat: no-repeat no-repeat;
@@ -47,6 +51,7 @@
 
 /* pane-activities frontpage */
 .pane-activities {
+  background-color: #fff;
   border: 1px solid #d9d9d9;
   border-radius: 7px;
   padding-top: 10px;
@@ -79,10 +84,10 @@
 /* Front pane-region-top-center Genveje */
 /*.front .panel-region-top-center .inside {*/
 .front #mini-panel-frontpage_genveje_search {
-  background-color: #333;
+  background-color: #2a313d;
   border: 1px solid #d9d9d9;
   border-radius: 7px;
-  margin-top: 30px;
+  margin-top: 15px;
   box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
   -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
   -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
@@ -174,9 +179,10 @@
 /* Front pane-region-top-right Net TV */
 .front #net_tv_pane {
   height: 160px;
+  background-color: #fff;
   border: 1px solid #d9d9d9;
   border-radius: 7px;
-  margin-top: 30px;
+  margin-top: 15px;
   box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
   -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
   -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
@@ -227,9 +233,11 @@ iframe {
 }
 .content .panel-homepage .panel-region-lead {
   border-bottom: none !important;
+  margin-bottom: 15px !important;
 }
 .front .panel-region-top {
   border-bottom: none !important;
+  background-color: #e7e7e8;
 }
 /*  ---- main menu ---*/
 .region-menu ul.menu li.expanded {
@@ -722,8 +730,8 @@ ul.jcarousel-view--campaigns--block-1 {
 
 /* Panel panes (Blocks) */
 
-.front .panel-pane {
-  margin-top: 30px;
+.front .region-content-inner .panel-pane {
+  margin-top: 15px;
 }
 .view-section-name-mobile h2,
 .panel-pane .pane-title,

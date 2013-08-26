@@ -175,3 +175,7 @@ width: 106px; }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-item {
   margin: 0 7.5px;
 }
+.region-menu-inner { padding-top: 13px;}
+.qtip { max-width: 720px;}
+.qtip-wrapper { height: 295px; overflow: hidden; background-color: #FFF;}
+.qtip-content { padding: 0 !important}
