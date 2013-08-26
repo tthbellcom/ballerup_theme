@@ -253,7 +253,8 @@
     width: 90%;
   }
   .front #mini-panel-frontpage_genveje_search {
-    height: 380px;
+    height: auto;
+    max-height: 380px;
   }
   .front .pane-content .form-item-search-block-form #edit-search-block-form--2 {
     height: 30px;
