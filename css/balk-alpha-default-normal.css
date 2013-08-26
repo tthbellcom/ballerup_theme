@@ -92,9 +92,9 @@
 }
 
 .region-menu ul.menu {
-	left: 326px; }
+	left: 312px; }
 	
-
+.pane-rotating-banner { padding-top: 10px;}
 .region-menu ul.menu ul {
 	width: 150px; }
 
@@ -138,5 +138,9 @@ width: 160px;}
   margin: 0 14px;
 }
 .qtip { max-width: 960px;}
-#mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {width: 118px;}
+
+#mderhverv, #mdborger, #mdselvbetjening {margin-right: 10px;}
+
+#mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {width: 118px}
 .menu-minipanels .grid-5 { width: 298px}
+

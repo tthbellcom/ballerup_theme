@@ -7,12 +7,15 @@
   position: relative;
 }
 
+.rotating-banner {
+margin: 0 0; }
+
 .panel-homepage .panel-region-lead .panel-pane {
   margin-top: 0;
 }
 
 .content .panel-homepage .panel-region-lead .rb-slides {
-  height: 280px;
+  height: 180px;
   background: url('../images/bg-rb-slide.png') no-repeat 0 0;
 }
 
@@ -79,13 +82,11 @@ left: 450px;
   z-index: 10;
 }
 .panel-homepage .panel-region-lead .controls a {
-  width: 20px;
-  height: 20px;
+  width: 5px;
+  height: 5px;
   margin: 0 5px;
-  border: 1px solid #dededf;
+  border: 5px solid #fff;
   padding: 0;
-  background-image: url('../images/bg-rotating-banner-controls.png');
-  background-repeat: repeat-x;
   background-position: 0 0;
   display: inline-block;
   line-height: 20px;
@@ -93,10 +94,18 @@ left: 450px;
   font-size: 12px;
   color: #007aaf;
   text-decoration: none;
+  background-color: #FFF;
 }
 .panel-homepage .panel-region-lead .controls a.activeSlide {
   background-position: 0 -20px;
+  background-color: transparent;
 }
 .panel-homepage .panel-region-lead .controls a:hover {
   background-position: 0 -40px;
 }
+
+.controls.buttons a {
+	text-indent: -9999999px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
