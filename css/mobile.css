@@ -207,10 +207,13 @@
   .block.block-menu-block-6 .block-title {
     border-bottom: 1px solid #d9d9d9;
   }
-  .menu-block-11 ul li a.active {
+  .menu-block-11 ul li a.active,
+  .menu-block-11 ul li.expanded a {
     display: none;
   }
-
+  .menu-block-11 ul li.expanded ul.menu a {
+    display: block;
+  }
   /* Mobile front page */
   .front #region-header-second {
     width: 100%;
