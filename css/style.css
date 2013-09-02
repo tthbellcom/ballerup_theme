@@ -222,7 +222,8 @@
   border-top: 5px solid #0091d1;
 }
 .region-menu ul.menu {
-left: 326px;
+  left: 326px;
+  text-transform: uppercase;
 }
 iframe {
   width: 100%;
