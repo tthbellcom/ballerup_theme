@@ -100,6 +100,12 @@
 
 .region-menu ul.menu .submenu li a {
 	font-size: 14px; }
+
+
+.menu-name-menu-mega-dropdown ul li {
+  width: 160px;
+}
+
 	
 .panel-homepage .panel-region-lead .layout-wrapper.top-left {
 width: 500px;

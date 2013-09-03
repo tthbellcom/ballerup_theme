@@ -20,7 +20,7 @@
 .region-menu ul.menu .submenu li a {
 	font-size: 14px; }
 .region-menu ul.menu li a {
-  padding: 0 10px 0 22px;
+  padding: 10px 10px 0 22px;
 }	
 .panel-homepage .panel-region-lead .layout-wrapper.top-left {
 	width: 330px;
@@ -176,7 +176,7 @@ width: 106px; }
   margin: 0 7.5px;
 }
 
-.region-menu-inner { padding-top: 13px;}
+.region-menu-inner { padding-top: 26px;}
 .qtip { max-width: 720px;}
 .qtip-wrapper { height: 190px; overflow: hidden; background-color: #FFF;}
 .qtip-content { padding: 0 !important}
@@ -195,6 +195,27 @@ width: 106px; }
 #mderhverv {background: url('../images/orange_close.png') top right no-repeat;}
 #mdselvbetjening { background: url('../images/red_close.png') top right no-repeat;}
 #mdkommunen {background: url('../images/blue_close.png') top right no-repeat;}
+
+#mdborger.open {	background: url('../images/green_open.png') top right no-repeat;}
+#mderhverv.open {background: url('../images/orange_open.png') top right no-repeat;}
+#mdselvbetjening.open { background: url('../images/red_open.png') top right no-repeat;}
+#mdkommunen.open {background: url('../images/blue_open.png') top right no-repeat;}
+
+.menu-name-menu-mega-dropdown ul li {
+  position: relative;
+  width: 120px;
+  display: block;
+  height: 60px;
+}
+
+.menu-name-menu-mega-dropdown a.open {
+  z-index: 6500;
+  height: 60px;
+}
+.menu-name-menu-mega-dropdown a {
+  position: absolute;
+  height: 50px;
+}
 
 .generel-kontakt { color: #2a313d; background-image: url("../images/skylinekontakt.png"); background-position: bottom right; height: 190px; background-repeat: no-repeat;font-family: 'MorganAvecRegular' !important; font-size: 9px;}
 .generel-kontakt .pane-content { padding: 8px;}
