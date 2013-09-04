@@ -405,12 +405,7 @@ background-color: #17719D; color: #FFF !important; padding: 10px; display: block
     *background-size: 100% 50px;
   }
 */
-.red.task-bg-color { background-color: #f47920}
-.selvbetjening.task-bg-color { background-color: #ed1c24}
-.green.task-bg-color { background-color: #94af2a}
-.blue.task-bg-color { background-color: #107aaf}
 
-a.task-bg-color {color: #FFF !important }
 
   .mobile_main_menu ul.menu li a.l1.selvbetjening,
   .mobile_main_menu ul.menu li a.l1.selvbetjening.open,
@@ -448,5 +443,10 @@ a.task-bg-color {color: #FFF !important }
     overflow-x: hidden;
   }
   /* End of Mobile menu */
-  
+.red.task-bg-color { background-color: #f47920; color: #FFF !important ;}
+.selvbetjening.task-bg-color { background-color: #ed1c24; color: #FFF !important}
+.green.task-bg-color { background-color: #94af2a; color: #FFF !important }
+.blue.task-bg-color { background-color: #107aaf; color: #FFF !important}
+
+a.task-bg-color {color: #FFF !important }  
   }
