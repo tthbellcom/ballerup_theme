@@ -225,9 +225,18 @@ background-image:url(../images/mobilsoeg.png); background-repeat: no-repeat;}
   }
   #block-block-11 {
     position: absolute;
-    right: 15px;
-    top: 50px;
+	right: 15px;
+	top: 57px;
+	background-image: url(../images/kontaktmobil.png);
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 7px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 8px 10px 10px 10px;
   }
+  #block-block-11 a { color: #3F474B; font-family: MorganAvecBold}
+  
   .front .scroll-up {
     display: block;
     float: right;
