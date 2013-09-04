@@ -8,7 +8,7 @@
   }
 
   function mobile_setup(){
-    $('<div id="mobile-menu">Menu</div>').insertBefore('#region-menu');
+    $('<div id="mobile-menu"></div>').insertBefore('#region-menu');
     $region_header_first = $('#region-header-first').html();
     $($region_header_first).insertBefore('#region-footer-second');
 
@@ -29,12 +29,12 @@
        // $submenu.show();
       //}
     //});
-$('li.expanded').mousedown(function() {
+$('li.expanded').click(function() {
     $(this).children().addClass('task-bg-color');
     $('ul.menu').listview('refresh');
 });
 
-$('li.expanded').mouseup(function() {
+$('li.expanded').click(function() {
     $(this).children().removeClass('task-bg-color');
     $('ul.menu').listview('refresh');
 });
