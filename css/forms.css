@@ -40,11 +40,11 @@ html.js input.throbbing {
 
 
 /* Top Search */
-
+.front #search-block-form .form-text {
+  width: 80%;}
 #search-block-form .form-text {
-  width: 160px;
+  min-width: 160px;
   height: 20px;
-  padding: 3px 10px 2px 10px;
   line-height: 20px;
   font-size: 12px;
 }

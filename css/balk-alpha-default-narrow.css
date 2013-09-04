@@ -20,7 +20,7 @@
 .region-menu ul.menu .submenu li a {
 	font-size: 14px; }
 .region-menu ul.menu li a {
-  padding: 10px 10px 0 22px;
+  padding: 10px 16px 0 16px;
 }	
 .panel-homepage .panel-region-lead .layout-wrapper.top-left {
 	width: 330px;
@@ -104,12 +104,17 @@ width: 106px; }
 }
 
 .sektionssider  #region-content,
-#region-sidebar, #region-menu, #region-footer-second, #region-footer-third, #region-footer-fourth, #region-footer-fifth, #region-header-second, #region-header-first, ul#contextual-links, .ballerup-contact-block, ul.tabs, #admin-menu, .node-type-news .panel-region-right { display: block;}
+#region-sidebar, #region-menu, #region-footer-second, #region-footer-third, #region-footer-fourth, #region-footer-fifth, #region-header-second, #region-header-first, ul#contextual-links, .ballerup-contact-block, ul.tabs, #admin-menu, .node-type-news .panel-region-right, .front .panel-region-top-left, .front .panel-region-top-center, .front .panel-region-top-right { display: block;}
 /* END Left menu */
 
-.show-for-small {
+.show-for-small, #block-menu-block-11 {
   display: none;
 
+}
+.front .panel-region-top {
+  clear: both;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 15px;
 }
 
 /* Front page */
@@ -176,12 +181,16 @@ width: 106px; }
   margin: 0 7.5px;
 }
 
+.logo-img {
+padding-left: 0;
+}
+
 .region-menu-inner { padding-top: 26px;}
 .qtip { max-width: 720px;}
 .qtip-wrapper { height: 190px; overflow: hidden; background-color: #FFF;}
 .qtip-content { padding: 0 !important}
 
-#mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {width: 88px; font-size: 14px; }
+#mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {width: 88px; font-size: 10px; }
 .menu-name-menu-mega-dropdown a { color: #FFF; }
 .menu-minipanels .menu-name-menu-mega-dropdown.menu-block-wrapper { padding-top: 10px;}
 .menu-minipanels .menu-name-menu-mega-dropdown a { color: #333; font-size: 11px; }
@@ -221,3 +230,7 @@ width: 106px; }
 .generel-kontakt .pane-content { padding: 8px;}
 .generel-kontakt strong {font-family: 'MorganAvecBold'; display: block;}
 .generel-kontakt h2 { color: #2a313d; border-bottom: none !important; margin-bottom: 15px; font-family: 'MorganAvecRegular' !important; font-size: 24px !important; padding: 8px;}
+
+.region-header-second-inner { padding: 0 0;}
+
+#search-block-form .form-text { min-width: 115px; max-width: 115px; }

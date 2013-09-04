@@ -373,6 +373,7 @@ blockquote {
 }
 .logo-img {
   padding-top: 20px;
+  padding-left: 10px;
 }
 
 .region-header-first {
@@ -828,11 +829,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 }
 /* END Special case for the 'Netsteder' menu */
 
-.front .panel-region-top {
-  clear: both;
-  border-bottom: 1px solid #d9d9d9;
-  padding-bottom: 15px;
-}
+
 .front .panel-region-lead .grid-5,
 .front .panel-region-top .grid-5 {
   width: 300px;
@@ -1523,5 +1520,5 @@ a:hover {
   }
 
  .sektionssider  #region-content,
- #region-sidebar, #region-footer-second, #region-footer-third, #region-footer-fourth, #region-footer-fifth,  ul#contextual-links, .ballerup-contact-block, ul.tabs, #admin-menu, .node-type-news .panel-region-right { display: none;}
+ #region-sidebar, #region-footer-second, #region-footer-third, #region-footer-fourth, #region-footer-fifth,  ul#contextual-links, .ballerup-contact-block, ul.tabs, #admin-menu, .node-type-news .panel-region-right, .front .panel-region-top-center, .front .panel-region-top-right { display: none;}
 }
