@@ -1522,3 +1522,34 @@ a:hover {
  .sektionssider  #region-content,
  #region-sidebar, #region-footer-second, #region-footer-third, #region-footer-fourth, #region-footer-fifth,  ul#contextual-links, .ballerup-contact-block, ul.tabs, #admin-menu, .node-type-news .panel-region-right, .front .panel-region-top-center, .front .panel-region-top-right { display: none;}
 }
+
+/* Meetings */
+.view-os2web-meetings-meeting-details .agenda-bullet-list.open {
+  background: url(../images/foldIn.png);
+  background-position: right 0px;
+  background-repeat: no-repeat;
+  width: inherit;
+  display: block;
+}
+.view-os2web-meetings-meeting-details .agenda-bullet-list {
+  background: url(../images/foldOut.png);
+  background-position: right 0px;
+  background-repeat: no-repeat;
+  width: inherit;
+  display: block;
+  font-family: MorganAvecBold;
+  color: #222;
+}
+
+
+
+.view-os2web-meetings-meeting-details tr {
+  background: #fff;
+}
+
+.view-os2web-meetings-meeting-details .view-content { width: 100%; }
+.view-os2web-meetings-meeting-details .views-table { width: inherit; }
+.view-os2web-meetings-meeting-details .attachment.attachment-after td { 
+  border-left: 1px solid #FFF!important; 
+  border-right: 1px solid #FFF!important;
+}
