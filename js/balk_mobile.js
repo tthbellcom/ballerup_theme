@@ -14,68 +14,24 @@
 
     $('.not-front .mobile_main_menu ul.menu').hide();
     $('.mobile_main_menu .submenu').hide();
-        $('#mobile-menu').bind("click", function(event){
-        $('.mobile_main_menu ul.menu').toggle();
+
+    $('#mobile-menu').bind("click", function(event){
+      $('.block-panels-mini-balk-mobile-menu').toggle();
     });
-    mobile_menu();
-    //  $('.mobile_main_menu ul.menu > li').unbind('mouseenter');
-    //$('.expanded a').bind("click", function(event){
-    //  $submenu = $(this).parent().find('.submenu');
 
-      //if($submenu.is(':visible')){
-        //$submenu.hide();
-      //}
-     // else {
-       // $submenu.show();
-      //}
-    //});
-$('li.expanded').click(function() {
-    $(this).children().addClass('task-bg-color');
-    $('ul.menu').listview('refresh');
-});
-
-$('li.expanded').click(function() {
-    $(this).children().removeClass('task-bg-color');
-    $('ul.menu').listview('refresh');
-});
-
-  }
-  function mobile_menu(){
-   // $('.not-front .mobile_main_menu ul.menu').hide();
-//    $('.mobile_main_menu .submenu').hide();
-
-    $('.mobile_main_menu li.expanded').bind("click", function(event){
-      $submenu = $(this).find('.submenu');
-      var style= $submenu.css('display');
-
-      //if($submenu.is(':visible')){
-      if (style == 'block') {
-       // $submenu.hide();
-       // $submenu.css({
-         //  'display': 'none',
-        //});
-
-       // var path = $(this).css("background-image");
-
-       // path = path.replace('open', 'close');
-       // $(this).css({
-         //  'background-image': path,
-       // });      
-      }
-      else {
-       // $submenu.show();
-        //$submenu.css({
-          // 'display': 'block',
-       // });
-
-       // var path = $(this).css("background-image");
-       // path = path.replace('close', 'open');
-       // $(this).css({
-         //  'background-image': path,
-        //});
-      }
+    $('ul.menu li').click(function() {
+      $(this).children().addClass('task-bg-color');
     });
+
+    $('.block-panels-mini-balk-mobile-menu .pane-menu-forsidegenveje .pane-title').bind("click", function(event){
+      $(this).parent().find('.pane-content').toggle();
+      $(this).toggleClass('task-bg-color');
+    });
+
+
+     jQuery('#zone-header').prepend('<div class="mobile-header"><a href="/"></a></div>');
   }
+
   function mobile_disable(){
     $('#mobile-menu').remove();
     $('#zone-footer .region-header-first-inner').remove();

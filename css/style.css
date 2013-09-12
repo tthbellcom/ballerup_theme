@@ -61,7 +61,7 @@
 
 .pane-activities .pane-title .pink {
   padding-left: 10px;
-} 
+}
 
 .front .view-activities .more-link {
   margin: 10px 0 10px 0;
@@ -79,7 +79,7 @@
 .pane-activities img {
   float: left;
   margin-right: 15px;
-  margin-top 8px;
+  margin-top: 8px;
   border-radius: 3px;
 }
 
@@ -764,7 +764,6 @@ ul.jcarousel-view--campaigns--block-1 {
 .block .block-title,
 .panel-region-middle-right .pane-content h2,
 .panel-region-right .pane-content h2 {
-  border-bottom: 1px solid #d9d9d9;
   margin: 0 0 10px 0;
   padding-bottom: 7px;
   font-family: 'MorganAvecBold';
@@ -1523,6 +1522,10 @@ a:hover {
  #region-sidebar, #region-footer-second, #region-footer-third, #region-footer-fourth, #region-footer-fifth,  ul#contextual-links, .ballerup-contact-block, ul.tabs, #admin-menu, .node-type-news .panel-region-right, .front .panel-region-top-center, .front .panel-region-top-right { display: none;}
 }
 
+/* mobile menu */
+.block-panels-mini-balk-mobile-menu { display: none; }
+
+
 /* Meetings */
 .view-os2web-meetings-meeting-details .agenda-bullet-list.open {
   background: url(../images/foldIn.png);
@@ -1552,4 +1555,8 @@ a:hover {
 .view-os2web-meetings-meeting-details .attachment.attachment-after td { 
   border-left: 1px solid #FFF!important; 
   border-right: 1px solid #FFF!important;
+}
+
+.hide {
+  display: none;
 }

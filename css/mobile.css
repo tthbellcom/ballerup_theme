@@ -6,24 +6,43 @@
   #net_tv_img img { width: 80%;  }
   .inside h1 { word-wrap: break-word; }
    ul.menu, ul.menu li { margin-left: 0;}
-   .page-taxonomy-term #zone-content ul.menu li a { display: block; padding: 3px 10px; }
-   .page-taxonomy-term #zone-content .mobile_main_menu ul.menu li a { display: block; padding: 10px 10px; font-size: 16px; }
- 
-.not-front #region-branding { display: none;}
-.not-front #section-header { height: 44px;}
-   .show-for-small ul.menu li a { display: block; padding: 10px; font-size: 16px;}
    
-   .front .mobile_main_menu li.expanded.green,
-   .front .mobile_main_menu li.expanded.selvbetjening,
-   .front .mobile_main_menu li.expanded.red,
-   .front .mobile_main_menu li.expanded.blue,
-   .front #zone-content-wrapper { background-color: #fff !important; border-bottom: 1px solid #323A3E; color: #323A3E}
-   .front .mobile_main_menu li.first {border-top: 1px solid #323A3E;}
+    .page-genveje #region-content  ul.menu li a,
+    #section-content .block-panels-mini-balk-mobile-menu .pane-title,
+    .page-taxonomy-term #zone-content ul.menu li a { display: block; padding: 3px 10px; }
+    .page-taxonomy-term #zone-content .mobile_main_menu ul.menu li a { display: block; padding: 10px 10px; font-size: 16px; }
+ 
+    .branding-data { display: none;}
+    .show-for-small ul.menu li a { display: block; padding: 10px; font-size: 16px;}
+   
+    /*.front .mobile_main_menu li.expanded.green,*/
+    /*.front .mobile_main_menu li.expanded.selvbetjening,*/
+    /*.front .mobile_main_menu li.expanded.red,*/
+    /*.front .mobile_main_menu li.expanded.blue,*/
+    /*.front #zone-content-wrapper { background-color: #fff !important; border-bottom: 1px solid #323A3E; color: #323A3E}*/
+    .front .mobile_main_menu li.first {border-top: 1px solid #323A3E;}
 
-  .panel-region-top-left {
-    background-color: #fff;
-  }
-  
+    .panel-region-top-left {
+      background-color: #fff;
+    }
+    .mobile-header a {
+      height: 44px;
+      width: 100%;
+      display: block;
+      background: url(../mob_logo.png);
+      background-repeat: no-repeat;
+      background-position: 2% 50%;
+    }
+
+    .mobile-header {
+      background-image: -ms-linear-gradient(left, #275C8A 0%, #3C90D5 100%);
+      background-image: -moz-linear-gradient(left, #275C8A 0%, #3C90D5 100%);
+      background-image: -o-linear-gradient(left, #275C8A 0%, #3C90D5 100%);
+      background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #275C8A), color-stop(1, #3C90D5));
+      background-image: -webkit-linear-gradient(left, #275C8A 0%, #3C90D5 100%);
+      background-image: linear-gradient(to right, #275C8A 0%, #3C90D5 100%);
+    }
+
   .front .panel-region-lead .grid-5, .front .panel-region-top .grid-5 { width: 100%; }
   .front .panel-region-top .grid-5 .inside { width: 100% }
   
@@ -122,7 +141,6 @@ border: none;
 padding: 0 0 0 0;
 line-height: 1em;
 background: transparent;
-font-weight: Arial;
 font-size: 12px;
 color: #333333;
 background-image:url(../images/mobilsoeg.png); background-repeat: no-repeat;}
@@ -131,14 +149,13 @@ background-image:url(../images/mobilsoeg.png); background-repeat: no-repeat;}
 	margin-top: 8px;
 	margin-bottom: 8px; }
 
-  #section-header { height: 125px; }
-  .front #section-header { height: 110px; }
+  #section-header { height: 88px; }
   #section-header .zone-header-wrapper {
     background-color: #fff;
   }
   #mobile-menu {
     height: 37px;
-    width: 30px;;
+    width: 30px;
     color: #FFF;
     display: inline-block;
     line-height: 43px;
@@ -152,7 +169,6 @@ background-image:url(../images/mobilsoeg.png); background-repeat: no-repeat;}
     background-repeat: no-repeat;
     background-size: 25px;
     border-top: 1px solid #B4B7B6;
-    text-indent: 
   }
   
   #region-menu ul.menu .submenu {
@@ -226,7 +242,7 @@ background-image:url(../images/mobilsoeg.png); background-repeat: no-repeat;}
   #block-block-11 {
     position: absolute;
 	right: 15px;
-	top: 57px;
+	top: 19px;
 	background-image: url(../images/kontaktmobil.png);
 	background-repeat: no-repeat;
 	width: 80px;
@@ -303,7 +319,7 @@ background-image:url(../images/mobilsoeg.png); background-repeat: no-repeat;}
   }
   .front .pane-news h2.pane-title a { display: block; color: #323A3E}
   
-  .region-sidebar .menu-block-wrapper ul.menu li a { color: #323A3E !important; font-size: 13px; display: block; border-bottom: 1px solid #323A3E }
+  .region-sidebar .menu-block-wrapper ul.menu li a { color: #323A3E !important;  display: block; border-bottom: 1px solid #323A3E }
   
   .context-menu-erhverv .block-menu-block h2 a{
 background-color: #E4712A; color: #FFF !important; padding: 10px; display: block;
@@ -357,6 +373,53 @@ background-color: #17719D; color: #FFF !important; padding: 10px; display: block
   .panel-region-middle-top-right { display: none;}
   /* End of mobile front page */
   /* Mobile menu */
+
+
+    .block-panels-mini-balk-mobile-menu .pane-menu-forsidegenveje .pane-content { display: none; }
+
+    #section-content #mini-panel-balk_mobile_menu .pane-title,
+    #section-content #mini-panel-balk_mobile_menu ul.menu li a {
+      color: #323A3E !important;
+      font-family: verdana,sans!important;
+      font-weight: bold;
+      font-size: 24px;
+      text-transform: uppercase;
+      border-bottom: 1px solid #323A3E;
+      display: block;
+      padding: 2px 10px;
+    }
+  
+    #section-content .block-panels-mini-balk-mobile-menu .pane-menu-forsidegenveje ul li a {
+      padding-left: 20px;
+      font-size: 21px;
+    }
+
+    .page-genveje #region-content  ul.menu li a,
+    #region-sidebar ul.menu li a {
+      font-size: 16px;
+      border-bottom: 1px solid #323A3E;
+      color: #323A3E !important;
+      display: block;
+    }
+
+    #section-content .block-panels-mini-balk-mobile-menu .pane-menu-forsidegenveje .task-bg-color {background: #918f90; color: #FFF !important;  }
+    #section-content ul.menu li .red.task-bg-color { background-color: #f47920!important; color: #FFF !important ;}
+    #section-content ul.menu li .selvbetjening.task-bg-color { background-color: #ed1c24!important; color: #FFF !important}
+    #section-content ul.menu li .green.task-bg-color { background-color: #94af2a!important; color: #FFF !important }
+    #section-content ul.menu li .blue.task-bg-color { background-color: #107aaf!important; color: #FFF !important}
+    #section-content ul.menu li.nyheder .task-bg-color { background-color: #52a5e0 !important; color: #FFF !important }
+    #section-content ul.menu li.kultur .task-bg-color { background-color: #ec008c!important; color: #FFF !important}
+
+    #section-content ul.menu li a.task-bg-color {
+      background: #918f90!important;
+      color: #FFF!important;
+    }
+
+  .l1.selvbetjening {
+    display: none;
+  }
+
+
   .mobile_main_menu ul {
     list-style-type: none;
     margin-left: -10px;
@@ -384,7 +447,7 @@ background-color: #17719D; color: #FFF !important; padding: 10px; display: block
     padding-left: 2.3em;
     width:100%;
   }
-  .front .mobile_main_menu {
+  .front .region-content-inner .mobile_main_menu {
     margin-top: 0px;
   }
  /* .mobile_main_menu li.expanded.green {
@@ -452,10 +515,25 @@ background-color: #17719D; color: #FFF !important; padding: 10px; display: block
     overflow-x: hidden;
   }
   /* End of Mobile menu */
-.red.task-bg-color { background-color: #f47920; color: #FFF !important ;}
-.selvbetjening.task-bg-color { background-color: #ed1c24; color: #FFF !important}
-.green.task-bg-color { background-color: #94af2a; color: #FFF !important }
-.blue.task-bg-color { background-color: #107aaf; color: #FFF !important}
 
-a.task-bg-color {color: #FFF !important }  
+  .page-genveje .pane-menu-forsidegenveje h2 {
+    padding: 10px;
+    color: #fff;
+    background: #918f90;
   }
+  .page-genveje .pane-menu-forsidegenveje h2,
+  #region-sidebar .block-menu-block h2 {
+    font-family: verdana, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 1px solid #323A3E;
+  }
+
+  .hide-on-small {
+    display: none!important;
+  }
+  .front .region-content-inner .panel-pane {
+    margin-top: 0px;
+  }
+
+}
