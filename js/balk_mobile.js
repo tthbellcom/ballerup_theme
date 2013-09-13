@@ -28,8 +28,8 @@
       $(this).toggleClass('task-bg-color');
     });
 
+    jQuery('#zone-header').prepend('<div class="mobile-header"><a href="/"></a></div>');
 
-     jQuery('#zone-header').prepend('<div class="mobile-header"><a href="/"></a></div>');
   }
 
   function mobile_disable(){
@@ -38,6 +38,8 @@
     $('#zone-header ul.menu').show();
     Drupal.behaviors.BalkMainMenu.attach();
     $(".front .pane-news .pane-content").show();
+
+    $('.mobile-header').remove();
     // $(".front .pane-news h2.pane-title").css({'background': 'none',});
   }
 
@@ -82,4 +84,6 @@
         }
       });
     }
+
+
 }(jQuery));

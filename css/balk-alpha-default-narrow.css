@@ -189,6 +189,7 @@ padding-left: 0;
 
 #mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {width: 88px; font-size: 10px; }
 .menu-name-menu-mega-dropdown a { color: #FFF; }
+.menu-name-menu-mega-dropdown a.active { color: #FFF; }
 .menu-minipanels .menu-name-menu-mega-dropdown.menu-block-wrapper { padding-top: 10px;}
 .menu-minipanels .menu-name-menu-mega-dropdown a { color: #333; font-size: 11px; }
 .menu-minipanels .menu-name-menu-mega-dropdown span.overskrift,
