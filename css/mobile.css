@@ -303,7 +303,7 @@
 
     .block-views.block-section-name-mobile-block h2  { font-size: 18px; padding: 10px;}
 
-    .block-views.block-section-name-mobile-block h2 a { color: #FFF !important; text-transform:none; font-family: verdana, sans-serif; font-weight: bold;}
+    .block-views.block-section-name-mobile-block h2 a { color: #FFF !important; text-transform:none; font-family: verdana, sans-serif; font-weight: bold; text-transform: uppercase;}
 
     .block.block-menu-block-6 .block-title {
       border-bottom: 1px solid #d9d9d9;
