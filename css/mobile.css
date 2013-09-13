@@ -5,47 +5,62 @@
   }
   #net_tv_img img { width: 80%;  }
   .inside h1 { word-wrap: break-word; }
-   ul.menu, ul.menu li { margin-left: 0;}
-   
-    .page-genveje #region-content  ul.menu li a,
-    #section-content .block-panels-mini-balk-mobile-menu .pane-title,
-    .page-taxonomy-term #zone-content ul.menu li a { display: block; padding: 3px 10px; }
-    .page-taxonomy-term #zone-content .mobile_main_menu ul.menu li a { display: block; padding: 10px 10px; font-size: 16px; }
- 
-    .branding-data { display: none;}
-    .show-for-small ul.menu li a { display: block; padding: 10px; font-size: 16px;}
-   
-    /*.front .mobile_main_menu li.expanded.green,*/
-    /*.front .mobile_main_menu li.expanded.selvbetjening,*/
-    /*.front .mobile_main_menu li.expanded.red,*/
-    /*.front .mobile_main_menu li.expanded.blue,*/
-    /*.front #zone-content-wrapper { background-color: #fff !important; border-bottom: 1px solid #323A3E; color: #323A3E}*/
-    .front .mobile_main_menu li.first {border-top: 1px solid #323A3E;}
+  ul.menu, ul.menu li { margin-left: 0;}
 
-    .panel-region-top-left {
-      background-color: #fff;
-    }
-    .mobile-header a {
-      height: 44px;
-      width: 100%;
-      display: block;
-      background: url(../mob_logo.png);
-      background-repeat: no-repeat;
-      background-position: 2% 50%;
-    }
+  #zone-header {
 
-    .mobile-header {
-      background-image: -ms-linear-gradient(left, #275C8A 0%, #3C90D5 100%);
-      background-image: -moz-linear-gradient(left, #275C8A 0%, #3C90D5 100%);
-      background-image: -o-linear-gradient(left, #275C8A 0%, #3C90D5 100%);
-      background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #275C8A), color-stop(1, #3C90D5));
-      background-image: -webkit-linear-gradient(left, #275C8A 0%, #3C90D5 100%);
-      background-image: linear-gradient(to right, #275C8A 0%, #3C90D5 100%);
-    }
+    background-color: #323A3E;
+    
+    border-top: none;
+  }
+  .front #search-block-form #edit-actions {
+    position: absolute;
+    right: 2%;
+  }
+
+  body{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+  .page-genveje #region-content  ul.menu li a,
+  #section-content .block-panels-mini-balk-mobile-menu .pane-title,
+  .page-taxonomy-term #zone-content ul.menu li a { display: block; padding: 6px 10px; }
+  .page-taxonomy-term #zone-content .mobile_main_menu ul.menu li a { display: block; padding: 10px 10px; font-size: 16px; }
+
+  .branding-data { display: none;}
+  .show-for-small ul.menu li a { display: block; padding: 10px; font-size: 16px;}
+
+  /*.front .mobile_main_menu li.expanded.green,*/
+  /*.front .mobile_main_menu li.expanded.selvbetjening,*/
+  /*.front .mobile_main_menu li.expanded.red,*/
+  /*.front .mobile_main_menu li.expanded.blue,*/
+  /*.front #zone-content-wrapper { background-color: #fff !important; border-bottom: 1px solid #323A3E; color: #323A3E}*/
+  .front .mobile_main_menu li.first {border-top: 1px solid #323A3E;}
+
+  .panel-region-top-left {
+    background-color: #fff;
+  }
+  .mobile-header a {
+    height: 50px;
+    width: 100%;
+    display: block;
+    background: url(../mob_logo.png);
+    background-repeat: no-repeat;
+    background-position: 2% 50%;
+  }
+
+  .mobile-header {
+    background-image: -ms-linear-gradient(left, #275C8A 0%, #3C90D5 100%);
+    background-image: -moz-linear-gradient(left, #275C8A 0%, #3C90D5 100%);
+    background-image: -o-linear-gradient(left, #275C8A 0%, #3C90D5 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #275C8A), color-stop(1, #3C90D5));
+    background-image: -webkit-linear-gradient(left, #275C8A 0%, #3C90D5 100%);
+    background-image: linear-gradient(to right, #275C8A 0%, #3C90D5 100%);
+    padding-left: 8px;
+  }
 
   .front .panel-region-lead .grid-5, .front .panel-region-top .grid-5 { width: 100%; }
   .front .panel-region-top .grid-5 .inside { width: 100% }
-  
+
   .zone-content {
     padding-top: 0px;
     margin-top: 0px;
@@ -68,313 +83,324 @@
   .node-person .field-name-field-lead-image {
     float: left;
     width: 50%;
-  }
-  .node-person .field-name-field-tlf {
-    float: right;
-    width: 50%;
-  }
-  .node-person .field-name-field-email {
-    float: right;
-    width: 50%;
-  }
-  .region-menu,
-  .front .panel-region-bottom,
-  .front .panel-region-lead {
-    display: none;
-  }
-  #region-branding {
-    width: 100%;
-  }
-  #region-header-first { display: none; }
-  
-  #region-header-second {
-    clear: left; 
-    width: 100%;
-    float: left;
-    margin: 0;
-    margin-right: -30px;
-    padding-left: 0;
-    background-color: #323A3E;
-    border-top: 1px solid #B4B7B6;
-  }
+    }
+    .node-person .field-name-field-tlf {
+      float: right;
+      width: 50%;
+    }
+    .node-person .field-name-field-email {
+      float: right;
+      width: 50%;
+    }
+    .region-menu,
+    .front .panel-region-bottom,
+    .front .panel-region-lead {
+      display: none;
+    }
+    #region-branding {
+      width: 100%;
+    }
+    #region-header-first { display: none; }
 
-  #region-menu ul.menu {
-    left: 0;
-    position: relative;
-    top: 0;
-    background: white;
-    z-index: 500;
-  }
-  
-  #region-menu ul.menu li {
-    width: 100%;
-    float: none;
-    overflow: hidden;
-  }
-#search-block-form .form-text {
-	min-width: 160px;
-	width: 70%;
-	line-height: 20px;
-	font-size: 11px;
-	color: #AAB0B2;
-	margin-left: 10px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	box-shadow:rgba(0,0,0,0.1) 2px 2px 0 2px /* spread */ inset;
-	-moz-box-shadow:inset 0 0 5px 0 #000000;
-	padding-left: 5px;
-}
-.front #search-block-form .form-text { margin-left: 0 }
+    #region-header-second {
+      clear: left; 
+      width: 90%;
+      float: left;
+      margin: 0;
+      margin-right: -30px;
+      padding-left: 0;
+      background-color: #323A3E;
+    }
 
-.form-text {
-padding: 0px 0px 0px 0px;
-line-height: 14px;
-}
-#search-block-form p { margin-top: 0;}
-#search-block-form .form-submit {
-	border-radius: 5px;
-}
+    #region-menu ul.menu {
+      left: 0;
+      position: relative;
+      top: 0;
+      background: white;
+      z-index: 500;
+    }
 
-.form-submit {
-height: 22px;
-border: none;
-padding: 0 0 0 0;
-line-height: 1em;
-background: transparent;
-font-size: 12px;
-color: #333333;
-background-image:url(../images/mobilsoeg.png); background-repeat: no-repeat;}
+    #region-menu ul.menu li {
+      width: 100%;
+      float: none;
+      overflow: hidden;
+    }
+    .not-front #search-block-form .form-text { width: 75% }
+    #search-block-form .form-text {
+      min-width: 160px;
+      width: 80%;
+      line-height: 20px;
+      font-size: 11px;
+      color: #AAB0B2;
+      margin-left: 10px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      padding-left: 5px;
+      height: 28px;
+    }
+    .front #search-block-form .form-text { margin-left: 0 }
 
-.region-header-second .block {
-	margin-top: 8px;
-	margin-bottom: 8px; }
+    .form-text {
+      padding: 0px 0px 0px 0px;
+      line-height: 14px;
+    }
+    #search-block-form p { margin-top: 0;}
+    #search-block-form .form-submit {
+      border-radius: 5px;
+    }
 
-  #section-header { height: 88px; }
-  #section-header .zone-header-wrapper {
-    background-color: #fff;
-  }
-  #mobile-menu {
-    height: 37px;
-    width: 30px;
-    color: #FFF;
-    display: inline-block;
-    line-height: 43px;
-    font-family: 'MorganAvecRegular';
-    font-size: 16px;
-    font-weight: bold;
-    display: inline-block;
-    float: right;
-    background: url("../images/reorder.png") no-repeat 85% 50% #323A3E;
-    background-image: url(../images/mobilmenu.png);
-    background-repeat: no-repeat;
-    background-size: 25px;
-    border-top: 1px solid #B4B7B6;
-  }
-  
-  #region-menu ul.menu .submenu {
-    width: 100%;
-    left: 0;
-    top: 0;
-    border: none;
-    position: relative;
-    padding: 0;
-    margin: 0;
-    overflow: auto;
-  }
-  #region-menu ul.menu ul {
-    width: 100%;
-  }
+    #search-block-form .form-submit {
+      height: 32px;
+      border: none;
+      padding: 0 0 0 0;
+      line-height: 1em;
+      background: transparent;
+      font-size: 12px;
+      color: #333333;
+      background-image:url(../images/mobilsoeg.png); background-repeat: no-repeat;
+      padding: 0 17px 0 15px;
+    }
 
-  #region-menu ul.menu a {
-    width: 100%;
-  *  background: none;
-    padding-right: 0px;
-  }
+    .region-header-second .block {
+      margin-top: 8px;
+      margin-bottom: 8px; }
 
-  .region-menu ul.menu li a.l1.open {
-    box-shadow: none;
-  }
-/* .page-taxonomy .region-sidebar{*/
-  .region-sidebar {
-    display: block !important;
-    width: 100%;
-  }
-  .block-menu-block-10 {
-    display: none;
-  }
+    #section-header { height: 98px; }
+    #section-header .zone-header-wrapper {
+      background-color: #fff;
+    }
+    #mobile-menu {
+      height: 48px;
+      width: 31px;
+      position: absolute;
+      right: 2%;
+      line-height: 43px;
+      font-family: 'MorganAvecRegular';
+      font-size: 16px;
+      font-weight: bold;
+      float: right;
+      background-image: url(../images/mobilmenu.png);
+      background-repeat: no-repeat;
+      background-color: #323A3E;
+      background-position: 50%;
+    }
 
-  .page-node .block-menu-block-6 {
-    display: none;
-  }
-  .region-sidebar ul li {
-    list-style: none;
-  }
-  .region-sidebar ul li a {
-    background: none !important;
-    font-size: 20px;
-  }
-  /* Footer menu should be two lines.  */
-  #zone-footer {
-    background: #fff;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: relative;
-  }
-  #block-menu-block-5 {
-    float: left;
-    width: 50%;
-  }
-  #block-block-7 {
-    bottom: 5px;
-    position: absolute;
-  }
-  #block-menu-block-11 {
-    float: right;
-    width: 50%;
-  }
-  .google-translate-block {
-    padding: 0.3em 0 0 0 !important;
-  }
+    #region-menu ul.menu .submenu {
+      width: 100%;
+      left: 0;
+      top: 0;
+      border: none;
+      position: relative;
+      padding: 0;
+      margin: 0;
+      overflow: auto;
+    }
+    #region-menu ul.menu ul {
+      width: 100%;
+    }
+
+    #region-menu ul.menu a {
+      width: 100%;
+    *  background: none;
+      padding-right: 0px;
+    }
+
+    .region-menu ul.menu li a.l1.open {
+      box-shadow: none;
+    }
+  /* .page-taxonomy .region-sidebar{*/
+    .region-sidebar {
+      display: block !important;
+      width: 100%;
+    }
+    .block-menu-block-10 {
+      display: none;
+    }
+
+    .page-node .block-menu-block-6 {
+      display: none;
+    }
+    .region-sidebar ul li {
+      list-style: none;
+    }
+    .region-sidebar ul li a {
+      background: none !important;
+      font-size: 20px;
+    }
+    /* Footer menu should be two lines.  */
+    #zone-footer {
+      background: #fff;
+      padding-left: 10px;
+      padding-right: 10px;
+      position: relative;
+    }
+    #block-menu-block-5 {
+      float: left;
+      width: 50%;
+    }
+    #block-block-7 {
+      bottom: 5px;
+      position: absolute;
+    }
+    #block-menu-block-11 {
+      float: right;
+      width: 50%;
+    }
+    .google-translate-block {
+      padding: 0.3em 0 0 0 !important;
+    }
+
+    #zone-footer a {
+      font-size: 16px;
+    }
+
   /*  ---- End of Footer menu -----*/
-  .show-for-small {
-    display: block;
-  }
-  #block-block-11 {
-    position: absolute;
-	right: 15px;
-	top: 19px;
-	background-image: url(../images/kontaktmobil.png);
-	background-repeat: no-repeat;
-	width: 80px;
-	height: 7px;
-	text-align: center;
-	text-transform: uppercase;
-	padding: 8px 10px 10px 10px;
-  }
-  #block-block-11 a { color: #3F474B; font-family: MorganAvecBold}
-  
-  .front .scroll-up {
-    display: block;
-    float: right;
-    padding-right: 20px;
-  }
-  .scroll-up {
-    display: none;
-  }
-  #contact-footer .contact-openTime {
-    float: right;
-    width: 50%;
-  }
-  #contact-footer .contact-address {
-    float: left;
-    width: 50%;
-  }
-  .block-views.block-section-name-mobile-block {
-    display: block;
-    background-color: #B2B5B4;
-    margin: -10px -10px 10px -10px;
-  }
-  .block-views.block-section-name-mobile-block h2  { font-size: 13px; padding: 10px;}
+    .show-for-small {
+      display: block;
+    }
+    #block-block-11 {
+      position: absolute;
+      right: 2%;
+      top: 25px;
+      background-image: url(../images/kontaktmobil.png);
+      background-repeat: no-repeat;
+      width: 80px;
+      height: 7px;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 5px 8px 13px 10px;
+    }
+    #block-block-11 a { color: #3F474B; text-transform: none; font-size: 14px;}
 
-  .block-views.block-section-name-mobile-block h2 a { color: #FFF !important; text-transform:none;}
-  
-  .block.block-menu-block-6 .block-title {
-    border-bottom: 1px solid #d9d9d9;
-  }
-  .menu-block-11 ul li a.active,
-  .menu-block-11 ul li.expanded a {
-    display: none;
-  }
-  .menu-block-11 ul li.expanded ul.menu a {
-    display: block;
-  }
-  /* Mobile front page */
-  .front #region-header-second {
-    width: 100%;
-    padding-left: 10px;
-    background-color: #323A3E;
-  }
-  .front .pane-content .view-id-news .views-row-4,
-  .front .pane-content .view-id-news .views-row-5,
-  .front .pane-content .view-id-news .views-row-6,
-  .front .pane-content .view-id-news .views-row-7 {
-    display: none;
-  }
-  .front .region-header-second .block-block-8 {
-   * display: none;
-  }
-  .front #mobile-menu {
-    display: none;
-  }
-  .front #zone-header ul.menu {
-    display: block !important;
-  }
+    .front .scroll-up {
+      display: block;
+      float: right;
+      padding-right: 20px;
+    }
+    .scroll-up {
+      display: none;
+    }
+    #contact-footer .contact-openTime {
+      float: right;
+      width: 50%;
+    }
+    #contact-footer .contact-address {
+      float: left;
+      width: 50%;
+    }
+    .block-views.block-section-name-mobile-block {
+      display: block;
+      background-color: #B2B5B4;
+      margin: -10px -10px 10px -10px;
+    }
 
-.view-section-name-mobile h2, .panel-pane .pane-title, .block .block-title, .panel-region-middle-right .pane-content h2, .panel-region-right .pane-content h2 { margin: 0 0 0 0; padding: 0 0 0 0; }
-  .front #region-branding { *height: 130px; }
-  .front .pane-news h2.pane-title { 
-    padding-left: 10px;
-    border-bottom: none;
-    padding-bottom: 12px;
-  }
-  .front .pane-news h2.pane-title a { display: block; color: #323A3E}
-  
-  .region-sidebar .menu-block-wrapper ul.menu li a { color: #323A3E !important;  display: block; border-bottom: 1px solid #323A3E }
-  
-  .context-menu-erhverv .block-menu-block h2 a{
-background-color: #E4712A; color: #FFF !important; padding: 10px; display: block;
-}
+    .context-borger .block-section-name-mobile-block {background-color: #94af2a!important;
+    }
+    .context-erhverv .block-section-name-mobile-block {background-color: #f47920!important; 
+    }
+    .context-kommunen .block-section-name-mobile-block {background-color: #107aaf!important; 
+    }
 
-  .context-menu-borger .block-menu-block h2 a {
-background-color: #8DA830; color: #FFF !important; padding: 10px; display: block;
-}
+    .block-views.block-section-name-mobile-block h2  { font-size: 18px; padding: 10px;}
 
-  .context-menu-selvbetjening .block-menu-block h2 a {
-background-color: #D8232A; color: #FFF !important; padding: 10px; display: block;
-}
+    .block-views.block-section-name-mobile-block h2 a { color: #FFF !important; text-transform:none; font-family: verdana, sans-serif; font-weight: bold;}
 
-  .context-menu-kommunen .block-menu-block h2 a {
-background-color: #17719D; color: #FFF !important; padding: 10px; display: block;
-}
+    .block.block-menu-block-6 .block-title {
+      border-bottom: 1px solid #d9d9d9;
+    }
+    .menu-block-11 ul li a.active,
+    .menu-block-11 ul li.expanded a {
+      display: none;
+    }
+    .menu-block-11 ul li.expanded ul.menu a {
+      display: block;
+    }
+    /* Mobile front page */
+    .front #region-header-second {
+      width: 100%;
+      padding-left: 10px;
+      background-color: #323A3E;
+    }
+    .front .pane-content .view-id-news .views-row-4,
+    .front .pane-content .view-id-news .views-row-5,
+    .front .pane-content .view-id-news .views-row-6,
+    .front .pane-content .view-id-news .views-row-7 {
+      display: none;
+    }
+    .front .region-header-second .block-block-8 {
+      * display: none;
+    }
+    .front #mobile-menu {
+      display: none;
+    }
+    .front #zone-header ul.menu {
+      display: block !important;
+    }
 
-.page-nyheder .region-content-inner,
-.page-node .region-content-inner { padding: 10px;}
+    .view-section-name-mobile h2, .panel-pane .pane-title, .block .block-title, .panel-region-middle-right .pane-content h2, .panel-region-right .pane-content h2 { margin: 0 0 0 0; padding: 0 0 0 0; }
+    .front #region-branding { *height: 130px; }
+    .front .pane-news h2.pane-title { 
+      padding-left: 10px;
+      border-bottom: none;
+      padding-bottom: 12px;
+    }
+    .front .pane-news h2.pane-title a { display: block; color: #323A3E}
 
-  .front .zone-content {
-    box-shadow: none;
-  }
-  
-  li.expanded, li.collapsed, li.leaf {
-	padding: 0 0 0 0; margin: 0; }
-	
-  .front .panel-panel.grid-5,
-  .front .panel-panel.grid-5 .inside {
-    width: 100%;
-  }
-  .front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf {
-    border-top: 2px dotted #fff;
-    float: left;
-    font-size: 18px;
-    line-height: 25px;
-    margin: 0 10px;
-    width: 90%;
-  }
-  .front #mini-panel-frontpage_genveje_search {
-    height: auto;
-    max-height: 380px;
-  }
-  .front .pane-content .form-item-search-block-form #edit-search-block-form--2 {
-    height: 30px;
-  }
-  .front .pane-menu-forsidegenveje {
-    margin-top: 0px;
-  }
-  
-  .panel-region-middle-top-right { display: none;}
-  /* End of mobile front page */
-  /* Mobile menu */
+    .region-sidebar .menu-block-wrapper ul.menu li a { color: #323A3E !important;  display: block; border-bottom: 1px solid #323A3E }
 
+    .context-menu-erhverv .block-menu-block h2 a{
+      background-color: #E4712A; color: #FFF !important; padding: 10px; display: block;
+    }
 
+    .context-menu-borger .block-menu-block h2 a {
+      background-color: #8DA830; color: #FFF !important; padding: 10px; display: block;
+    }
+
+    .context-menu-selvbetjening .block-menu-block h2 a {
+      background-color: #D8232A; color: #FFF !important; padding: 10px; display: block;
+    }
+
+    .context-menu-kommunen .block-menu-block h2 a {
+      background-color: #17719D; color: #FFF !important; padding: 10px; display: block;
+    }
+
+    .page-nyheder .region-content-inner,
+    .page-node .region-content-inner { padding: 10px;}
+
+    .front .zone-content {
+      box-shadow: none;
+    }
+
+    li.expanded, li.collapsed, li.leaf {
+      padding: 0 0 0 0; margin: 0;
+    }
+
+    .front .panel-panel.grid-5,
+    .front .panel-panel.grid-5 .inside {
+      width: 100%;
+    }
+    .front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf {
+      border-top: 2px dotted #fff;
+      float: left;
+      font-size: 18px;
+      line-height: 25px;
+      margin: 0 10px;
+      width: 90%;
+    }
+    .front #mini-panel-frontpage_genveje_search {
+      height: auto;
+      max-height: 380px;
+    }
+    .front .pane-content .form-item-search-block-form #edit-search-block-form--2 {
+      height: 30px;
+    }
+    .front .pane-menu-forsidegenveje {
+      margin-top: 0px;
+    }
+
+    .panel-region-middle-top-right { display: none;}
+    /* End of mobile front page */
+    /* Mobile menu */
     .block-panels-mini-balk-mobile-menu .pane-menu-forsidegenveje .pane-content { display: none; }
 
     #section-content #mini-panel-balk_mobile_menu .pane-title,
@@ -382,20 +408,21 @@ background-color: #17719D; color: #FFF !important; padding: 10px; display: block
       color: #323A3E;
       font-family: verdana,sans!important;
       font-weight: bold;
-      font-size: 24px;
+      font-size: 25px;
       text-transform: uppercase;
       border-bottom: 1px solid #323A3E;
       display: block;
-      padding: 2px 10px;
+      padding: 6px 10px;
+      text-decoration: none;
     }
 
     .page-genveje #region-content  ul.menu li a.task-bg-color,
     #region-sidebar ul.menu li a.task-bg-color,
     #section-content #mini-panel-balk_mobile_menu .pane-title .task-bg-color,
     #section-content #mini-panel-balk_mobile_menu ul.menu li a.task-bg-color {
-      color: #FFF;
+      color: #FFF!important;
     }
-  
+
     #section-content .block-panels-mini-balk-mobile-menu .pane-menu-forsidegenveje ul li a {
       padding-left: 20px;
       font-size: 21px;
@@ -403,17 +430,17 @@ background-color: #17719D; color: #FFF !important; padding: 10px; display: block
 
     .page-genveje #region-content  ul.menu li a,
     #region-sidebar ul.menu li a {
-      font-size: 16px;
+      font-size: 18px;
       border-bottom: 1px solid #323A3E;
       color: #323A3E;
       display: block;
+      text-decoration: none;
     }
 
     #section-content .block-panels-mini-balk-mobile-menu .pane-menu-forsidegenveje .task-bg-color {background: #918f90; }
-    #section-content ul.menu li .red.task-bg-color { background-color: #f47920!important; }
-    #section-content ul.menu li .selvbetjening.task-bg-color { background-color: #ed1c24!important;}
-    #section-content ul.menu li .green.task-bg-color { background-color: #94af2a!important; }
-    #section-content ul.menu li .blue.task-bg-color { background-color: #107aaf!important; }
+    #section-content ul.menu li #mdborger.task-bg-color { background-color: #94af2a!important; }
+    #section-content ul.menu li #mderhverv.task-bg-color { background-color: #f47920!important; }
+    #section-content ul.menu li #mdkommunen.task-bg-color { background-color: #107aaf!important; }
     #section-content ul.menu li.nyheder .task-bg-color { background-color: #52a5e0 !important; }
     #section-content ul.menu li.kultur .task-bg-color { background-color: #ec008c!important;}
 
@@ -421,41 +448,47 @@ background-color: #17719D; color: #FFF !important; padding: 10px; display: block
       background: #918f90!important;
     }
 
-  .l1.selvbetjening {
-    display: none;
-  }
+    .last.leaf.menu-mlid-7438 {
+      display: none;
+    }
 
+    #block-block-1 {
+      display: none;
+    }
 
-  .mobile_main_menu ul {
-    list-style-type: none;
-    margin-left: -10px;
-  }
-  .mobile_main_menu ul li {
-    font-size: 18px;
-    line-height: 1.1em;
-    margin-left: 0;
-    list-style: none;
-    width: 100%;
-    padding-left: 10px;
-  }
-  .mobile_main_menu ul li.expanded a.l1{
-    font-size: 16px;
-    text-transform: uppercase;
-    font-family: MorganAvecBold;
-    line-height: 1.1em;
-  }
-  .mobile_main_menu ul li.expanded a.l1 {
-    padding-left: 10px;
-  } 
-  .mobile_main_menu .submenu {
-    display: none;
-    background-color: #fff;
-    padding-left: 2.3em;
-    width:100%;
-  }
-  .front .region-content-inner .mobile_main_menu {
-    margin-top: 0px;
-  }
+    .qtip {
+      display: none!important;
+    }
+    .mobile_main_menu ul {
+      list-style-type: none;
+      margin-left: -10px;
+    }
+    .mobile_main_menu ul li {
+      font-size: 18px;
+      line-height: 1.1em;
+      margin-left: 0;
+      list-style: none;
+      width: 100%;
+      padding-left: 10px;
+    }
+    .mobile_main_menu ul li.expanded a.l1{
+      font-size: 16px;
+      text-transform: uppercase;
+      font-family: MorganAvecBold;
+      line-height: 1.1em;
+    }
+    .mobile_main_menu ul li.expanded a.l1 {
+      padding-left: 10px;
+    }
+    .mobile_main_menu .submenu {
+      display: none;
+      background-color: #fff;
+      padding-left: 2.3em;
+      width:100%;
+    }
+    .front .region-content-inner .mobile_main_menu {
+      margin-top: 0px;
+    }
  /* .mobile_main_menu li.expanded.green {
     background-color: #94af2a;
     *background: url('../images/green_close.png');
@@ -485,61 +518,65 @@ background-color: #17719D; color: #FFF !important; padding: 10px; display: block
 */
 
 
-  .mobile_main_menu ul.menu li a.l1.selvbetjening,
-  .mobile_main_menu ul.menu li a.l1.selvbetjening.open,
-  .mobile_main_menu ul.menu li a.l1.erhverv,
-  .mobile_main_menu ul.menu li a.l1.erhverv.open,
-  .mobile_main_menu ul.menu li a.l1.kommunen,
-  .mobile_main_menu ul.menu li a.l1.kommunen.open,
-  .mobile_main_menu ul.menu li a.l1.borger,
-  .mobile_main_menu ul.menu li a.l1.borger.open {
-    color: #323A3E !important; display: block;
-  } 
-  .mobile_main_menu ul.menu li.green a {
-    color: #677d1c !important;
-  }
-  .mobile_main_menu ul.menu li.selvbetjening a {
-    color: #c4161c !important;
-  }
-  .mobile_main_menu ul.menu li.red a {
-    color: rgb(248, 95, 9) !important;
-  }
+    .mobile_main_menu ul.menu li a.l1.selvbetjening,
+    .mobile_main_menu ul.menu li a.l1.selvbetjening.open,
+    .mobile_main_menu ul.menu li a.l1.erhverv,
+    .mobile_main_menu ul.menu li a.l1.erhverv.open,
+    .mobile_main_menu ul.menu li a.l1.kommunen,
+    .mobile_main_menu ul.menu li a.l1.kommunen.open,
+    .mobile_main_menu ul.menu li a.l1.borger,
+    .mobile_main_menu ul.menu li a.l1.borger.open {
+      color: #323A3E !important; display: block;
+    } 
+    .mobile_main_menu ul.menu li.green a {
+      color: #677d1c !important;
+    }
+    .mobile_main_menu ul.menu li.selvbetjening a {
+      color: #c4161c !important;
+    }
+    .mobile_main_menu ul.menu li.red a {
+      color: rgb(248, 95, 9) !important;
+    }
 
-  .mobile_main_menu ul.menu li.blue a {
-    color: #007aaf !important;
-  }
-  .main-menu-jump-menus .block {
+    .mobile_main_menu ul.menu li.blue a {
+      color: #007aaf !important;
+    }
+    .main-menu-jump-menus .block {
+      display: none;
+    }
+    .mobile_main_menu .last.expanded {
+      border-bottom: 1px solid rgb(210, 214, 216);
+    }
+    .mobile_main_menu .selvbetjening .submenu {
+    *  display: none !important;
+    } 
+    body {
+      overflow-x: hidden;
+    }
+    /* End of Mobile menu */
+
+    .page-genveje .pane-menu-forsidegenveje h2 {
+      padding: 10px;
+      color: #fff;
+      background: #918f90;
+    }
+    .page-genveje .pane-menu-forsidegenveje h2,
+    #region-sidebar .block-menu-block h2 {
+      font-family: verdana, sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      border-bottom: 1px solid #323A3E;
+    }
+
+    .hide-on-small {
+      display: none!important;
+    }
+    .front .region-content-inner .panel-pane {
+      margin-top: 0px;
+    }
+
+  #cccwr {
     display: none;
-  }
-  .mobile_main_menu .last.expanded {
-    border-bottom: 1px solid rgb(210, 214, 216);
-  }
-  .mobile_main_menu .selvbetjening .submenu {
-  *  display: none !important;
-  } 
-  body {
-    overflow-x: hidden;
-  }
-  /* End of Mobile menu */
-
-  .page-genveje .pane-menu-forsidegenveje h2 {
-    padding: 10px;
-    color: #fff;
-    background: #918f90;
-  }
-  .page-genveje .pane-menu-forsidegenveje h2,
-  #region-sidebar .block-menu-block h2 {
-    font-family: verdana, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    border-bottom: 1px solid #323A3E;
-  }
-
-  .hide-on-small {
-    display: none!important;
-  }
-  .front .region-content-inner .panel-pane {
-    margin-top: 0px;
   }
 
 }

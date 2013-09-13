@@ -1529,14 +1529,14 @@ a:hover {
 /* Meetings */
 .view-os2web-meetings-meeting-details .agenda-bullet-list.open {
   background: url(../images/foldIn.png);
-  background-position: right 0px;
+  background-position: right 50%;
   background-repeat: no-repeat;
   width: inherit;
   display: block;
 }
 .view-os2web-meetings-meeting-details .agenda-bullet-list {
   background: url(../images/foldOut.png);
-  background-position: right 0px;
+  background-position: right 50%;
   background-repeat: no-repeat;
   width: inherit;
   display: block;
@@ -1557,6 +1557,34 @@ a:hover {
   border-right: 1px solid #FFF!important;
 }
 
+#views-exposed-form-os2web-meetings-view-search-page {
+  max-width: 499px;
+}
+
 .hide {
   display: none;
+}
+
+.bullet-point-print-link {
+  background: url(../images/icon-print-bullet-point.png);
+  height: 16px;
+  width: 16px;
+  display: block;
+  float: right;
+  margin-top: -20px;
+  margin-right: 22px;
+}
+
+.bullet-point-send-to-friend {
+  background: url(../images/icon-send-to-friend-bullet-point.png);
+  height: 16px;
+  width: 16px;
+  display: block;
+  float: right;
+  margin-top: -20px;
+  margin-right: 44px;
+}
+
+.lightbox2-alt-layout-data #bottomNavClose {
+  margin-top: 33px;
 }
