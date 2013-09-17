@@ -23,9 +23,6 @@ function balk_preprocess_html(&$variables) {
         drupal_add_css('http://www.kultunaut.dk/perl/viewplain/type-ballerup2/mdrkal2.css', array('group' => CSS_THEME, 'preprocess' => FALSE, 'weight' => 1));
   }
 
-  // Siteimprove search CSS
-  drupal_add_css('http://www.siteimprove.com/searchimprove/autocomplete/autocomplete.css', array('group' => CSS_THEME, 'preprocess' => FALSE));
-
   // Add body classes for level 1 menu items.
   $trail = menu_get_active_trail();
   if (!empty($trail[1]['options']['attributes']['class'])) {

@@ -79,27 +79,35 @@
 .pane-activities img {
   float: left;
   margin-right: 15px;
-  margin-top: 8px;
   border-radius: 3px;
 }
 
 .pane-activities .views-field-field-activity-date-1 {
-    margin-left: 68px;
+    margin-left: 66px;
     border-bottom: 1px dotted #d9d9d9;
 }
 
 .pane-activities .more-link a{
-  padding-left: 68px;
+  padding-left: 66px;
   font-weight: bold;
   font-size: 10px;
   text-transform: uppercase;
   color:  #222;
+}
+
+.views-label.views-label-field-activity-date-1 {
+  float: left;
+  margin-right: 2px;
 }
 /* End of pane-activities frontpage */
 
 /* Front pane-news */
 .front .pane-content .view-news .view-content {
   position: relative;
+}
+
+.views-field.views-field-field-resume-long {
+  margin-top: 10px;
 }
 
 /* End of front pane-news */
@@ -962,7 +970,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 .views-activities-front-det-sker-i-ballerup .views-field-field-activitytype {
   padding-right: 5px;
 }
-.views-activities-front-det-sker-i-ballerup .views-field-field-activitytype,
+.views-activities-front-det-sker-i-ballerup .views-field-title,
 .views-activities-front-det-sker-i-ballerup .views-field-field-activity-start,
 .views-activities-front-det-sker-i-ballerup .views-field-field-activity-end {
   font-size: 11px;
@@ -971,7 +979,6 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 .views-activities-front-det-sker-i-ballerup .views-field-title,
 .views-activities-front-det-sker-i-ballerup .views-field-field-activity-place {
   margin-left: 47px;
-  padding-top: 4px;
   display: block;
 }
 /* END Det sker i Ballerup */
