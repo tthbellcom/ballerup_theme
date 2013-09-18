@@ -1,16 +1,20 @@
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
 /* Frontpage genveje */
-.front .pane-content .form-item-search-block-form #edit-search-block-form--2 {
+.front .pane-content .form-item-search-block-form {
   width: 70%;
 }
+#mini-panel-frontpage_genveje_search #edit-search-block-form--2 {
+  min-width: 222px;
+  max-width: 222px;
+}
+#mini-panel-frontpage_genveje_search .form-item-search-block-form {
+  padding-left: 15px;
+}
+
 #block-menu-block-11 { display: block;}
 .front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf {
-  border-bottom: 2px dotted #fff;
-  float: left;
-  font-size: 23px;
-  line-height: 25px;
- * margin: 0 10px;
-  width: 39%;
+  height: 20px;
+  width: 120px;
 }
 .front #net_tv_pane {
   height: 160px;
@@ -22,39 +26,20 @@
   line-height: 15px;
 }
 .front .panel-pane.pane-news.clearfix {
-  height: 470px;
-}
-.front #mini-panel-frontpage_genveje_search {
   height: 480px;
 }
-.pane-activities {
-  border: 1px solid #d9d9d9;
-  border-radius: 7px;
-  padding-top: 10px;
-  margin-top: 20px !important;
-  box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-  -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-  -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-}
+
 .front .panel-region-top-left .views-field-field-lead-image {
   margin-bottom: 0px;
 }
 .front .pane-news .pane-title .ballerup_blue {
   padding-left: 10px;
 }
-.front .pane-news {
-  border: 1px solid #d9d9d9;
-  border-radius: 7px;
-  padding-top: 10px;
-  box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-  -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-  -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-}
+
 .front .pane-news .view-news .views-row-1 .field-content img {
   height: auto;
-  width: 298px;
+  width: 300px;
   position: relative;
-  left: -10px;
 }
 .front .pane-news .views-field-created,
 .front .pane-news .views-field-title,
@@ -107,7 +92,7 @@
   width: 160px;
 }
 
-	
+
 .panel-homepage .panel-region-lead .layout-wrapper.top-left {
 width: 500px;
 margin: 50px 0 0 10px;
@@ -141,9 +126,6 @@ width: 160px;}
 #region-footer-second {
   padding-left: 8px;
 }
-.views-campaigns-front-aktuelt-i-ballerup .jcarousel-item {
-  margin: 0 14px;
-}
 .qtip { max-width: 960px;}
 
 #mderhverv, #mdborger, #mdselvbetjening {margin-right: 10px;}
@@ -153,3 +135,6 @@ width: 160px;}
 #search-block-form .form-text { min-width: 160px; max-width: 160px; }
 
 #mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {font-size: 13px; }
+/*****/
+
+

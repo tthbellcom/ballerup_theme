@@ -1,7 +1,4 @@
 /***  redesign css ---------------**********/
-.front .panel-pane.pane-news.clearfix {
-  background-color: #fff;
-}
 
 #zone-footer {
   background: #fff url("../images/skyline.png") 80% 94%;
@@ -45,16 +42,7 @@
 /* Ende of ballerup header color */
 
 /* pane-activities frontpage */
-.pane-activities {
-  background-color: #fff;
-  border: 1px solid #d9d9d9;
-  border-radius: 7px;
-  padding-top: 10px;
-  margin-top: 20px !important;
-  box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-  -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-  -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-}
+
 .pane-activities .views-activities-front-det-sker-i-ballerup  {
   padding: 0 15px;
 }
@@ -64,13 +52,12 @@
 }
 
 .front .view-activities .more-link {
-  margin: 10px 0 10px 0;
+  padding: 0 0 10px 0;
   text-align: left;
 }
 
 .pane-activities a span {
   color: #222;
-  font-size: 10px;
   text-decoration: none;
 }
 .pane-activities .views-row a:hover {
@@ -78,7 +65,7 @@
 }
 .pane-activities img {
   float: left;
-  margin-right: 15px;
+  margin: 7px 15px 0 0;
   border-radius: 3px;
 }
 
@@ -106,7 +93,7 @@
   position: relative;
 }
 
-.views-field.views-field-field-resume-long {
+.views-field .view-news .views-field-field-resume-long {
   margin-top: 10px;
 }
 
@@ -116,18 +103,12 @@
 /*.front .panel-region-top-center .inside {*/
 .front #mini-panel-frontpage_genveje_search {
   background-color: #2a333d;
-  border: 1px solid #d9d9d9;
-  border-radius: 7px;
-  margin-top: 15px;
-  box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-  -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-  -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-  height: 479px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  height: 443px;
 }
-.front .panel-region-top-center .ballerup_blue {
-  padding-left: 10px;
-}
-.front .panel-region-top-center .pane-menu-forsidegenveje .pane-title {
+
+.front .panel-region-top-center  .pane-title {
   border-bottom: none;
   color: #fff;
   padding-left: 10px;
@@ -148,9 +129,8 @@
   float: right;
 }
 .front .panel-region-top-center .pane-menu-forsidegenveje ul.menu {
-  margin-left: 10px;
+  margin-left: 0px;
   margin-bottom: 10px;
-  padding-right:10px;
 }
 .front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.expanded ul.menu {
   margin-left: 0;
@@ -164,16 +144,13 @@
   display: none;
 }
 
-.front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf a,
-.front .panel-region-top-center .pane-menu-forsidegenveje ul li.leaf a:hover,
-.front .panel-region-top-center .pane-menu-forsidegenveje ul li.leaf a:active {
+.front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf a {
   color: #fff;
   display: block;
 }
-.front .panel-region-top-center .pane-menu-forsidegenveje ul li a:visited,
-.front .panel-region-top-center .pane-menu-forsidegenveje ul li a:hover,
-.front .panel-region-top-center .pane-menu-forsidegenveje ul li a:active {
+.front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf a:hover {
   font-weight:  900;
+  color: #007aaf;
   text-decoration: none;
 }
 
@@ -207,21 +184,27 @@
 }
 /* End of front pane-region-top-center Genveje */
 
+/*.front .panel-region-top .panel-pane {*/
+  /*height: 160px;*/
+  /*background-color: #fff;*/
+  /*border: 1px solid #d9d9d9;*/
+  /*border-radius: 7px;*/
+  /*margin-top: 15px;*/
+  /*box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);*/
+  /*-moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);*/
+  /*-webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);*/
+/*}*/
 /* Front pane-region-top-right Net TV */
-.front #net_tv_pane {
-  height: 160px;
-  background-color: #fff;
-  border: 1px solid #d9d9d9;
-  border-radius: 7px;
-  margin-top: 15px;
-  box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-  -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-  -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-}
-.front #net_tv_pane .pane-title {
+.front .panel-region-top .pane-title {
   padding-left: 10px;
+  background: #2a333d;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
   padding-top: 10px;
+  text-transform: uppercase;
 }
+.front .panel-region-top .pane-title a { color: #FFF; }
+
 .front #net_tv_pane .pane-content {
   padding: 10px;
 }
@@ -493,6 +476,7 @@ blockquote {
   font-family: 'MorganAvecRegular';
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
   display: inline-block;
 }
 
@@ -764,9 +748,6 @@ ul.jcarousel-view--campaigns--block-1 {
 
 /* Panel panes (Blocks) */
 
-.front .region-content-inner .panel-pane {
-  margin-top: 15px;
-}
 .view-section-name-mobile h2,
 .panel-pane .pane-title,
 .block .block-title,
@@ -845,15 +826,6 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   width: 295px;
 }
 
-.front .panel-region-top-center .pane-block-8 {
-  margin-top: 10px;
-}
-.front .panel-region-top .pane-title {
-  margin: 0;
-  border-bottom: 2px solid #d9d9d9;
-
-}
-
 .pane-jump-menu-menu-selvbetjening {
   color: #007aaf;
 }
@@ -920,7 +892,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 }
 .views-news-front-ballerup-nyt .views-row-first .views-field-title {
   font-size: 20px;
-  *line-height: 1.5em;
+  line-height: 1em;
 }
 .views-news-front-ballerup-nyt .views-row-last {
  * margin: 0;
@@ -942,7 +914,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   margin-bottom: 3px;
 }
 .views-activities-front-det-sker-i-ballerup .views-row {
-  padding: 7px 0;
+  padding: 3px 0;
 }
 .views-activities-front-det-sker-i-ballerup .views-row:hover {
   background-color: #f5f5f5;
@@ -979,6 +951,9 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 .views-activities-front-det-sker-i-ballerup .views-field-title,
 .views-activities-front-det-sker-i-ballerup .views-field-field-activity-place {
   margin-left: 47px;
+  height: 14px;
+  line-height: 14px;
+  overflow: hidden;
   display: block;
 }
 /* END Det sker i Ballerup */
@@ -1027,6 +1002,8 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
  * background: url('../images/bg-jcarousel-wrapper.png') repeat-x 0 100%;
  * border-bottom: 1px solid #d9d9d9;
   padding: 0 0px 20px 0;
+  width: 860px;
+  margin-left: 40px;
 }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-clip {
   overflow: hidden;
@@ -1055,11 +1032,11 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   background-repeat: no-repeat;
 }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-prev {
-  left: -25px;
+  left: -40px;
   background-position: 0 0;
 }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-next {
-  right: -25px;
+  right: -40px;
   background-position: 0 -32px;
 }
 
@@ -1472,11 +1449,11 @@ tr.odd td {
 /* Links */
 
 a, a:active, a:visited {
-  color: #30a4dc;* #007aaf;
+  color: #007aaf;
   text-decoration: none;
 }
 a:hover {
-  color: #30a4dc; *#007aaf;
+  color:#007aaf;
   text-decoration: underline;
 }
 
@@ -1594,4 +1571,8 @@ a:hover {
 
 .lightbox2-alt-layout-data #bottomNavClose {
   margin-top: 33px;
+}
+
+.qtip-contentWrapper {
+  border: none!important;
 }

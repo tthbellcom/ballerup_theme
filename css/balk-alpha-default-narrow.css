@@ -6,7 +6,7 @@
 
 
 .region-header-first ul.menu li, .panel-region-middle-top-right ul.menu li, .panel-node-news .panel-region-right ul.menu li {
-	padding: 0.2em 0.4em;
+	padding: 0.2em 0.1em;
 }
 
 .region-menu ul.menu {
@@ -123,14 +123,6 @@ width: 106px; }
   width: 100%;
 }
 
-.front .pane-news {
-  border: 1px solid #d9d9d9;
-  border-radius: 7px;
-  padding-top: 10px;
-  box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-  -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-  -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
-}
 .front .pane-news .view-news .views-row-1 .field-content img {
   height: auto;
   width: 218px;
@@ -150,18 +142,17 @@ width: 106px; }
   width: 60%;
 }
 .front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf {
-  border-bottom: 2px dotted #fff;
+  border-bottom: 1px dotted #fff;
+  border-top: 1px dotted #fff;
   float: left;
-  font-size: 16px;
-  line-height: 25px;
- * margin: 0 10px;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0 0 -1px 15px;
   width: 39%;
 }
+
 .front .panel-pane.pane-news.clearfix {
   height: 490px;
-}
-.front #mini-panel-frontpage_genveje_search {
-  height: 480px;
 }
 /* Genveje */
 .front #net_tv_pane {
@@ -175,7 +166,7 @@ width: 106px; }
 /* End of front page */
 
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-item {
-  margin: 0 7.5px;
+  margin: 0 6px;
 }
 
 .logo-img {
@@ -232,3 +223,31 @@ padding-left: 0;
 .region-header-second-inner { padding: 0 0;}
 
 #search-block-form .form-text { min-width: 115px; max-width: 115px; }
+
+.front .panel-region-top .panel-panel .panel-pane{
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 7px;
+  margin-top: 15px;
+  box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);
+}
+
+.front .panel-region-top .pane-title {
+  margin: 0;
+  border-bottom: 1px solid #53545a;
+}
+
+.front .panel-region-top #mini-panel-frontpage_genveje_search {
+  padding-top: 1px;
+}
+.front .panel-region-top #mini-panel-frontpage_genveje_search .panel-pane {
+  margin-top: 5px;
+  border-radius: 0px;
+  background: none;
+  display: block;
+  height: 30px;
+  box-shadow: none;
+}
+
