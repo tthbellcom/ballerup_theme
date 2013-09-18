@@ -1,10 +1,11 @@
 /***  redesign css ---------------**********/
-
-#zone-footer {
-  background: #fff url("../images/skyline.png") 80% 94%;
-  background-repeat: no-repeat no-repeat;
-  background-size: 40% 20%;
-  border-bottom: 1px solid #999;
+.zone-content {
+  border-top: 5px solid #0091d1;
+  margin-top: -50px;
+  padding: 10px 0 100px 0;
+  background: #fff url(../images/bg-content-bottom.png) no-repeat 50% 100%;
+  -moz-box-shadow: 0 0 7px #999;
+  box-shadow: 0 0 7px #999;
 }
 
 #net_tv_img img {
@@ -203,7 +204,7 @@
   padding-top: 10px;
   text-transform: uppercase;
 }
-.front .panel-region-top .pane-title a { color: #FFF; }
+.front .panel-region-top .pane-title a { color: #FFF; font-weight: bold; }
 
 .front #net_tv_pane .pane-content {
   padding: 10px;
@@ -303,7 +304,7 @@ iframe {
 }
 /* ---- Franz har lavet de her--------*/
 .grid3 .views-field-field-resume-long { height: 54px; overflow: hidden;}
-.grid3 .views-field-title { font-family: 'MorganAvecBold'; font-size: 16px; text-transform: uppercase; }
+.grid3 .views-field-title { font-size: 16px; text-transform: uppercase; }
 .grid3 .views-field-field-lead-image {
 margin: 0 6px 10px 0;
 }
@@ -313,10 +314,6 @@ html {
   background: #f5f5f5 url(../images/bg-page.png) repeat-x 0 0;
 }
 
-h1, h2 {
-  font-family: 'MorganAvecRegular';
-  font-weight: normal;
-}
 h1 {
   margin: 0 0 10px 0;
   font-size: 36px;
@@ -343,16 +340,9 @@ p:last-child {
   margin-bottom: 0;
 }
 
-/*pre {
-  margin: 1em 0;
-  padding: 0;
-  font-family: 'MorganAvecBold';
-  font-size: 16px;
-}*/
 
 blockquote {
   margin: 1em;
-  font-family: 'MorganSansLiningObliqueRg';
   font-size: 16px;
 }
 
@@ -473,7 +463,6 @@ blockquote {
 .region-menu ul.menu li a {
   padding: 0 40px 0 22px;
   line-height: 46px;
-  font-family: 'MorganAvecRegular';
   font-size: 16px;
   font-weight: bold;
   text-align: center;
@@ -614,21 +603,21 @@ blockquote {
 
 
 /* Content */
-.view-campaigns .view-content {
-  border-bottom: 2px solid #0091d1;
+/*.view-campaigns .view-content {*/
+  /*border-bottom: 2px solid #0091d1;*/
 
-}
+/*}*/
 ul.jcarousel-view--campaigns--block-1 {
   height: 160px;
 }
-.zone-content {
- * border-top: 5px solid #0091d1;
-  margin-top: -50px;
-  padding: 10px 0 0px 0;
-  background: #fff; *url(../images/bg-content-bottom.png) no-repeat 50% 100%;
-  -moz-box-shadow: 0 0 7px #999;
-  box-shadow: 0 0 7px #999;
-}
+/*.zone-content {*/
+ /** border-top: 5px solid #0091d1;*/
+  /*margin-top: -50px;*/
+  /*padding: 10px 0 0px 0;*/
+  /*background: #fff; *url(../images/bg-content-bottom.png) no-repeat 50% 100%;*/
+  /*-moz-box-shadow: 0 0 7px #999;*/
+  /*box-shadow: 0 0 7px #999;*/
+/*}*/
 
 .front .zone-content {
   padding-top: 0;
@@ -755,9 +744,7 @@ ul.jcarousel-view--campaigns--block-1 {
 .panel-region-right .pane-content h2 {
   margin: 0 0 10px 0;
   padding-bottom: 7px;
-  font-family: 'MorganAvecBold';
   font-size: 16px;
-  font-weight: normal;
   text-transform: uppercase;
 }
 
@@ -796,7 +783,6 @@ ul.jcarousel-view--campaigns--block-1 {
 }
 .main-menu-jump-menus h2 {
   margin-top: 0;
-  font-family: 'MorganAvecBold';
   font-size: 16px;
   font-weight: normal;
 }
@@ -936,7 +922,6 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 .views-activities-front-det-sker-i-ballerup .views-field-field-annoncement-date .day {
   padding-top: 6px;
   display: block;
-  font-family: 'MorganAvecRegular';
   font-size: 16px;
 }
 .views-activities-front-det-sker-i-ballerup .views-field-field-activitytype {
@@ -1001,7 +986,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 .views-campaigns-front-aktuelt-i-ballerup .view-content {
  * background: url('../images/bg-jcarousel-wrapper.png') repeat-x 0 100%;
  * border-bottom: 1px solid #d9d9d9;
-  padding: 0 0px 20px 0;
+  padding: 10px 0px 20px 0;
   width: 860px;
   margin-left: 40px;
 }
@@ -1090,7 +1075,6 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 .page-node .panel-region-middle .field-name-field-resume-long,
 .page-node .panel-region-middle-top .field-name-field-resume-long {
   padding-bottom: 20px;
-  font-family: 'MorganAvecRegular';
   font-size: 16px;
 }
 
@@ -1154,7 +1138,6 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 }
 .views-campaigns-latest-campaign .views-field-title {
   margin-bottom: 15px;
-  font-family: 'MorganAvecBold';
   font-size: 16px;
 }
 .views-campaigns-latest-campaign a,
@@ -1257,7 +1240,6 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   margin: 0 0 10px 0;
 }
 .views-view-grid .views-field-title {
-  font-family: 'MorganAvecBold';
   font-size: 16px;
   text-transform: uppercase;
 }
@@ -1358,7 +1340,6 @@ tr.odd td {
   font-weight: bold;
 }
 .views-persons-list-page .views-field-title {
-  font-family: 'MorganAvecBold';
   font-size: 16px;
 }
 .views-persons-list-page .views-field-field-organization,
@@ -1524,7 +1505,6 @@ a:hover {
   background-repeat: no-repeat;
   width: inherit;
   display: block;
-  font-family: MorganAvecBold;
   color: #222;
 }
 

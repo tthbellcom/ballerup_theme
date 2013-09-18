@@ -64,6 +64,7 @@
   .zone-content {
     padding-top: 0px;
     margin-top: 0px;
+    border-top: 0px;
     box-shadow: 0 0 1px #999;
   }
   .front .panel-pane {
@@ -175,7 +176,6 @@
       position: absolute;
       right: 2%;
       line-height: 43px;
-      font-family: 'MorganAvecRegular';
       font-size: 16px;
       font-weight: bold;
       float: right;
@@ -448,7 +448,7 @@
       background: #918f90!important;
     }
 
-    .last.leaf.menu-mlid-7438 {
+    .last.leaf.menu-mlid-7490 {
       display: none;
     }
 
@@ -474,7 +474,6 @@
     .mobile_main_menu ul li.expanded a.l1{
       font-size: 16px;
       text-transform: uppercase;
-      font-family: MorganAvecBold;
       line-height: 1.1em;
     }
     .mobile_main_menu ul li.expanded a.l1 {

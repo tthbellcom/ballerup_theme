@@ -184,7 +184,7 @@ padding-left: 0;
 .menu-minipanels .menu-name-menu-mega-dropdown.menu-block-wrapper { padding-top: 10px;}
 .menu-minipanels .menu-name-menu-mega-dropdown a { color: #333; font-size: 11px; }
 .menu-minipanels .menu-name-menu-mega-dropdown span.overskrift,
-.menu-minipanels .menu-name-menu-mega-dropdown a.overskrift { font-family: 'MorganAvecBold'; font-size: 14px; width: 100%; display: block; border-bottom: 1px solid #333; margin-right: 10px; }
+.menu-minipanels .menu-name-menu-mega-dropdown a.overskrift { font-size: 14px; width: 100%; display: block; border-bottom: 1px solid #333; margin-right: 10px; }
 .menu-minipanels .menu-name-menu-mega-dropdown li { list-style: none;}
 .menu-minipanels .separator hr { border: 0px solid #fff;}
 .menu-minipanels ul { margin: 0; padding: 0;}
@@ -215,10 +215,10 @@ padding-left: 0;
   height: 50px;
 }
 
-.generel-kontakt { color: #2a313d; background-image: url("../images/skylinekontakt.png"); background-position: bottom right; height: 190px; background-repeat: no-repeat;font-family: 'MorganAvecRegular' !important; font-size: 9px;}
+.generel-kontakt { color: #2a313d; background-image: url("../images/skylinekontakt.png"); background-position: bottom right; height: 190px; background-repeat: no-repeat; font-size: 9px;}
 .generel-kontakt .pane-content { padding: 8px;}
-.generel-kontakt strong {font-family: 'MorganAvecBold'; display: block;}
-.generel-kontakt h2 { color: #2a313d; border-bottom: none !important; margin-bottom: 15px; font-family: 'MorganAvecRegular' !important; font-size: 24px !important; padding: 8px;}
+.generel-kontakt strong { display: block;}
+.generel-kontakt h2 { color: #2a313d; border-bottom: none !important; margin-bottom: 15px; font-size: 24px !important; padding: 8px;}
 
 .region-header-second-inner { padding: 0 0;}
 
