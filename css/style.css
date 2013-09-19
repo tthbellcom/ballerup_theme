@@ -234,12 +234,12 @@ iframe {
 
 .contact_left {
   float: left;
-  width: 50%;
+  width: 150px;
 }
 
 .contact_right {
-  float: right;
-  width: 50%;
+  float: left;
+  width: 120px;
 }
 .front .inside .pane-block-10 h2.pane-title {
   border-bottom: none;
@@ -250,11 +250,9 @@ iframe {
 }
 .content .panel-homepage .panel-region-lead {
   border-bottom: none !important;
-  margin-bottom: 15px !important;
 }
 .front .panel-region-top {
   border-bottom: none !important;
-  background-color: #e7e7e8;
 }
 /*  ---- main menu ---*/
 .region-menu ul.menu li.expanded {
@@ -441,20 +439,18 @@ blockquote {
 
 .region-menu ul.menu {
   position: absolute;
-  top: -34px;
+  top: -35px;
   left: 292px;
 }
 
 .region-menu ul.menu,
 .region-menu ul.menu li {
   margin: 0;
-  padding: 0;
   list-style: none;
 }
 
 .region-menu ul.menu li {
   float: left;
-  background: url('../images/bg-main-menu-spacer.png') no-repeat 100% 50%;
 }
 .region-menu ul.menu li.last {
   background: none;
@@ -987,7 +983,6 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
  * background: url('../images/bg-jcarousel-wrapper.png') repeat-x 0 100%;
  * border-bottom: 1px solid #d9d9d9;
   padding: 10px 0px 20px 0;
-  width: 860px;
   margin-left: 40px;
 }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-clip {
@@ -1433,9 +1428,11 @@ a, a:active, a:visited {
   color: #007aaf;
   text-decoration: none;
 }
+
+.region-header-first a:hover,
+.zone-footer a:hover,
 a:hover {
   color:#007aaf;
-  text-decoration: underline;
 }
 
 .region-header-first a {
@@ -1521,12 +1518,53 @@ a:hover {
   border-right: 1px solid #FFF!important;
 }
 
-#views-exposed-form-os2web-meetings-view-search-page {
-  max-width: 499px;
+#views-exposed-form-os2web-meetings-view-search-page .description {
+  display:none;
+
+}
+#views-exposed-form-os2web-meetings-view-search-page #edit-to-date-wrapper label {
+  margin-top: 15px;
+  margin-right: 10px;
 }
 
-.hide {
-  display: none;
+#views-exposed-form-os2web-meetings-view-search-page #edit-to-date-wrapper label,
+#views-exposed-form-os2web-meetings-view-search-page #edit-to-date-wrapper .views-widget {
+  float: left;
+}
+
+#views-exposed-form-os2web-meetings-view-search-page .views-exposed-widget .form-submit {
+  margin-top: 9px;
+}
+
+#views-exposed-form-os2web-meetings-view-search-page #edit-os2web-meetings-tax-committee {
+  width: 263px;
+  height: 27px;
+  margin-top: 9px;
+}
+.view-os2web-meetings-view-search {
+  width: 695px;
+}
+.view-os2web-meetings-view-search .views-exposed-widget {
+  margin-top: 20px;
+  margin-right: 0px;
+} 
+
+.view-os2web-meetings-view-search .views-table {
+  width: 100%;
+}
+.view-os2web-meetings-view-search .view-content {
+  margin-top: 20px;
+}
+
+#views-exposed-form-os2web-meetings-view-search-page .container-inline-date .form-item input {
+  width: 90px;
+  height: 19px;
+  margin-top: -32px;
+}
+
+.meetings-advanced-search-link {
+  text-align: left;
+  padding: 0 0 10px 0;
 }
 
 .bullet-point-print-link {
@@ -1555,4 +1593,8 @@ a:hover {
 
 .qtip-contentWrapper {
   border: none!important;
+}
+
+.hide {
+  display: none;
 }

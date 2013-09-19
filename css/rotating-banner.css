@@ -15,7 +15,7 @@ margin: 0 0; }
 }
 
 .content .panel-homepage .panel-region-lead .rb-slides {
-  height: 180px;
+  height: 200px;
   background: url('../images/bg-rb-slide.png') no-repeat 0 0;
 }
 
@@ -110,3 +110,4 @@ left: 450px;
 	border-radius: 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
+  }

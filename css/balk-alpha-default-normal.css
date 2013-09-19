@@ -78,9 +78,13 @@
 }
 
 .region-menu ul.menu {
-	left: 312px; }
+	left: 330px; }
 	
-.pane-rotating-banner { padding-top: 10px;}
+
+.pane-rotating-banner {
+  width: 630px;
+  float: left;
+}
 .region-menu ul.menu ul {
 	width: 150px; }
 
@@ -89,7 +93,11 @@
 
 
 .menu-name-menu-mega-dropdown ul li {
-  width: 160px;
+  width: 150px;
+  padding-right: 10px;
+}
+.menu-name-menu-mega-dropdown ul li.last {
+  padding-right: 0px;
 }
 
 
@@ -115,6 +123,12 @@ width: 160px;}
 .show-for-small {
   display: none;
 }
+.menu-minipanels .grid-5 {
+  width: 320px;
+}
+
+
+
 /*  Footer */
 #region-footer-first {
   padding-left: 14px;
@@ -131,10 +145,9 @@ width: 160px;}
 #mderhverv, #mdborger, #mdselvbetjening {margin-right: 10px;}
 
 #mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {width: 118px}
-.menu-minipanels .grid-5 { width: 298px}
 #search-block-form .form-text { min-width: 160px; max-width: 160px; }
 
 #mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {font-size: 13px; }
 /*****/
 
-
+.views-campaigns-front-aktuelt-i-ballerup .view-content {width : 860px;}

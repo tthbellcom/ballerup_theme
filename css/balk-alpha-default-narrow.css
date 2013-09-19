@@ -117,12 +117,15 @@ width: 106px; }
 /* Front page */
 .front .panel-region-lead .grid-5,
 .front .panel-region-top .grid-5 {
-  width: 30.5%;
+  width: 218px;
 }
 .front .panel-region-top .grid-5 .inside {
   width: 100%;
 }
 
+.front .pane-content .views-news-front-ballerup-nyt .views-row-1 .views-field-field-resume-long {
+  margin-top: 9px;
+}
 .front .pane-news .view-news .views-row-1 .field-content img {
   height: auto;
   width: 218px;
@@ -165,6 +168,7 @@ width: 106px; }
 }
 /* End of front page */
 
+.views-campaigns-front-aktuelt-i-ballerup .view-content {width : 620px;}
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-item {
   margin: 0 6px;
 }
@@ -204,6 +208,7 @@ padding-left: 0;
   width: 120px;
   display: block;
   height: 60px;
+  padding: 0;
 }
 
 .menu-name-menu-mega-dropdown a.open {
@@ -215,12 +220,27 @@ padding-left: 0;
   height: 50px;
 }
 
-.generel-kontakt { color: #2a313d; background-image: url("../images/skylinekontakt.png"); background-position: bottom right; height: 190px; background-repeat: no-repeat; font-size: 9px;}
+.generel-kontakt { color: #2a313d; background-image: url("../images/skylinekontakt.png"); background-position: 142px 181px; height: 200px; background-repeat: no-repeat; font-size: 9px;}
 .generel-kontakt .pane-content { padding: 8px;}
 .generel-kontakt strong { display: block;}
-.generel-kontakt h2 { color: #2a313d; border-bottom: none !important; margin-bottom: 15px; font-size: 24px !important; padding: 8px;}
+.generel-kontakt h2 { color: #2a313d; border-bottom: none !important; margin-bottom: 15px; font-size: 24px !important; padding: 8px 0 8px 8px;}
 
+.menu-minipanels .generel-kontakt,
+.panel-region-lead .generel-kontakt {
+  width: 308px;
+  float: left;
+  margin-right: 10px;
+  padding-top: 7px;
+  padding-left: 12px;
+}
 .region-header-second-inner { padding: 0 0;}
+
+
+.pane-rotating-banner {
+  width: 390px;
+  float: left;
+  padding-top: 7px;
+}
 
 #search-block-form .form-text { min-width: 115px; max-width: 115px; }
 
@@ -236,7 +256,7 @@ padding-left: 0;
 
 .front .panel-region-top .pane-title {
   margin: 0;
-  border-bottom: 1px solid #53545a;
+  border-bottom: 1px solid #ddd;
 }
 
 .front .panel-region-top #mini-panel-frontpage_genveje_search {
