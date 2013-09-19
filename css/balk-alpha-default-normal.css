@@ -26,7 +26,7 @@
   line-height: 15px;
 }
 .front .panel-pane.pane-news.clearfix {
-  height: 495px;
+  height: 501px;
 }
 
 .front .panel-region-top-left .views-field-field-lead-image {
@@ -79,7 +79,6 @@
 
 .region-menu ul.menu {
 	left: 330px; }
-	
 
 .pane-rotating-banner {
   width: 630px;
@@ -99,7 +98,10 @@
 .menu-name-menu-mega-dropdown ul li.last {
   padding-right: 0px;
 }
-
+#page .container-16 .grid-7 {
+width: 369px;
+padding-left: 18px;
+}
 
 .panel-homepage .panel-region-lead .layout-wrapper.top-left {
 width: 500px;
@@ -113,7 +115,7 @@ margin: 50px 0 0 10px;
 width: 160px;}
 
 
-.panel-pane .pane-title, .block .block-title, .panel-region-middle-right .pane-content h2, .panel-region-right .pane-content h2 { font-size: 16px;}
+.panel-pane .pane-title, .block .block-title, .panel-region-middle-right .pane-content h2, .panel-region-right .pane-content h2 { font-size: 14px;}
 
 .content .panel-homepage .panel-region-lead .rb-slides { background-position: 0 0}
 

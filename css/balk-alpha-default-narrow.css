@@ -220,10 +220,10 @@ padding-left: 0;
   height: 50px;
 }
 
-.generel-kontakt { color: #2a313d; background-image: url("../images/skylinekontakt.png"); background-position: 142px 181px; height: 200px; background-repeat: no-repeat; font-size: 9px;}
+.generel-kontakt { color: #2a313d; background-image: url("../images/skylinekontakt.png"); background-position: 131px 181px; height: 200px; background-repeat: no-repeat; font-size: 9px;}
 .generel-kontakt .pane-content { padding: 8px;}
 .generel-kontakt strong { display: block;}
-.generel-kontakt h2 { color: #2a313d; border-bottom: none !important; margin-bottom: 15px; font-size: 24px !important; padding: 8px 0 8px 8px;}
+.generel-kontakt h2 { color: #2a313d; border-bottom: none !important; margin-bottom: 15px; font-size: 20px !important; padding: 8px 0 8px 8px;}
 
 .menu-minipanels .generel-kontakt,
 .panel-region-lead .generel-kontakt {

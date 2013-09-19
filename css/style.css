@@ -73,6 +73,8 @@
 .pane-activities .views-field-field-activity-date-1 {
     margin-left: 66px;
     border-bottom: 1px dotted #d9d9d9;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
 }
 
 .pane-activities .more-link a{
@@ -106,7 +108,7 @@
   background-color: #2a333d;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
-  height: 457px;
+  height: 465px;
 }
 
 .front .panel-region-top-center  .pane-title {
@@ -439,7 +441,7 @@ blockquote {
 
 .region-menu ul.menu {
   position: absolute;
-  top: -35px;
+  top: -36px;
   left: 292px;
 }
 
@@ -870,6 +872,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   margin: 0;
   border: 0;
   padding: 0;
+  margin-bottom: 10px;
  * float: left;
 }
 .views-news-front-ballerup-nyt .views-row-first .views-field-title {
@@ -1593,6 +1596,12 @@ a:hover {
 
 .qtip-contentWrapper {
   border: none!important;
+}
+
+#region-header-second {
+  margin: 0;
+  float: right;
+  width: 205px;
 }
 
 .hide {
