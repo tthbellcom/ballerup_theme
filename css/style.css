@@ -173,27 +173,13 @@
 .front .pane-content #search-block-form .container-inline {
   position: relative;
 }
-/*.front .pane-content .form-actions {
-  position: absolute;
-  top: 12px;
-  right: 10px;
-}*/
+
 .front .pane-content #search-block-form .from-text {
   width: 180px;
 }
 /* End of front pane-region-top-center Genveje */
 
-/*.front .panel-region-top .panel-pane {*/
-  /*height: 160px;*/
-  /*background-color: #fff;*/
-  /*border: 1px solid #d9d9d9;*/
-  /*border-radius: 7px;*/
-  /*margin-top: 15px;*/
-  /*box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);*/
-  /*-moz-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);*/
-  /*-webkit-box-shadow: 0px 0px 11px 0px rgba(119, 119, 119, 0.65);*/
-/*}*/
-/* Front pane-region-top-right Net TV */
+
 .front .panel-region-top .pane-title {
   padding-left: 10px;
   background: #2a333d;
@@ -944,7 +930,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 }
 /* END Hold dig opdateret */
 
-/* FÃ¸lg Ballerup */
+/* Følg Ballerup */
 .folg-ballerup,
 .folg-ballerup li {
   margin: 0;
@@ -969,7 +955,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 .folg-ballerup li a.rss {
   background-position: 0 -100px;
 }
-/* END FÃ¸lg Ballerup */
+/* END Følg Ballerup */
 
 /* Aktuelt i Ballerup */
 .views-campaigns-front-aktuelt-i-ballerup .view-content {

@@ -46,6 +46,18 @@ function balk_html_head_alter(&$head_elements) {
   );
 }
 
+/**
+ * Implements hook_css_alter()
+ */
+function balk_css_alter(&$css) {
+    foreach ($css as $key => $value) {
+        if (preg_match('/^ie::(\S*)/', $key)) {
+            unset($css[$key]);
+        } else {
+            $css[$key]['browsers']['IE'] = TRUE;
+        }
+    }
+}
 
 
 /**
