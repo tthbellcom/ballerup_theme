@@ -25,7 +25,7 @@
 	margin: 50px 0 0 10px;
 }
 .front .panel-region-top-left .views-field-field-lead-image {
- * margin-bottom: 25px;
+ margin-bottom: 25px;
 }
 .panel-homepage .panel-region-lead .rb-textbox-type-header { font-size: 24px;}
 
@@ -159,7 +159,7 @@ width: 106px; }
 }
 /* Genveje */
 .front #net_tv_pane {
-  height: 210px; *190px;
+  height: 210px; 
 }
 
 /* Activities */
@@ -232,6 +232,7 @@ padding-left: 0;
   margin-right: 10px;
   padding-top: 7px;
   padding-left: 12px;
+  display: block;
 }
 .region-header-second-inner { padding: 0 0;}
 
@@ -260,7 +261,7 @@ padding-left: 0;
 }
 
 .front .panel-region-top #mini-panel-frontpage_genveje_search {
-  padding-top: 1px;
+  overflow: auto;
 }
 .front .panel-region-top #mini-panel-frontpage_genveje_search .panel-pane {
   margin-top: 5px;

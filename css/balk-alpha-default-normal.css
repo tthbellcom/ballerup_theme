@@ -44,25 +44,20 @@
 .front .pane-news .views-field-created,
 .front .pane-news .views-field-title,
 .front .pane-news .views-field-field-resume-long {
-   * padding: 0 10px;
+   padding: 0 10px 0 0;
 }
 .front .pane-content .views-news-front-ballerup-nyt {
   padding: 0px 10px;
 }
 .front .panel-region-top .grid-5 {
-  *height: 480px;
   width: 300px;
 }
 .front .panel-region-top-center.grid-5 .inside {
- * height: 480px;
 }
 .front .panel-region-top-left.grid-5 {
-  *height: 520px;
 
 }
 .front .panel-region-top-right.grid-5 {
- * height: 520px;
-
 }
 .page-node .field-name-field-lead-image img { max-width: 100%; height: auto;}
 

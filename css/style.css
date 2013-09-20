@@ -48,10 +48,6 @@
   padding: 0 15px;
 }
 
-.pane-activities .pane-title .pink {
-  padding-left: 10px;
-}
-
 .front .view-activities .more-link {
   padding: 0 0 10px 0;
   text-align: left;
@@ -473,7 +469,6 @@ blockquote {
 }
 .region-menu ul.menu li a.l1:hover,
 .region-menu ul.menu li a.l1.open {
- * background-color: #fff;
   -moz-box-shadow: 0 0 7px #999;
   box-shadow: 0 0 7px #999;
 }
@@ -535,7 +530,7 @@ blockquote {
 }
 
 .region-menu ul.menu li.red a {
-  color: #fff;*#c4161c;
+  color: #fff;
 }
 .region-menu ul.menu li.red .submenu {
   border-color: #c4161c;
@@ -856,33 +851,28 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   text-transform: uppercase;
 }
 .views-news-front-ballerup-nyt .views-row {
-  width: 100%; *260px;
+  width: 100%;
   margin-bottom: 5px;
   border-bottom: 2px dotted #d9d9d9;
   padding-bottom: 5px;
   clear: right;
-  *float: right;
 }
 .views-news-front-ballerup-nyt .views-field-title,
 .views-news-page-nyheder .views-field-title {
  /* padding-top: 5px;*/
 }
 .views-news-front-ballerup-nyt .views-row-first {
-  width: 100%;*280px;
+  width: 100%;
   margin: 0;
   border: 0;
   padding: 0;
   margin-bottom: 10px;
- * float: left;
 }
 .views-news-front-ballerup-nyt .views-row-first .views-field-title {
   font-size: 20px;
   line-height: 1em;
 }
 .views-news-front-ballerup-nyt .views-row-last {
- * margin: 0;
-  *border: 0;
-  *padding: 0;
 }
 .views-news-front-ballerup-nyt .more-link {
   font-size: 10px;
@@ -983,8 +973,6 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 
 /* Aktuelt i Ballerup */
 .views-campaigns-front-aktuelt-i-ballerup .view-content {
- * background: url('../images/bg-jcarousel-wrapper.png') repeat-x 0 100%;
- * border-bottom: 1px solid #d9d9d9;
   padding: 10px 0px 20px 0;
   margin-left: 40px;
 }
@@ -993,7 +981,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-item {
   width: 160px;
-  height: 161px; *185px;
+  height: 161px;
   margin: 0 14px;
   position: relative;
   background: url('../images/bg-sprite-jcarousel-item.png') repeat-x 0 0;
@@ -1468,13 +1456,10 @@ a:hover {
     }
 }
 
-.submenu a { font-family: Verdana; *Arial, sans-serif !important; }
 .submenu .overskrift a { font-weight: bold !important; text-decoration: underline !important;}
 
 .pane-ballerup-taxonomy-term img { max-width: 100%; height: auto}
 .view-ballerup-taxonomy-term .grid3 { float: left; width: 48%;}
-
-
 
 .node-media .field-name-field-text iframe { max-width: 100%}
 .field-name-field-lead-image img { max-width: 100%; height: auto}
