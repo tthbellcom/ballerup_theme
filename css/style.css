@@ -1478,8 +1478,22 @@ a:hover {
   display: block;
   color: #222;
 }
+.view-os2web-meetings-meeting-details .agenda-bullet-list {
+  font-size: 12px;
+}
+.view-os2web-meetings-meeting-details .field-name-field-os2web-meetings-enclosures {
+margin-top: 10px;
+}
 
+.agenda-item .item-list ul li ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
 
+.agenda-item .item-list ul li ol li {
+  list-style: upper-latin;
+  margin-left: 20px;
+}
 
 .view-os2web-meetings-meeting-details tr {
   background: #fff;
@@ -1520,8 +1534,8 @@ a:hover {
 }
 .view-os2web-meetings-view-search .views-exposed-widget {
   margin-top: 20px;
-  margin-right: 0px;
-} 
+  margin-right: 0;
+}
 
 .view-os2web-meetings-view-search .views-table {
   width: 100%;
