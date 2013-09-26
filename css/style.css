@@ -1520,11 +1520,13 @@ margin-top: 10px;
   float: left;
 }
 
-#views-exposed-form-os2web-meetings-view-search-page .views-exposed-widget .form-submit {
+#views-exposed-form-os2web-meetings-view-search-page .views-exposed-widget .form-submit,
+#views-exposed-form-os2web-meetings-view-search-page-1 .views-exposed-widget .form-submit {
   margin-top: 9px;
 }
 
-#views-exposed-form-os2web-meetings-view-search-page #edit-os2web-meetings-tax-committee {
+#views-exposed-form-os2web-meetings-view-search-page #edit-os2web-meetings-tax-committee,
+#views-exposed-form-os2web-meetings-view-search-page-1 #edit-os2web-meetings-tax-committee {
   width: 263px;
   height: 27px;
   margin-top: 9px;
@@ -1544,6 +1546,10 @@ margin-top: 10px;
   margin-top: 20px;
 }
 
+#views-exposed-form-os2web-meetings-view-search-page-1 input#edit-field-meeting-search-advanced-meta-date-value {
+  height: 18px;
+  margin-top: 9px;
+}
 #views-exposed-form-os2web-meetings-view-search-page .container-inline-date .form-item input {
   width: 90px;
   height: 19px;
