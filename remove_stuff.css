@@ -1,0 +1,13 @@
+#zone-content {
+  width: 100%;
+background: none;
+box-shadow: none;
+margin-top: 0;
+border-top: none;
+}
+.ballerup-contact-block {
+display: none!important;
+}
+html {
+  background: #FFF!important;
+}
