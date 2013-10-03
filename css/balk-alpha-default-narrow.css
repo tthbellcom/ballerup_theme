@@ -235,7 +235,9 @@ padding-left: 0;
   display: block;
 }
 .region-header-second-inner { padding: 0 0;}
-
+#region-header-second {
+  width: 170px;
+}
 
 .pane-rotating-banner {
   width: 390px;
