@@ -67,7 +67,9 @@
 .region-menu ul.menu .submenu { width: 640px; left: 0px;}
 
 #block-block-7 { display: block}
-
+#region-header-second {
+width: 205px;
+}
 .region-header-first ul.menu li, .panel-region-middle-top-right ul.menu li, .panel-node-news .panel-region-right ul.menu li {
 	padding: 0.2em; margin-right: 5px;
 }

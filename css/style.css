@@ -1532,13 +1532,15 @@ margin-top: 10px;
   margin-top: 9px;
 }
 .view-os2web-meetings-view-search {
-  width: 695px;
+  width: 100%;
 }
 .view-os2web-meetings-view-search .views-exposed-widget {
   margin-top: 20px;
   margin-right: 0;
 }
-
+.views-field.views-field-field-os2web-meetings-committee {
+  width: 80%;
+}
 .view-os2web-meetings-view-search .views-table {
   width: 100%;
 }
