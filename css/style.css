@@ -306,6 +306,7 @@ h2 {
 }
 h3 {
   font-size: 12px;
+  margin: 10px 0 0 0 ;
 }
 h4 {
   font-style: italic;
@@ -1421,6 +1422,7 @@ a:hover {
 .zone-footer a {
   color: #222;
 }
+
 
 /* END Links */
 
