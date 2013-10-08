@@ -178,6 +178,9 @@ padding-left: 0;
 }
 
 .region-menu-inner { padding-top: 26px;}
+
+.logged-in .region-menu-inner { padding-top: 0px;}
+
 .qtip { max-width: 720px;}
 .qtip-wrapper { height: 190px; overflow: hidden; background-color: #FFF;}
 .qtip-content { padding: 0 !important}

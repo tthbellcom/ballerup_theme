@@ -1599,6 +1599,14 @@ margin-top: 10px;
   width: 205px;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
 .hide {
   display: none;
 }
