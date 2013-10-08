@@ -196,11 +196,16 @@
 /* End of front pane-region-top-right NET TV */
 #zone-header {
   border-top: 5px solid #0091d1;
+  height: 106px;
 }
 .region-menu ul.menu {
   left: 326px;
   text-transform: uppercase;
 }
+.region-inner.region-menu-inner {
+height: 26px;
+}
+
 iframe {
   width: 100%;
 }
