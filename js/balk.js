@@ -5,6 +5,8 @@
  */
 Drupal.behaviors.BalkMainMenu = {
   attach: function (context, settings) {
+    jQuery('.block-menu-block-ballerup-mega-dropdowns-14 a').click(function(e){e.preventDefault();});
+
     $('.region-menu ul.menu > li').hover(
       function() {
         $('a', $(this)).addClass('open');
