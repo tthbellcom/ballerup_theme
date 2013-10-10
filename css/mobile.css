@@ -11,6 +11,10 @@
   .inside h1 { word-wrap: break-word; }
   ul.menu, ul.menu li { margin-left: 0;}
 
+  #szfb_container {
+    display: none!important;
+  }
+
   #zone-header {
 
     background-color: #323A3E;
@@ -294,22 +298,22 @@
       float: left;
       width: 50%;
     }
-    .block-views.block-section-name-mobile-block {
+    .block-views.block-section-name-mobile-block-1 {
       display: block;
       background-color: #B2B5B4;
       margin: -10px -10px 10px -10px;
     }
 
-    .context-borger .block-section-name-mobile-block {background-color: #94af2a!important;
+    .context-borger .block-section-name-mobile-block-1 {background-color: #94af2a!important;
     }
-    .context-erhverv .block-section-name-mobile-block {background-color: #f47920!important; 
+    .context-erhverv .block-section-name-mobile-block-1 {background-color: #f47920!important; 
     }
-    .context-kommunen .block-section-name-mobile-block {background-color: #107aaf!important; 
+    .context-kommunen .block-section-name-mobile-block-1 {background-color: #107aaf!important; 
     }
 
-    .block-views.block-section-name-mobile-block h2  { font-size: 18px; padding: 10px;}
+    .block-views.block-section-name-mobile-block-1 h2  { font-size: 18px; padding: 10px;}
 
-    .block-views.block-section-name-mobile-block h2 a { color: #FFF !important; text-transform:none; font-family: verdana, sans-serif; font-weight: bold; text-transform: uppercase;}
+    .block-views.block-section-name-mobile-block-1 h2 a { color: #FFF !important; text-transform:none; font-family: verdana, sans-serif; font-weight: bold; text-transform: uppercase;}
 
     .block.block-menu-block-6 .block-title {
       border-bottom: 1px solid #d9d9d9;
