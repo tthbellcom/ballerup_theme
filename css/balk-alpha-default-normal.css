@@ -71,7 +71,7 @@
 width: 205px;
 }
 .region-header-first ul.menu li, .panel-region-middle-top-right ul.menu li, .panel-node-news .panel-region-right ul.menu li {
-	padding: 0.2em; margin-right: 5px;
+	padding: 0.2em; margin-right: 4px;
 }
 
 .region-menu ul.menu {

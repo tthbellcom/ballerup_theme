@@ -210,9 +210,6 @@ body {
 height: 26px;
 }
 
-iframe {
-  width: 100%;
-}
 .node-politician .field-name-field-lead-image img,
 .node-person .field-name-field-lead-image img {
   width: 50%;
@@ -529,7 +526,7 @@ blockquote {
   color: #fff;
 }
 .region-menu ul.menu li.red .submenu {
-  border-color: #c4161c;
+  border-color: #f47920;
 }
 .region-menu ul.menu a.red {
   background: url('../images/sprite-bg-main-menu-arrows.png') no-repeat;
@@ -646,11 +643,11 @@ ul.jcarousel-view--campaigns--block-1 {
 
 .context-erhverv .zone-content,
 .context-menu-erhverv .zone-content {
-  border-color: #c4161c;
+  border-color: #f47920;
 }
 .context-erhverv #section-content a,
 .context-menu-erhverv #section-content a {
-  color: #c4161c;
+  color: #f47920;
 }
 .context-erhverv .region-sidebar ul.menu li a,
 .context-menu-erhverv .region-sidebar ul.menu li a {
