@@ -39,6 +39,8 @@ width: 106px; }
 .content .panel-homepage .panel-region-lead .rb-slides { background-position: -250px 0}
 
 .view-ballerup-taxonomy-term .grid3 { margin: 5px; width: 48%}
+.view-ballerup-taxonomy-term .grid3 { height: 235px; }
+.view-ballerup-taxonomy-term .grid3 .views-field-field-resume-long { height: 80px; overflow: hidden;}
 
 /* Left menu */
 
@@ -278,4 +280,6 @@ padding-left: 0;
   height: 30px;
   box-shadow: none;
 }
-
+.view-id-section_name_mobile {
+  display: none;
+}

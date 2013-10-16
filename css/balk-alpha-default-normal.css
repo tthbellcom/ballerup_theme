@@ -117,7 +117,7 @@ width: 160px;}
 .content .panel-homepage .panel-region-lead .rb-slides { background-position: 0 0}
 
 .view-ballerup-taxonomy-term { background-color: #fff; *#ccc}
-.view-ballerup-taxonomy-term .grid3 { margin: 10px 1px 20px; width: 33% !important; height: 225px; }
+.view-ballerup-taxonomy-term .grid3 { margin: 10px 1px 20px; width: 33% !important; }
 
 .show-for-small {
   display: none;
@@ -149,7 +149,7 @@ width: 160px;}
 #mderhverv, #mdborger, #mdselvbetjening {margin-right: 10px;}
 
 #mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {width: 118px}
-#search-block-form .form-text { min-width: 160px; max-width: 160px; }
+#search-block-form .form-text { min-width: 159px; max-width: 159px; }
 
 #mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {font-size: 13px; }
 /*****/

@@ -153,7 +153,6 @@ body {
 }
 .front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf a:hover {
   font-weight:  900;
-  color: #007aaf;
   text-decoration: none;
 }
 
@@ -291,6 +290,7 @@ height: 26px;
   box-shadow: none !important;
 }
 /* ---- Franz har lavet de her--------*/
+.grid3 .views-field-field-resume-long { height: 54px; overflow: hidden;}
 .grid3 .views-field-field-resume-long { height: 54px; overflow: hidden;}
 .grid3 .views-field-title { font-size: 16px; text-transform: uppercase; }
 .grid3 .views-field-field-lead-image {
