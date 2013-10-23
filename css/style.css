@@ -305,6 +305,7 @@ html {
 h1 {
   margin: 0 0 10px 0;
   font-size: 36px;
+  font-weight: normal;
 }
 h2 {
   margin: 1em 0;
@@ -1454,7 +1455,10 @@ a:hover {
 
 .pane-ballerup-taxonomy-term img { max-width: 100%; height: auto}
 .view-ballerup-taxonomy-term .grid3 { float: left; width: 48%;}
-
+.context-nyhedstype .pane-ballerup-taxonomy-term .views-field-field-lead-image .field-content  {
+  width: 280px;
+  height: 158px;
+}
 .node-media .field-name-field-text iframe { max-width: 100%}
 .field-name-field-lead-image img { max-width: 100%; height: auto}
 @media all and (max-width: 739px) {
