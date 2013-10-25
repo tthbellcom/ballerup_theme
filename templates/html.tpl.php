@@ -20,7 +20,7 @@
   <!--SiteImprove statistik slut-->
 
   <!--SiteTest-->
-  <script type="text/javascript" src="https://www.kalus.dk/kunder/SiteTesten/Ballerup_kommune.js"></script>
+  <script type="text/javascript" src="https://www.kalus.dk/kunder/SiteTesten/Ballerup_Kommune.js"></script>
 
 </body>
 </html>
