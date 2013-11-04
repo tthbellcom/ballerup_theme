@@ -595,7 +595,7 @@ blockquote {
 
 /*}*/
 ul.jcarousel-view--campaigns--block-1 {
-  height: 160px;
+  height: 170px;
 }
 /*.zone-content {*/
  /** border-top: 5px solid #0091d1;*/
@@ -975,7 +975,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-item {
   width: 160px;
-  height: 161px;
+  height: 170px;
   margin: 0 14px;
   position: relative;
   background: url('../images/bg-sprite-jcarousel-item.png') repeat-x 0 0;
@@ -984,7 +984,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   background-position: 0 -185px;
 }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-item-wrapper {
-  height: 148px;
+  height: 170px;
   overflow: hidden;
 }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-prev,
