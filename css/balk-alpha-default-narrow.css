@@ -239,6 +239,11 @@ padding-left: 0;
   padding-left: 12px;
   display: block;
 }
+
+.qtip-wrapper .menu-minipanels .generel-kontakt {
+padding-top: 6px;
+}
+
 .region-header-second-inner { padding: 0 0;}
 #region-header-second {
   width: 170px;
