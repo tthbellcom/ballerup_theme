@@ -46,8 +46,17 @@
 .front .pane-news .views-field-field-resume-long {
    padding: 0 10px 0 0;
 }
-.front .pane-content .views-news-front-ballerup-nyt {
+.front .pane-content .views-news-front-ballerup-nyt .views-row, .front .pane-content .views-news-front-ballerup-nyt .views-row-first .views-field {
   padding: 0px 10px;
+}
+.front .pane-content .views-news-front-ballerup-nyt .views-row-first, .front .pane-content .views-news-front-ballerup-nyt .views-row-first .views-field.views-field-field-lead-image { padding: 0 0}
+
+.page-node .field-name-field-lead-image img { max-width: 100%; height: auto;}
+.front .panel-region-top-left .views-field-field-lead-image {
+ margin-bottom: 25px;
+}
+.front .pane-content .views-news-front-ballerup-nyt {
+  padding: 0px 0px;
 }
 .front .panel-region-top .grid-5 {
   width: 300px;
@@ -155,3 +164,4 @@ width: 160px;}
 /*****/
 
 .views-campaigns-front-aktuelt-i-ballerup .view-content {width : 860px;}
+

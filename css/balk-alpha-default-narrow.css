@@ -25,7 +25,7 @@
 	margin: 50px 0 0 10px;
 }
 .front .panel-region-top-left .views-field-field-lead-image {
- margin-bottom: 25px;
+ margin-bottom: 5px;
 }
 .panel-homepage .panel-region-lead .rb-textbox-type-header { font-size: 24px;}
 
@@ -128,21 +128,19 @@ width: 106px; }
 .front .pane-content .views-news-front-ballerup-nyt .views-row-1 .views-field-field-resume-long {
   margin-top: 9px;
 }
-.front .pane-news .view-news .views-row-1 .field-content img {
-  height: auto;
-  width: 218px;
-  position: relative;
-  left: -10px;
-}
 
+.front .pane-content .views-news-front-ballerup-nyt .views-row, .front .pane-content .views-news-front-ballerup-nyt .views-row-first .views-field, .front .pane-content .views-news-front-ballerup-nyt .more-link {
+  padding: 0px 10px;}
+
+
+.front .pane-content .views-news-front-ballerup-nyt .views-row-first, .front .pane-content .views-news-front-ballerup-nyt .views-row-first .views-field.views-field-field-lead-image { padding: 0 0}
+
+.page-node .field-name-field-lead-image img { max-width: 100%; height: auto;}
 .front .pane-news .pane-title .ballerup_blue {
   padding-left: 10px;
 }
-.page-node .field-name-field-lead-image img { max-width: 100%; height: auto;}
+.page-node .field-name-field-lead-image img, .front .views-field-field-lead-image img { max-width: 100%; height: auto;}
 
-.front .pane-content .views-news-front-ballerup-nyt {
-  padding: 0px 10px;
-}
 .front .pane-content .form-item-search-block-form #edit-search-block-form--2 {
   width: 60%;
 }
@@ -153,7 +151,7 @@ width: 106px; }
   font-size: 12px;
   line-height: 18px;
   margin: 0 0 -1px 15px;
-  width: 39%;
+  width: 43%;
 }
 
 .front .panel-pane.pane-news.clearfix {
@@ -170,11 +168,11 @@ width: 106px; }
 }
 /* End of front page */
 
-.views-campaigns-front-aktuelt-i-ballerup .view-content {width : 620px;}
+.views-campaigns-front-aktuelt-i-ballerup .view-content {width : 520px;}
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-item {
   margin: 0 6px;
 }
-
+.views-campaigns-front-aktuelt-i-ballerup .view-content { margin: 0 auto;}
 .logo-img {
 padding-left: 0;
 }
@@ -287,3 +285,15 @@ padding-left: 0;
 .view-id-section_name_mobile {
   display: none;
 }
+.views-news-front-ballerup-nyt .views-row-first .views-field-title {
+  font-size: 1.3em;
+  line-height: 1em;
+}
+
+.front .panel-region-top-right {display: none}
+.front div.panel-panel.grid-5.panel-region-top-left { width: 280px}
+.front div.panel-panel.grid-5.panel-region-top-center { width: 400px;}
+
+#net_tv_pane { font-size: 80%;}
+#net_tv_pane strong span span { font-size: 13px;}
+#net_tv_pane img { max-width: 90px; height: auto;}
