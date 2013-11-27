@@ -42,12 +42,19 @@ html.js input.throbbing {
 /* Top Search */
 .front #search-block-form .form-text {
   width: 80%;}
+
 #search-block-form .form-text {
   min-width: 160px;
   height: 17px;
   line-height: 17px;
   font-size: 12px;
 }
+
+#edit-search-block-form--2.form-text {
+  height: 27px;
+  box-sizing: border-box;
+}
+
 
 #search-block-form .form-submit {
   padding: 0 17px 0 10px;
