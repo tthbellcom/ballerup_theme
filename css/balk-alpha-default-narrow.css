@@ -291,7 +291,11 @@ padding-left: 0;
 }
 @media all and (max-width: 979px) {
 
-.front .panel-region-top-right {display: none}
+.front .panel-region-top-right, 
+.front .panel-region-lead {
+	display: none
+	}
+	
 .front div.panel-panel.grid-5.panel-region-top-left { width: 280px}
 .front div.panel-panel.grid-5.panel-region-top-center { width: 400px;}
 
