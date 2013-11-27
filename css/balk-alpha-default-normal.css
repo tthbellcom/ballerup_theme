@@ -165,3 +165,10 @@ width: 160px;}
 
 .views-campaigns-front-aktuelt-i-ballerup .view-content {width : 860px;}
 
+.front .panel-region-top-right, 
+.front .panel-region-lead {
+	display: block
+	}
+	
+.front div.panel-panel.grid-5.panel-region-top-left { width: 300px}
+.front div.panel-panel.grid-5.panel-region-top-center { width: 300px;}
