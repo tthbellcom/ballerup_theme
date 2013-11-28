@@ -291,9 +291,14 @@ padding-left: 0;
   line-height: 1em;
 }
 .front .panel-region-top-right, 
-.front .panel-region-lead {
+.front .panel-region-lead,
+#region-footer-fifth {
 	display: none
 	}
+#region-footer-first,
+#region-footer-second,
+#region-footer-third,
+#region-footer-fourth { width: 160px;}
 	
 .front div.panel-panel.grid-5.panel-region-top-left { width: 280px}
 .front div.panel-panel.grid-5.panel-region-top-center { width: 400px;}

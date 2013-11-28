@@ -11,7 +11,9 @@
   padding-left: 15px;
 }
 
-#block-menu-block-11 { display: block;}
+#block-menu-block-11,
+#region-footer-fourth,
+#region-footer-fifth { display: block;}
 .front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf {
   height: 20px;
   width: 120px;
