@@ -290,6 +290,8 @@ padding-left: 0;
   font-size: 1.3em;
   line-height: 1em;
 }
+.front .view-id-news .views-field views-field-field-resume-long { height: 60px; overflow: hidden}
+
 .front .panel-region-top-right, 
 .front .panel-region-lead,
 #region-footer-fifth {

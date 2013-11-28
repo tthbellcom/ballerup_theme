@@ -55,8 +55,10 @@
 
 .page-node .field-name-field-lead-image img { max-width: 100%; height: auto;}
 .front .panel-region-top-left .views-field-field-lead-image {
- margin-bottom: 25px;
+ margin-bottom: 5px;
 }
+
+.front .view-id-news .views-field views-field-field-resume-long { height: 60px; overflow: hidden}
 .front .pane-content .views-news-front-ballerup-nyt {
   padding: 0px 0px;
 }
