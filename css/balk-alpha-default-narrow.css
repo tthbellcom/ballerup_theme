@@ -307,3 +307,9 @@ padding-left: 0;
 .menu-minipanels .grid-5 {
   width: 297px;
 }
+
+.panels-flexible-region-megadd_layout-kommune_kontakt,
+.panels-flexible-region-megadd_layout-center,
+.panels-flexible-region-megadd_layout-menu_3 {
+	width: 19%
+	}
