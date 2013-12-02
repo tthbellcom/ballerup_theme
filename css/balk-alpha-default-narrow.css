@@ -304,3 +304,6 @@ padding-left: 0;
 	
 .front div.panel-panel.grid-5.panel-region-top-left { width: 280px}
 .front div.panel-panel.grid-5.panel-region-top-center { width: 400px;}
+.menu-minipanels .grid-5 {
+  width: 297px;
+}
