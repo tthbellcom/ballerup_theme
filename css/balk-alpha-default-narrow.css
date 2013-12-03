@@ -180,10 +180,10 @@ padding-left: 0;
 .qtip { max-width: 720px;}
 .qtip-wrapper { min-height: 206px; overflow: hidden; background-color: #FFF; border-bottom: 5px solid #0091d1;}
 .qtip-content { padding: 0 !important}
-.qtip-wrapper .panels-flexible-region-last {
+/*.qtip-wrapper .panels-flexible-region-last {
   padding-left: 329px;
   clear: left;
-}
+}*/
 #mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {width: 88px; font-size: 10px; }
 .menu-name-menu-mega-dropdown a { color: #FFF; }
 .menu-name-menu-mega-dropdown a.active { color: #FFF; }
