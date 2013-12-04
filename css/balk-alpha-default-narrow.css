@@ -178,7 +178,7 @@ padding-left: 0;
 }
 
 .qtip { max-width: 720px;}
-.qtip-wrapper { min-height: 206px; overflow: hidden; background-color: #FFF; border-bottom: 5px solid #0091d1;}
+.qtip-wrapper { min-height: 206px; overflow: hidden; background-color: #FFF; border-bottom: 5px solid #0091d1; max-width: 720px;}
 .qtip-content { padding: 0 !important}
 /*.qtip-wrapper .panels-flexible-region-last {
   padding-left: 329px;

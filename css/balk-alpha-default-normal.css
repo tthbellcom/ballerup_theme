@@ -144,8 +144,8 @@ width: 160px;}
 .menu-minipanels .grid-5 {
   width: 320px;
 }
-
-.qtip-wrapper { height: 206px;}
+.qtip {max-width:960px}
+.qtip-wrapper { height: 206px; max-width:960px}
 
 .qtip-wrapper .panels-flexible-region-last {
   padding-left: 0;
