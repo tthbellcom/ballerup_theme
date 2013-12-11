@@ -11,7 +11,9 @@
   padding-left: 15px;
 }
 
-#block-menu-block-11 { display: block;}
+#block-menu-block-11,
+#region-footer-fourth,
+#region-footer-fifth { display: block;}
 .front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf {
   height: 20px;
   width: 120px;
@@ -46,8 +48,19 @@
 .front .pane-news .views-field-field-resume-long {
    padding: 0 10px 0 0;
 }
-.front .pane-content .views-news-front-ballerup-nyt {
+.front .pane-content .views-news-front-ballerup-nyt .views-row, .front .pane-content .views-news-front-ballerup-nyt .views-row-first .views-field {
   padding: 0px 10px;
+}
+.front .pane-content .views-news-front-ballerup-nyt .views-row-first, .front .pane-content .views-news-front-ballerup-nyt .views-row-first .views-field.views-field-field-lead-image { padding: 0 0}
+
+.page-node .field-name-field-lead-image img { max-width: 100%; height: auto;}
+.front .panel-region-top-left .views-field-field-lead-image {
+ margin-bottom: 5px;
+}
+
+.front .view-id-news .views-field views-field-field-resume-long { height: 60px; overflow: hidden}
+.front .pane-content .views-news-front-ballerup-nyt {
+  padding: 0px 0px;
 }
 .front .panel-region-top .grid-5 {
   width: 300px;
@@ -114,6 +127,12 @@ width: 160px;}
 
 .panel-pane .pane-title, .block .block-title, .panel-region-middle-right .pane-content h2, .panel-region-right .pane-content h2 { font-size: 14px;}
 
+.panels-flexible-region-megadd_layout-kommune_kontakt,
+.panels-flexible-region-megadd_layout-center,
+.panels-flexible-region-megadd_layout-menu_3 {
+	width: 19%
+	}
+	
 .content .panel-homepage .panel-region-lead .rb-slides { background-position: 0 0}
 
 .view-ballerup-taxonomy-term { background-color: #fff; *#ccc}
@@ -125,8 +144,8 @@ width: 160px;}
 .menu-minipanels .grid-5 {
   width: 320px;
 }
-
-.qtip-wrapper { height: 206px;}
+.qtip {max-width:960px}
+.qtip-wrapper { height: 206px; max-width:960px}
 
 .qtip-wrapper .panels-flexible-region-last {
   padding-left: 0;
@@ -155,3 +174,11 @@ width: 160px;}
 /*****/
 
 .views-campaigns-front-aktuelt-i-ballerup .view-content {width : 860px;}
+
+.front .panel-region-top-right, 
+.front .panel-region-lead {
+	display: block
+	}
+	
+.front div.panel-panel.grid-5.panel-region-top-left { width: 300px}
+.front div.panel-panel.grid-5.panel-region-top-center { width: 300px;}

@@ -845,7 +845,6 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   text-transform: uppercase;
 }
 .views-news-front-ballerup-nyt .views-row {
-  width: 100%;
   margin-bottom: 5px;
   border-bottom: 2px dotted #d9d9d9;
   padding-bottom: 5px;
@@ -1461,7 +1460,7 @@ a:hover {
 }
 .node-media .field-name-field-text iframe { max-width: 100%}
 .field-name-field-lead-image img { max-width: 100%; height: auto}
-@media all and (max-width: 739px) {
+@media all and (max-width: 740px) {
   .front .panel-region-lead {
     display: none;
   }
