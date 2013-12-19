@@ -71,7 +71,7 @@
 width: 205px;
 }
 .region-header-first ul.menu li, .panel-region-middle-top-right ul.menu li, .panel-node-news .panel-region-right ul.menu li {
-	padding: 0.2em; margin-right: 5px;
+	padding: 0.2em; margin-right: 4px;
 }
 
 .region-menu ul.menu {
@@ -106,7 +106,7 @@ margin: 50px 0 0 10px;
 }
 
 .panel-homepage .panel-region-lead .rb-textbox-type-header { font-size: 36px;}
-.content .panel-homepage .panel-region-lead .rb-regular-image {left: 610px;}
+.content .panel-homepage .panel-region-lead .rb-regular-image {left: 285px;}
 
 #search-block-form .form-text {
 width: 160px;}
@@ -117,8 +117,8 @@ width: 160px;}
 .content .panel-homepage .panel-region-lead .rb-slides { background-position: 0 0}
 
 .view-ballerup-taxonomy-term { background-color: #fff; *#ccc}
-.view-ballerup-taxonomy-term .grid3 { margin: 0px; width: 33% !important }
 .view-ballerup-taxonomy-term .grid3 { margin: 10px 1px 20px; width: 33% !important; }
+
 .show-for-small {
   display: none;
 }
@@ -126,7 +126,12 @@ width: 160px;}
   width: 320px;
 }
 
+.qtip-wrapper { height: 207px;}
 
+.qtip-wrapper .panels-flexible-region-last {
+  padding-left: 0;
+  clear: none;
+}
 
 /*  Footer */
 #region-footer-first {
@@ -144,7 +149,7 @@ width: 160px;}
 #mderhverv, #mdborger, #mdselvbetjening {margin-right: 10px;}
 
 #mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {width: 118px}
-#search-block-form .form-text { min-width: 160px; max-width: 160px; }
+#search-block-form .form-text { min-width: 159px; max-width: 159px; }
 
 #mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {font-size: 13px; }
 /*****/

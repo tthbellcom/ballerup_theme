@@ -1,4 +1,8 @@
 /***  redesign css ---------------**********/
+body {
+  font-size: 13px;
+}
+
 .zone-content {
   border-top: 5px solid #0091d1;
   margin-top: -50px;
@@ -149,7 +153,6 @@
 }
 .front .panel-region-top-center .pane-menu-forsidegenveje ul.menu li.leaf a:hover {
   font-weight:  900;
-  color: #007aaf;
   text-decoration: none;
 }
 
@@ -196,14 +199,16 @@
 /* End of front pane-region-top-right NET TV */
 #zone-header {
   border-top: 5px solid #0091d1;
+  height: 106px;
 }
 .region-menu ul.menu {
   left: 326px;
   text-transform: uppercase;
 }
-iframe {
-  width: 100%;
+.region-inner.region-menu-inner {
+height: 26px;
 }
+
 .node-politician .field-name-field-lead-image img,
 .node-person .field-name-field-lead-image img {
   width: 50%;
@@ -286,6 +291,7 @@ iframe {
 }
 /* ---- Franz har lavet de her--------*/
 .grid3 .views-field-field-resume-long { height: 54px; overflow: hidden;}
+.grid3 .views-field-field-resume-long { height: 54px; overflow: hidden;}
 .grid3 .views-field-title { font-size: 16px; text-transform: uppercase; }
 .grid3 .views-field-field-lead-image {
 margin: 0 6px 10px 0;
@@ -299,6 +305,7 @@ html {
 h1 {
   margin: 0 0 10px 0;
   font-size: 36px;
+  font-weight: normal;
 }
 h2 {
   margin: 1em 0;
@@ -306,6 +313,7 @@ h2 {
 }
 h3 {
   font-size: 12px;
+  margin: 10px 0 0 0 ;
 }
 h4 {
   font-style: italic;
@@ -519,7 +527,7 @@ blockquote {
   color: #fff;
 }
 .region-menu ul.menu li.red .submenu {
-  border-color: #c4161c;
+  border-color: #f47920;
 }
 .region-menu ul.menu a.red {
   background: url('../images/sprite-bg-main-menu-arrows.png') no-repeat;
@@ -587,7 +595,7 @@ blockquote {
 
 /*}*/
 ul.jcarousel-view--campaigns--block-1 {
-  height: 160px;
+  height: 170px;
 }
 /*.zone-content {*/
  /** border-top: 5px solid #0091d1;*/
@@ -636,11 +644,11 @@ ul.jcarousel-view--campaigns--block-1 {
 
 .context-erhverv .zone-content,
 .context-menu-erhverv .zone-content {
-  border-color: #c4161c;
+  border-color: #f47920;
 }
 .context-erhverv #section-content a,
 .context-menu-erhverv #section-content a {
-  color: #c4161c;
+  color: #f47920;
 }
 .context-erhverv .region-sidebar ul.menu li a,
 .context-menu-erhverv .region-sidebar ul.menu li a {
@@ -967,7 +975,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
 }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-item {
   width: 160px;
-  height: 161px;
+  height: 170px;
   margin: 0 14px;
   position: relative;
   background: url('../images/bg-sprite-jcarousel-item.png') repeat-x 0 0;
@@ -976,7 +984,7 @@ li.netsteder .main-menu-jump-menus #block-jump-menu-menu-bfo {
   background-position: 0 -185px;
 }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-item-wrapper {
-  height: 148px;
+  height: 170px;
   overflow: hidden;
 }
 .views-campaigns-front-aktuelt-i-ballerup .jcarousel-prev,
@@ -1422,6 +1430,7 @@ a:hover {
   color: #222;
 }
 
+
 /* END Links */
 
 /* PRINT STYLES */
@@ -1446,7 +1455,10 @@ a:hover {
 
 .pane-ballerup-taxonomy-term img { max-width: 100%; height: auto}
 .view-ballerup-taxonomy-term .grid3 { float: left; width: 48%;}
-
+.context-nyhedstype .pane-ballerup-taxonomy-term .views-field-field-lead-image .field-content  {
+  width: 280px;
+  height: 158px;
+}
 .node-media .field-name-field-text iframe { max-width: 100%}
 .field-name-field-lead-image img { max-width: 100%; height: auto}
 @media all and (max-width: 739px) {
@@ -1583,6 +1595,10 @@ margin-top: 10px;
   margin-right: 44px;
 }
 
+.field-name-field-os2web-meetings-bpa-body table {
+  width: 100%;
+}
+
 .lightbox2-alt-layout-data #bottomNavClose {
   margin-top: 33px;
 }
@@ -1597,6 +1613,20 @@ margin-top: 10px;
   width: 205px;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
 .hide {
   display: none;
+}
+.block-menu-block-ballerup-mega-dropdowns-14 a {
+  cursor: default;
+}
+#cccwr .ccc-go {
+display: none;
 }
