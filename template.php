@@ -34,9 +34,8 @@ function balk_preprocess_html(&$variables) {
   }
 
 
-  $path = drupal_lookup_path('alias', current_path());
-  if(strstr($path, 'dagsorden') || strstr(arg(0), 'dagsorden')){
-    drupal_add_css(path_to_theme().'/remove_stuff.css');
+  if(strstr(current_path(), 'julekort/')){
+    drupal_add_css(path_to_theme().'/css/hide_page_elements.css');
   }
 
 }
@@ -80,20 +79,11 @@ function balk_alpha_process_region(&$variables) {
  * Implements hook_page_alter().
  */
 function balk_page_alter(&$variables) {
-  $path = drupal_lookup_path('alias', current_path());
   // Add the Kontakt block displayed on the right hand side.
   $variables['page_bottom']['ballerup_contact_block'] = array(
     '#type' => 'markup',
     '#markup' => '<div class="ballerup-contact-block"><a class="ballerup-contact-block" href="' . url('kontakt') . '"></a></div>',
   );
-
-  if(strstr($path, 'dagsorden') || strstr(arg(0), 'dagsorden')){
-    unset($variables['header']);
-    unset($variables['footer']);
-  }
-
-
-
 }
 
 /**
