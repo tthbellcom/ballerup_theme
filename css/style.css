@@ -209,6 +209,11 @@ body {
 height: 26px;
 }
 
+.page-node .node-politician .field-name-field-lead-image,
+.page-node .node-person .field-name-field-lead-image {
+  text-align: left;
+}
+
 .node-politician .field-name-field-lead-image img,
 .node-person .field-name-field-lead-image img {
   width: 50%;
