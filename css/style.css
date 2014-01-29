@@ -209,6 +209,7 @@ body {
 height: 26px;
 }
 
+
 .node-politician .field-name-field-lead-image img,
 .node-person .field-name-field-lead-image img {
   width: 50%;
@@ -1628,4 +1629,9 @@ margin-top: 10px;
 }
 #cccwr .ccc-go {
 display: none;
+}
+
+.page-node .node-politician .field-name-field-lead-image,
+.page-node .node-person .field-name-field-lead-image {
+  text-align: left;
 }
