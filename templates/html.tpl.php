@@ -19,8 +19,5 @@
   <script type="text/javascript" src="https://ssl.siteimprove.com/js/siteanalyze_273518.js">//</script>
   <!--SiteImprove statistik slut-->
 
-  <!--SiteTest-->
-  <script type="text/javascript" src="https://www.kalus.dk/kunder/SiteTesten/Ballerup_Kommune.js"></script>
-
 </body>
 </html>
