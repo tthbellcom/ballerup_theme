@@ -127,6 +127,12 @@ width: 160px;}
 
 .panel-pane .pane-title, .block .block-title, .panel-region-middle-right .pane-content h2, .panel-region-right .pane-content h2 { font-size: 14px;}
 
+.panels-flexible-region-megadd_layout-kommune_kontakt,
+.panels-flexible-region-megadd_layout-center,
+.panels-flexible-region-megadd_layout-menu_3 {
+	width: 19%
+	}
+	
 .content .panel-homepage .panel-region-lead .rb-slides { background-position: 0 0}
 
 .view-ballerup-taxonomy-term { background-color: #fff; *#ccc}
@@ -138,8 +144,8 @@ width: 160px;}
 .menu-minipanels .grid-5 {
   width: 320px;
 }
-
-.qtip-wrapper { height: 206px;}
+.qtip {max-width:960px}
+.qtip-wrapper { height: 206px; max-width:960px}
 
 .qtip-wrapper .panels-flexible-region-last {
   padding-left: 0;

@@ -32,6 +32,12 @@ function balk_preprocess_html(&$variables) {
       $variables['attributes_array']['class'][] = drupal_html_class('context-menu-' . $menu_class);
     }
   }
+
+
+  if(strstr(current_path(), 'julekort/')){
+    drupal_add_css(path_to_theme().'/css/hide_page_elements.css');
+  }
+
 }
 
 /**

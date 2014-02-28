@@ -14,10 +14,8 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
-
   <!--SiteImprove statistik start-->
   <script type="text/javascript" src="https://ssl.siteimprove.com/js/siteanalyze_273518.js">//</script>
   <!--SiteImprove statistik slut-->
-
 </body>
 </html>

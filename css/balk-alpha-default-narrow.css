@@ -178,12 +178,12 @@ padding-left: 0;
 }
 
 .qtip { max-width: 720px;}
-.qtip-wrapper { min-height: 206px; overflow: hidden; background-color: #FFF; border-bottom: 5px solid #0091d1;}
+.qtip-wrapper { min-height: 206px; overflow: hidden; background-color: #FFF; border-bottom: 5px solid #0091d1; max-width: 720px;}
 .qtip-content { padding: 0 !important}
-.qtip-wrapper .panels-flexible-region-last {
+/*.qtip-wrapper .panels-flexible-region-last {
   padding-left: 329px;
   clear: left;
-}
+}*/
 #mderhverv, #mdborger, #mdkommunen, #mdselvbetjening {width: 88px; font-size: 10px; }
 .menu-name-menu-mega-dropdown a { color: #FFF; }
 .menu-name-menu-mega-dropdown a.active { color: #FFF; }
@@ -306,3 +306,13 @@ padding-left: 0;
 .front div.panel-panel.grid-5.panel-region-top-center { width: 400px;}
 
 .view-section-name-mobile {display:none;}
+
+.menu-minipanels .grid-5 {
+  width: 297px;
+}
+
+.panels-flexible-region-megadd_layout-kommune_kontakt,
+.panels-flexible-region-megadd_layout-center,
+.panels-flexible-region-megadd_layout-menu_3 {
+	width: 19%
+	}
