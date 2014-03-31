@@ -49,6 +49,14 @@ function balk_html_head_alter(&$head_elements) {
   $head_elements['system_meta_content_type']['#attributes'] = array(
       'http-equiv' => 'Content-Type',
       'content' => 'application/xhtml+xml; charset=utf-8'
+    );
+
+  // Force the latest IE rendering engine and Google Chrome Frame.
+  $head_elements['chrome_frame'] = array(
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => array('http-equiv' => 'X-UA-Compatible', 'content' => 'IE=edge,chrome=1'),
+    '#weight' => -1001,
   );
 }
 
@@ -324,5 +332,4 @@ function balk_preprocess_comment_wrapper(&$variables) {
     // Wrapper element's class attribute is doubled, so we remove it from attributes array.
     unset($variables['attributes_array']['class']);
 }
-
 
