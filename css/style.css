@@ -1651,3 +1651,21 @@ div#borger_dk_header {
   padding-left: 0px;
 }
 
+.os2web_borger_dk_selfservi {
+  background-color: #dbeeec;
+}
+
+.os2web_borger_dk_selfservi h3 {color: #000; border-color: #a7d6c7;}
+
+.os2web_borger_dk_selfservi ul li a, .os2web_borger_dk_selfservi a:link {
+  color: #000;
+}
+
+.node-os2web-borger-dk-article li a {
+    text-decoration: underline;
+    line-height: 20px;
+}
+
+.node-os2web-borger-dk-article li a:hover {
+    text-decoration: none;
+}
